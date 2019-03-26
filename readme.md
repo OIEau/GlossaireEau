@@ -4,6 +4,8 @@
 
 ![](http://www.glossaire-eau.fr/themes/custom/glossaireless/img/glossaire-logo.png)
 
+### [Cliquez ici pour voir la démonstration](http://www.glossaire-eau.fr/glossaire_auto/demo.html)
+
 Le [Glossaire sur l'Eau et les Milieux Aquatiques](http://www.glossaire-eau.fr/) diffuse, en libre accès, les définitions de plus de 1400 termes sur l'eau et la biodiversité aquatique, en français, anglais et espagnol, pour faciliter la compréhension de ces termes par le plus grand nombre. 
 
 Il est :
