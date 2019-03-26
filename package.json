@@ -1,0 +1,22 @@
+{
+  "name": "glossaire_auto",
+  "version": "0.0.22",
+  "description": "Permet de générer les définitions des mots affichés sur la page selon les termes du Glossaire Eau et Milieux Aquatiques (http://www.glossaire-eau.fr).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "glossaire",
+    "glossary",
+    "eau",
+    "water"
+  ],
+  "author": "OIEau",
+  "license": "ISC",
+  "dependencies": {
+    "findandreplacedomtext": "https://github.com/dchatry/findAndReplaceDOMText/tarball/master",
+    "tippy.js": "^4.2.0"
+  },
+  "devDependencies": {}
+}
