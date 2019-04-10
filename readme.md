@@ -59,6 +59,12 @@ Vous pouvez cibler/exclure plusieurs parties de la page en séparant les valeurs
 <script type="text/javascript" id="_geaujs" data-target=".main-content|#front" data-exclude=".boutons|.menu .entry" src="https://cdn.jsdelivr.net/npm/glossaire_auto/dist/glossaire_eau.js"></script>
 ```
 
+Vous pouvez également exclure des mots grace à l'attribut `data-blacklist` et en les séparant par des barres verticales :
+
+```
+<script type="text/javascript" id="_geaujs" data-target=".main-content|#front" data-blacklist="port|laisse|pression" src="https://cdn.jsdelivr.net/npm/glossaire_auto/dist/glossaire_eau.js"></script>
+```
+
 # Crédits
 
 
