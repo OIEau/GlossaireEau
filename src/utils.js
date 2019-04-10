@@ -16,6 +16,16 @@ module.exports = {
     }
   },
 
+  normalizeString(stringToCorrect) {
+    var correctedString = stringToCorrect.toUpperCase();
+    correctedString = correctedString.replace(/[ÁÀÄÂ]/, "A");
+    correctedString = correctedString.replace(/[ÉÈËÊ]/, "E");
+    correctedString = correctedString.replace(/[ÍÌÏÎ]/, "I");
+    correctedString = correctedString.replace(/[ÓÒÖÔ]/, "O");
+    correctedString = correctedString.replace(/[ÚÙÜÛ]/, "U");
+    return correctedString;
+  },
+
 
   escapeRegExp: function(str) {
     return str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); // $& means the whole matched string

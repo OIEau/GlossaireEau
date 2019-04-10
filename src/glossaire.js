@@ -94,8 +94,20 @@ class Glossary {
    *   divToProcess: DOM Element to process
    */
   tagConceptsInPage(divToProcess) {
+    var blacklist = document.getElementById('_geaujs').dataset.blacklist;
+    var blacklistedWords = [];
+    if(typeof blacklist !== 'undefined' && blacklist !== '') {
+      blacklistedWords = blacklist.split('|');
+      for (var i = blacklistedWords.length - 1; i >= 0; i--) {
+        blacklistedWords[i] = utils.normalizeString(blacklistedWords[i]);
+      }
+    }
+
     for (var i = 0; i < this.glossary_data.length; i++) {
       var concept = this.glossary_data[i];
+      if(typeof concept.Libelle !== "undefined" && blacklistedWords.indexOf(utils.normalizeString(concept.Libelle)) > -1) {
+        continue;
+      }
       var searchMask = concept.Libelle;
       var replaceMask = "$0";
 
