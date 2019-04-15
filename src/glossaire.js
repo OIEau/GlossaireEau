@@ -10,6 +10,13 @@ class Glossary {
 
   constructor () {
     this.glossary_data = require('../assets/glossaire.json');
+
+    // Sort so that longer words come first.
+    this.glossary_data.sort(function(a, b) {
+      if(typeof a.Libelle !== 'undefined' && typeof b.Libelle !== 'undefined') {
+        return b.Libelle.length - a.Libelle.length;
+      }
+    });
   }
 
   /**
