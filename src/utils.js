@@ -1,9 +1,9 @@
 /**
  * utils.js
- * 
+ *
  * This file defines utility functions
  * useful for the main script.
- * 
+ *
  */
 
 
@@ -14,6 +14,19 @@ module.exports = {
     } else {
       return str;
     }
+  },
+
+  countText: function(node){
+    var counter = 0;
+    if(node.nodeType === 3){
+      counter++;
+    } else if(node.nodeType === 1) {
+      var children = node.childNodes;
+      for(var i = children.length; i--; ) {
+        counter += this.countText(children[i]);
+      }
+    }
+    return counter;
   },
 
   normalizeString(stringToCorrect) {
@@ -33,12 +46,13 @@ module.exports = {
 
   replaceAllWith: function (div, strReplace, strWith, conceptIndex) {
     var fr = require('findandreplacedomtext');
+
     fr.findAndReplaceDOMText(div, {
       preset: 'prose',
       find: RegExp('\\b' + strReplace + '\\b', 'gi'),
       portionMode: 'first',
       wrap: 'span',
-      wrapClass: '_geau_glossary_concept ' + conceptIndex,
+      wrapClass: '_geau_glossary_concept ' + conceptIndex
     });
   },
 

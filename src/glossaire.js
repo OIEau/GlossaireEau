@@ -49,12 +49,16 @@ class Glossary {
       var queries = attr.split('|');
       var elements = [];
       for (var i = queries.length - 1; i >= 0; i--) {
-        var elem = document.querySelector(queries[i]);
+        var elem = document.querySelectorAll(queries[i]);
         if(elem !== null) {
-          elements.push(elem);
+          for (var i = elem.length - 1; i >= 0; i--) {
+            elements.push(elem[i]);
+          }
         }
       }
-      return elements;
+      if(elements.length > 0) {
+        return elements;
+      }
     }
 
     // Default to body.
@@ -79,9 +83,11 @@ class Glossary {
       var queries = attr.split('|');
       var elements = [];
       for (var i = queries.length - 1; i >= 0; i--) {
-        var elem = document.querySelector(queries[i]);
+        var elem = document.querySelectorAll(queries[i]);
         if(elem !== null) {
-          elements.push(elem);
+          for (var i = elem.length - 1; i >= 0; i--) {
+            elements.push(elem[i]);
+          }
         }
       }
       return elements;
@@ -90,6 +96,7 @@ class Glossary {
     return [];
   }
 
+ 
   /**
    *
    * tagConceptsInPage
@@ -120,6 +127,62 @@ class Glossary {
 
       utils.replaceAllWith(divToProcess, searchMask, replaceMask, i);
     }
+  }
+
+
+  /**
+   *
+   * batchTagConceptsInPage
+   *
+   * Go through glossary terms and tag those
+   * which are present on the page.
+   *
+   * params:
+   *   divToProcess: DOM Element to process
+   */
+  batchTagConceptsInPage(divToProcess) {
+    var blacklist = document.getElementById('_geaujs').dataset.blacklist;
+    var blacklistedWords = [];
+    if(typeof blacklist !== 'undefined' && blacklist !== '') {
+      blacklistedWords = blacklist.split('|');
+      for (var i = blacklistedWords.length - 1; i >= 0; i--) {
+        blacklistedWords[i] = utils.normalizeString(blacklistedWords[i]);
+      }
+    }
+
+    function processInBatch(glossary_data, glossary) {
+      var maxTimePerChunk = 100;
+
+      var index = 0;
+
+      function now() {
+        return new Date().getTime();
+      }
+
+      function doChunk() {
+        var startTime = now();
+        while (index < glossary_data.length && (now() - startTime) <= maxTimePerChunk) {
+          var concept = glossary_data[index];
+          if(typeof concept.Libelle !== "undefined" && blacklistedWords.indexOf(utils.normalizeString(concept.Libelle)) > -1) {
+            index++;
+            continue;
+          }
+          var searchMask = concept.Libelle;
+          var replaceMask = "$0";
+
+          utils.replaceAllWith(divToProcess, searchMask, replaceMask, index);
+          index++;
+        }
+        if (index < glossary_data.length) {
+          setTimeout(doChunk, 1);
+        } else {
+          glossary.deferredProcess(glossary);
+        }
+      }
+      doChunk();
+    }
+
+    processInBatch(this.glossary_data, this);
   }
 
   /**
@@ -231,6 +294,32 @@ class Glossary {
 
     return html;
   }
+
+
+  /**
+   *
+   * deferredProcess
+   *
+   * Launch process and cleanup after batch.
+   *
+   */
+  deferredProcess(glossary) {
+    var targets = glossary.getTargetsToProcess(document);
+
+    for (var i = targets.length - 1; i >= 0; i--) {
+      // Process the found terms to add tooltips and definitions.
+      glossary.processTagsInPage(targets[i]);
+
+      // Cleanup.
+      glossary.cleanupTags(targets[i]);
+    }
+
+    // Get DOM element to exclude and remove tags.
+    var excluded = glossary.getExcludedToProcess(document);
+    for (var i = excluded.length - 1; i >= 0; i--) {
+      glossary.removeTags(excluded[i]);
+    }
+  }
 }
 
 /**
@@ -249,20 +338,36 @@ window.onload = function () {
   // Get DOM element to process.
   var targets = glossary.getTargetsToProcess(document);
 
+  // Count text nodes to determine
+  // which process to follow (batch or regular).
+  var countTextNodes = 0;
   for (var i = targets.length - 1; i >= 0; i--) {
-    // Look for the glossary terms in the DOM.
-    glossary.tagConceptsInPage(targets[i]);
-
-    // Process the found terms to add tooltips and definitions.
-    glossary.processTagsInPage(targets[i]);
-
-    // Cleanup.
-    glossary.cleanupTags(targets[i]);
+    countTextNodes += utils.countText(targets[i]);
   }
 
-  // Get DOM element to exclude and remove tags.
-  var excluded = glossary.getExcludedToProcess(document);
-  for (var i = excluded.length - 1; i >= 0; i--) {
-    glossary.removeTags(excluded[i]);
+  // If heavy page, treat in batch and prevent
+  // main thread freeze.
+  if (countTextNodes > 1500) {
+    for (var i = targets.length - 1; i >= 0; i--) {
+      // Look for the glossary terms in the DOM.
+      glossary.batchTagConceptsInPage(targets[i]);
+    }
+  } else {
+    for (var i = targets.length - 1; i >= 0; i--) {
+      // Look for the glossary terms in the DOM.
+      glossary.tagConceptsInPage(targets[i]);
+
+      // Process the found terms to add tooltips and definitions.
+      glossary.processTagsInPage(targets[i]);
+
+      // Cleanup.
+      glossary.cleanupTags(targets[i]);
+    }
+
+    // Get DOM element to exclude and remove tags.
+    var excluded = glossary.getExcludedToProcess(document);
+    for (var i = excluded.length - 1; i >= 0; i--) {
+      glossary.removeTags(excluded[i]);
+    }
   }
 };
