@@ -1,6 +1,6 @@
 {
   "name": "glossaire_auto",
-  "version": "0.0.32",
+  "version": "0.0.34",
   "description": "Permet de générer les définitions des mots affichés sur la page selon les termes du Glossaire Eau et Milieux Aquatiques (http://www.glossaire-eau.fr).",
   "main": "index.js",
   "scripts": {
