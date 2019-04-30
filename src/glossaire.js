@@ -85,8 +85,8 @@ class Glossary {
       for (var i = queries.length - 1; i >= 0; i--) {
         var elem = document.querySelectorAll(queries[i]);
         if(elem !== null) {
-          for (var i = elem.length - 1; i >= 0; i--) {
-            elements.push(elem[i]);
+          for (var j = elem.length - 1; j >= 0; j--) {
+            elements.push(elem[j]);
           }
         }
       }
