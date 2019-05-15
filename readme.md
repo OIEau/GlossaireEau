@@ -65,6 +65,10 @@ Vous pouvez également exclure des mots grâce à l'attribut `data-blacklist` et
 <script type="text/javascript" id="_geaujs" data-target=".main-content|#front" data-blacklist="port|laisse|pression" src="https://cdn.jsdelivr.net/npm/glossaire_auto/dist/glossaire_eau.js"></script>
 ```
 
+# Procédure build
+
+TODO
+
 # Crédits
 
 
