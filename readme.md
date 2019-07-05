@@ -67,13 +67,13 @@ Vous pouvez également exclure des mots grâce à l'attribut `data-blacklist` et
 
 # Procédure compilation (build)
 
-Le plugin peut être compilé grâce à deux outils : [Browserify](http://browserify.org/) et [UglifyJS](https://www.npmjs.com/package/uglify-js), tous deux fonctionnant grâce à NPM. Si vous ne l'avez pas déjà fait, il va donc falloir installer ce dernier, vous trouverez les instructions sur cette page : [https://www.npmjs.com/get-npm](https://www.npmjs.com/get-npm)
+Le plugin peut être compilé grâce à deux outils : [Browserify](http://browserify.org/) et [UglifyJS](https://www.npmjs.com/package/uglify-es) (package uglify-es), tous deux fonctionnant grâce à NPM. Si vous ne l'avez pas déjà fait, il va donc falloir installer ce dernier, vous trouverez les instructions sur cette page : [https://www.npmjs.com/get-npm](https://www.npmjs.com/get-npm)
 
 Une fois NPM installé, vous pouvez installer Browserify et UglifyJS grâce aux commandes suivantes :
 
 ```
 npm install browserify -g 
-npm install uglify-js -g
+npm install uglify-es -g
 ```
 
 Tout est prêt pour pouvoir compiler le plugin. Placez vous dans le répertoire du plugin et exécutez la commande suivante :
