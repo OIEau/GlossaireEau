@@ -429,10 +429,10 @@
     },
     {
         "Id": "7394",
-        "Libelle": "Directive Eaux souterraines",
+        "Libelle": "Directive 2006\/118\/CE DU Parlement Europ\u00e9en et du  Conseil du 12 d\u00e9cembre 2006 sur la protection des eaux souterraines contre la pollution et la d\u00e9t\u00e9rioration",
         "Definition": "Directive fille 2006\/118\/CE du 12 d\u00e9cembre 2006 concernant la protection des eaux souterraines tant d'un point de vue quantitatif que qualitatif\u2026",
-        "Sens": "technique",
-        "Source": "d'apr\u00e8s BRGM"
+        "Sens": "r\u00e9glementaire",
+        "Source": "d'apr\u00e8s BRGM et Eur-lex"
     },
     {
         "Id": "7395",
@@ -908,9 +908,9 @@
     {
         "Id": "7464",
         "Libelle": "Inondation",
-        "Definition": "Submersion temporaire par l\u2019eau de terres qui ne sont pas submerg\u00e9es en temps normal. Cette notion recouvre les inondations dues aux crues des\u2026",
+        "Definition": "Submersion temporaire par l\u2019eau, de terres qui ne sont pas submerg\u00e9es en temps normal. Cette notion recouvre les inondations dues aux crues des\u2026",
         "Sens": "technique",
-        "Source": "d'apr\u00e8s Eur-lex"
+        "Source": "d'apr\u00e8s Eur-lex, Minist\u00e8re charg\u00e9 de l'environnement"
     },
     {
         "Id": "7465",
@@ -1080,9 +1080,9 @@
     {
         "Id": "7489",
         "Libelle": "Classement sanitaire",
-        "Definition": "Classement attribu\u00e9 aux zones conchylicoles d\u00e9fini par arr\u00eat\u00e9 pr\u00e9fectoral. Le classement sanitaire est \u00e9tabli sur la base d'analyses microbiologiques\u2026",
+        "Definition": "L\u2019ensemble des zones professionnelles de production et de reparcage de coquillages vivants (zones d\u2019\u00e9levage et de p\u00eache professionnelle) fait l\u2019objet\u2026",
         "Sens": "r\u00e9glementaire",
-        "Source": "d'apr\u00e8s le Minist\u00e8re charg\u00e9 de l'agriculture et OIEau"
+        "Source": "d'apr\u00e8s le Dictionnaire des donn\u00e9es SANDRE"
     },
     {
         "Id": "7490",
@@ -1107,10 +1107,10 @@
     },
     {
         "Id": "7493",
-        "Libelle": "Groupe r\u00e9glementaire de coquillages",
-        "Definition": "Groupe de coquillages destin\u00e9s \u00e0 la consommation, d\u00e9fini par l'arr\u00eat\u00e9 minist\u00e9riel du 21 mai 1999, relatif au classement de salubrit\u00e9 et \u00e0 la\u2026",
-        "Sens": "technique",
-        "Source": "d'apr\u00e8s le Minist\u00e8re charg\u00e9 de l'agriculture et OIEau"
+        "Libelle": "Groupe d'esp\u00e8ces de coquillage",
+        "Definition": "Le groupe d'esp\u00e8ce de coquillages d\u00e9crit les diff\u00e9rents groupes d'esp\u00e8ces de coquillages qui peuvent \u00eatre vis\u00e9s par les arr\u00eat\u00e9s de classement ou de\u2026",
+        "Sens": "r\u00e9glementaire",
+        "Source": "d'apr\u00e8s le Dictionnaire des donn\u00e9es SANDRE"
     },
     {
         "Id": "7494",
@@ -1683,10 +1683,10 @@
     },
     {
         "Id": "7577",
-        "Libelle": "Directive cadre sur l'eau",
+        "Libelle": "Directive 2000\/60\/CE du Parlement europ\u00e9en et du Conseil du 23 octobre 2000 \u00e9tablissant un cadre pour une politique communautaire dans le domaine de l'eau (Directive cadre sur l'eau)",
         "Definition": "Directive 2000\/60\/CE du Parlement europ\u00e9en et du Conseil du 23 octobre 2000 \u00e9tablissant un cadre pour une politique communautaire dans le domaine de\u2026",
         "Sens": "r\u00e9glementaire",
-        "Source": "d\u2019apr\u00e8s Minist\u00e8re en charge de l\u2019environnement et AFB",
+        "Source": "d\u2019apr\u00e8s Minist\u00e8re charg\u00e9 de l\u2019environnement, OFB, Eur-lex et Service public d'information sur l'eau (Eaufrance)",
         "Sigle": "DCE"
     },
     {
@@ -2586,10 +2586,10 @@
     },
     {
         "Id": "7704",
-        "Libelle": "Substance prioritaire dangereuse",
-        "Definition": "Substance prioritaire, toxique, persistante et bioaccumulable, dont les rejets et les pertes dans l'environnement doivent \u00eatre supprim\u00e9s.",
+        "Libelle": "Substance dangereuse prioritaire",
+        "Definition": "Substance prioritaire, toxique, persistante et bioaccumulable, dont les rejets et les pertes dans l'environnement doivent \u00eatre supprim\u00e9s.\r\n",
         "Sens": "technique",
-        "Source": "d'apr\u00e8s Minist\u00e8re charg\u00e9 de l'environnement et AFB"
+        "Source": "d'apr\u00e8s Minist\u00e8re charg\u00e9 de l'environnement et OFB"
     },
     {
         "Id": "7705",
@@ -2610,7 +2610,7 @@
         "Libelle": "Syst\u00e8me d'assainissement",
         "Definition": "Ensemble des \u00e9quipements de collecte et de traitement des eaux us\u00e9es. On entend ici par eaux us\u00e9es celles qui sont issues des r\u00e9seaux des\u2026",
         "Sens": "commun",
-        "Source": ""
+        "Source": "d'apr\u00e8s L\u00e9gifrance, et Ministt\u00e8re charg\u00e9 de l'environnement"
     },
     {
         "Id": "7708",
@@ -2862,7 +2862,7 @@
         "Libelle": "Autosurveillance",
         "Definition": "Suivi des rejets (d\u00e9bits, concentrations) d'un \u00e9tablissement ou du fonctionnement d'un syst\u00e8me d'assainissement par l'\u00e9tablissement lui-m\u00eame ou par\u2026",
         "Sens": "technique",
-        "Source": "d'apr\u00e8s Agence de l'eau Rh\u00f4ne-M\u00e9diterran\u00e9e et Corse"
+        "Source": "d'apr\u00e8s Agence de l'eau Rh\u00f4ne-M\u00e9diterran\u00e9e et Corse, et Legifrance"
     },
     {
         "Id": "7748",
@@ -2899,7 +2899,7 @@
         "Libelle": "Contrat de milieu",
         "Definition": "Accord technique et financier entre partenaires concern\u00e9s pour une gestion globale, concert\u00e9e et durable \u00e0 l'\u00e9chelle d'une unit\u00e9 hydrographique\u2026",
         "Sens": "technique",
-        "Source": "d'apr\u00e8s Minist\u00e8re charg\u00e9 de l'environnement"
+        "Source": "d'apr\u00e8s Minist\u00e8re charg\u00e9 de l'environnement, OiEau, et Gesteau"
     },
     {
         "Id": "7754",
@@ -3198,10 +3198,10 @@
     },
     {
         "Id": "7797",
-        "Libelle": "Substance dangereuse",
-        "Definition": "Substance toxique, persistante et bioaccumulable, ou consid\u00e9r\u00e9e, \u00e0 un degr\u00e9 \u00e9quivalent, comme sujette \u00e0 caution.",
-        "Sens": "commun",
-        "Source": "d'apr\u00e8s Minist\u00e8re en charge de l'environnement"
+        "Libelle": "Substance ubiquiste",
+        "Definition": "Compos\u00e9 chimique \u00e9mis par les activit\u00e9s humaines, \u00e0 caract\u00e8re persistant, bioaccumulable et toxique. Les substances ubiquistes sont pr\u00e9sentes dans\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s Minist\u00e8re en charge de l'environnement et Agences de l'eau"
     },
     {
         "Id": "7798",
@@ -4539,20 +4539,6 @@
         "Source": "d'apr\u00e8s CNRTL"
     },
     {
-        "Id": "7993",
-        "Libelle": "Zone de production conchylicole",
-        "Definition": "Zone o\u00f9 ont lieu des activit\u00e9s pratiqu\u00e9es \u00e0 titre professionnel, de p\u00eache et\/ou d'\u00e9levage de coquillages juv\u00e9niles ou adultes et ayant pour but final\u2026",
-        "Sens": "commun",
-        "Source": "d'apr\u00e8s Minist\u00e8re charg\u00e9 de l'environnement"
-    },
-    {
-        "Id": "7994",
-        "Libelle": "Zone de reparcage",
-        "Definition": "Zone de salubrit\u00e9 ad\u00e9quate o\u00f9 sont transf\u00e9r\u00e9s des coquillages vivants pour y \u00eatre laiss\u00e9s sous le contr\u00f4le du service d'inspection, pendant le temps\u2026",
-        "Sens": "technique",
-        "Source": "d'apr\u00e8s Minist\u00e8re charg\u00e9 de l'\u00e9cologie"
-    },
-    {
         "Id": "7995",
         "Libelle": "Zone tampon",
         "Definition": "Bande de terre entre des zones cultiv\u00e9es et un habitat naturel, am\u00e9nag\u00e9e pour limiter les effets de l'agriculture sur cet habitat (par exemple, une\u2026",
@@ -4561,10 +4547,10 @@
     },
     {
         "Id": "7996",
-        "Libelle": "Zones de production conchylicole",
-        "Definition": "Zone class\u00e9e en quatre niveaux (de A \u00e0 D) en fonction de la mesure de contamination microbiologique et de la pollution r\u00e9sultat de la pr\u00e9sence de\u2026",
-        "Sens": "technique",
-        "Source": "d'apr\u00e8s Code de l'environnement"
+        "Libelle": "Zone de production ou de reparcage conchylicole",
+        "Definition": "Une zone de production conchylicole correspond \u00e0 toute zone maritime, estuarienne ou lagunaire comportant des bancs naturels de mollusques bivalves\u2026",
+        "Sens": "r\u00e9glementaire",
+        "Source": "d'apr\u00e8s le Dictionnaire de donn\u00e9es SANDRE"
     },
     {
         "Id": "7997",
@@ -4860,9 +4846,9 @@
     {
         "Id": "8039",
         "Libelle": "Biocide",
-        "Definition": "Tout produit de synth\u00e8se toxique pour certains \u00eatres vivants, ou qui est destin\u00e9 \u00e0 lutter contre certaines sortes de pourrissures. L'emploi des\u2026",
-        "Sens": "technique",
-        "Source": "d'apr\u00e8s Code de l'Environnement"
+        "Definition": "Substance active ou produit destin\u00e9e \u00e0 d\u00e9truire, repousser ou rendre inoffensif les organismes nuisibles, \u00e0 en pr\u00e9venir l\u2019action ou \u00e0 les combattre\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Minist\u00e8re charg\u00e9 de la sant\u00e9 et Minist\u00e8re charg\u00e9 de l'agriculture"
     },
     {
         "Id": "8040",
@@ -5256,8 +5242,8 @@
     {
         "Id": "8095",
         "Libelle": "Ligne de partage des eaux",
-        "Definition": "Ligne de part et d'autre de laquelle les eaux s'\u00e9coulent vers l'un ou l'autre de deux bassins versants juxtapos\u00e9s.",
-        "Sens": "commun",
+        "Definition": "Ligne de part et d'autre de laquelle les eaux s'\u00e9coulent vers l'un ou l'autre de deux bassins versants juxtapos\u00e9s.\r\n",
+        "Sens": "technique",
         "Source": "d'apr\u00e8s Ifremer"
     },
     {
@@ -5553,10 +5539,10 @@
     },
     {
         "Id": "8137",
-        "Libelle": "Produit phytosanitaire",
-        "Definition": "Produit, sous la forme dans laquelle il est livr\u00e9 \u00e0 l\u2019utilisateur, compos\u00e9 de substances actives, phytoprotecteurs ou synergistes, ou en contenant,\u2026",
-        "Sens": "r\u00e9glementaire",
-        "Source": "d'apr\u00e8s R\u00e8glement (CE) n\u00b0 1107\/2009 \u2013 Article 2-1"
+        "Libelle": "Produit phytopharmaceutique",
+        "Definition": "Substances chimiques ou des&nbsp; pr\u00e9parations destin\u00e9es \u00e0 prot\u00e9ger les v\u00e9g\u00e9taux et les produits de culture. Ils font partie des pesticides, qui\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Minist\u00e8re charg\u00e9 de la sant\u00e9"
     },
     {
         "Id": "8138",
@@ -5733,9 +5719,9 @@
     {
         "Id": "8163",
         "Libelle": "Trait de c\u00f4te",
-        "Definition": "Ligne qui marque la limite jusqu'\u00e0 laquelle peuvent parvenir les eaux marines, soit : l'extr\u00e9mit\u00e9 du jet de rive lors des fortes temp\u00eates survenant\u2026",
-        "Sens": "commun",
-        "Source": "d'apr\u00e8s Ifremer"
+        "Definition": "Ligne de s\u00e9paration de la terre et de la mer, qui est situ\u00e9e, par convention, \u00e0 la limite des plus hautes eaux marines par temps calme.&nbsp; Le\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s Minist\u00e8re charg\u00e9 de l'environnement, Legifrance"
     },
     {
         "Id": "8164",
@@ -5754,9 +5740,9 @@
     {
         "Id": "8166",
         "Libelle": "Zone de protection sp\u00e9ciale",
-        "Definition": "Zone reconnue par les communaut\u00e9s europ\u00e9ennes, par la Directive du 25 avril 1979, comme utile pour la protection des oiseaux. La dite directive est\u2026",
-        "Sens": "technique",
-        "Source": "d'apr\u00e8s Ifremer",
+        "Definition": "Zone visant la conservation des esp\u00e8ces d'oiseaux sauvages figurant \u00e0 l'annexe I de la Directive \"Oiseaux\" ou qui servent d'aires de reproduction, de\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s MNHN-INPN",
         "Sigle": "ZPS"
     },
     {
@@ -5932,7 +5918,7 @@
         "Libelle": "Capacit\u00e9 DBO",
         "Definition": "Quantit\u00e9 totale des mati\u00e8res oxydables qu'une station d'\u00e9puration doit pouvoir traiter par jour avec une certaine efficacit\u00e9. Pour les stations \u00e0\u2026",
         "Sens": "technique",
-        "Source": "d'apr\u00e8s Eurostat"
+        "Source": "d'apr\u00e8s Eurostat, Minist\u00e8re charg\u00e9 de l'environnement"
     },
     {
         "Id": "8192",
@@ -5979,9 +5965,9 @@
     {
         "Id": "8198",
         "Libelle": "Donn\u00e9e de r\u00e9f\u00e9rence",
-        "Definition": "Donn\u00e9e d'observation valid\u00e9e nationalement qui participe \u00e0 l'\u00e9laboration de la distribution de r\u00e9f\u00e9rence ou d'un jeu de donn\u00e9es de r\u00e9f\u00e9rence donn\u00e9\u2026",
+        "Definition": "Les donn\u00e9es de r\u00e9f\u00e9rence sont des donn\u00e9es structur\u00e9es ou semi-structur\u00e9es. Les donn\u00e9es de r\u00e9f\u00e9rence pr\u00e9sentent plusieurs caract\u00e9ristiques sp\u00e9cifiques\u2026",
         "Sens": "commun",
-        "Source": "d'apr\u00e8s OIEau"
+        "Source": "d'apr\u00e8s la Direction interminist\u00e9rielle des syst\u00e8mes d information et de communication"
     },
     {
         "Id": "8199",
@@ -6271,9 +6257,9 @@
     {
         "Id": "8241",
         "Libelle": "Digue",
-        "Definition": "Ouvrage en b\u00e9ton, en terre ou en enrochement, ou simple lev\u00e9e de terre (compact\u00e9e ou non) destin\u00e9e \u00e0 : canaliser un cours d'eau et prot\u00e9ger\u2026",
+        "Definition": "Ouvrage de protection contre les inondations ou contre les submersions.\r\n\r\nOuvrage en b\u00e9ton, en terre ou en enrochement, ou simple lev\u00e9e de terre \u2026",
         "Sens": "commun",
-        "Source": "d'apr\u00e8s Marcel Roche (hydrologue)"
+        "Source": "d'apr\u00e8s Minist\u00e8re charg\u00e9 de l'environnement, OFB et Marcel Roche (hydrologue)"
     },
     {
         "Id": "8242",
@@ -6679,9 +6665,9 @@
     {
         "Id": "8333",
         "Libelle": "Bassin hydrographique",
-        "Definition": "D'apr\u00e8s le r\u00e9f\u00e9rentiel BD Carthage, grand bassin versant d\u00e9coup\u00e9 en plusieurs r\u00e9gions hydrographiques, elles-m\u00eames divis\u00e9es en secteurs\u2026",
-        "Sens": "technique",
-        "Source": "d'apr\u00e8s AFB et OIEau"
+        "Definition": "Terme utilis\u00e9 pour d\u00e9signer les grands bassins versants. La France comprend six bassins hydrographiques en m\u00e9tropole et cinq en outre-mer.\r\n\r\n&nbsp;\r\n",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Minist\u00e8re charg\u00e9 de l'environnement et Agences de l'Eau"
     },
     {
         "Id": "8334",
@@ -6710,7 +6696,7 @@
         "Libelle": "Bassin",
         "Definition": "Circonscription hydrographique fran\u00e7aise la plus grande en mati\u00e8re de planification et de gestion de l'eau. C'est \u00e0 l'\u00e9chelle du bassin ou du\u2026",
         "Sens": "technique",
-        "Source": "d'apr\u00e8s Minist\u00e8re charg\u00e9 de l'environnement et AFB"
+        "Source": "d'apr\u00e8s Minist\u00e8re charg\u00e9 de l'environnement et OFB"
     },
     {
         "Id": "8352",
@@ -6795,10 +6781,10 @@
     },
     {
         "Id": "8424",
-        "Libelle": "Service d'administration national des donn\u00e9es et r\u00e9f\u00e9rentiels sur l'eau",
+        "Libelle": "Service d'administration nationale des donn\u00e9es et r\u00e9f\u00e9rentiels sur l'eau",
         "Definition": "R\u00e9seau d'organismes contributeurs du Syst\u00e8me d'Information sur l'Eau (SIE) charg\u00e9 de construire le langage commun des donn\u00e9es sur l'eau et d\u2026",
         "Sens": "technique",
-        "Source": "d'apr\u00e8s OIEau",
+        "Source": "d'apr\u00e8s OiEau",
         "Sigle": "SANDRE"
     },
     {
@@ -7656,9 +7642,9 @@
     {
         "Id": "14679",
         "Libelle": "Changement climatique",
-        "Definition": "Modification durable et mesurable du climat. Selon les sources, le terme changement climatique peut regrouper les changements naturels et li\u00e9s \u00e0 l\u2026",
-        "Sens": "commun",
-        "Source": "d'apr\u00e8s GIEC"
+        "Definition": "De nombreux indicateurs, tels que l\u2019augmentation des temp\u00e9ratures \u00e0 la surface de la Terre ou l\u2019\u00e9l\u00e9vation du niveau moyen des oc\u00e9ans, mettent en\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s Minist\u00e8re charg\u00e9 de l'environnement"
     },
     {
         "Id": "14680",
@@ -8232,9 +8218,9 @@
     {
         "Id": "14766",
         "Libelle": "Fongicide",
-        "Definition": "Pesticide utilis\u00e9 pour contr\u00f4ler, repousser ou d\u00e9truire des champignons.",
+        "Definition": "Un produit phytopharmaceutique ou produit phytosanitaire (destin\u00e9 aux soins des v\u00e9g\u00e9taux) de la famille des pesticides. Il est utilis\u00e9 pour contr\u00f4ler\u2026",
         "Sens": "commun",
-        "Source": "d'apr\u00e8s Lenntech"
+        "Source": "d'apr\u00e8s Minist\u00e8re charg\u00e9 de l'agriculture,  Minist\u00e8re charg\u00e9 de la sant\u00e9 et Lenntech"
     },
     {
         "Id": "14767",
@@ -8274,9 +8260,9 @@
     {
         "Id": "14772",
         "Libelle": "Herbicide",
-        "Definition": "Produit chimique utilis\u00e9 pour d\u00e9truire des v\u00e9g\u00e9taux. Il est dit s\u00e9lectif s'il d\u00e9truit seulement un type de v\u00e9g\u00e9tal et total s'il d\u00e9truit toutes\u2026",
+        "Definition": "Un produit phytopharmaceutique ou produit phytosanitaire. Un produit chimique utilis\u00e9 pour d\u00e9truire des v\u00e9g\u00e9taux. Il est dit s\u00e9lectif s'il d\u00e9truit\u2026",
         "Sens": "commun",
-        "Source": "d'apr\u00e8s dictionnaire Larousse"
+        "Source": "d'apr\u00e8s Minist\u00e8re charg\u00e9 de l'agriculture et Dictionnaire Larousse"
     },
     {
         "Id": "14773",
@@ -8323,9 +8309,9 @@
     {
         "Id": "14779",
         "Libelle": "Hydrom\u00e9trie",
-        "Definition": "Science qui a pour objet de mesurer les propri\u00e9t\u00e9s physiques de l'eau,  et sp\u00e9cialement le d\u00e9bit des eaux superficielles et souterraines.",
-        "Sens": "commun",
-        "Source": "d'apr\u00e8s Dictionnaire Larousse"
+        "Definition": "Mesure de l\u2019eau&nbsp;; mesure des \u00e9coulements des rivi\u00e8res et fleuves (aspect quantit\u00e9 d\u2019eau et non pas qualit\u00e9).\r\n\r\nSi l\u2019eau est stagnante&nbsp;: la\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s Minist\u00e8re charg\u00e9 de l'environnement"
     },
     {
         "Id": "14780",
@@ -9450,9 +9436,9 @@
     {
         "Id": "15265",
         "Libelle": "Zone sp\u00e9ciale de conservation",
-        "Definition": "Selon&nbsp;la directive europ\u00e9enne 92\/43\/CEE, \"site d'importance communautaire d\u00e9sign\u00e9 par les \u00c9tats membres par un acte r\u00e9glementaire, administratif\u2026",
-        "Sens": "r\u00e9glementaire",
-        "Source": "d'apr\u00e8s Commission europ\u00e9enne",
+        "Definition": "Zones ayant pour objectif la conservation des milieux naturels et des esp\u00e8ces animales et v\u00e9g\u00e9tales figurant aux annexes I et II de la Directive \u00ab\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Minist\u00e8re charg\u00e9 de l'environnement",
         "Sigle": "ZSC"
     },
     {
@@ -9847,9 +9833,9 @@
     {
         "Id": "15823",
         "Libelle": "Grau",
-        "Definition": "Ouverture par laquelle une lagune communique avec la mer.",
-        "Sens": "commun",
-        "Source": "d'apr\u00e8s OIEau"
+        "Definition": "En mati\u00e8re maritime, un grau est un espace op\u00e9rant une communication entre les eaux de la mer et les eaux int\u00e9rieures. Un grau s\u2019ouvre au point le\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s Agence de l'eau Rh\u00f4ne -M\u00e9diterran\u00e9e & Corse"
     },
     {
         "Id": "15824",
@@ -10094,9 +10080,9 @@
     {
         "Id": "18447",
         "Libelle": "Sciences participatives",
-        "Definition": "Programmes de collecte d'informations impliquant une participation du public dans le cadre d'une d\u00e9marche scientifique. Cette participation s\u2026",
-        "Sens": "commun",
-        "Source": "d'apr\u00e8s Collectif national Sciences participatives - Biodiversit\u00e9"
+        "Definition": "Formes de production de connaissances scientifiques auxquelles des acteurs non-scientifiques professionnels, qu'il s'agisse d'individus ou de groupes\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s MNHN-INPN"
     },
     {
         "Id": "18448",
@@ -10273,25 +10259,25 @@
     {
         "Id": "18703",
         "Libelle": "Mesures naturelles de r\u00e9tention d\u2019eau",
-        "Definition": "Les MNRE sont des modifications directes des \u00e9cosyst\u00e8mes, ou des changements et adaptations de pratiques ayant pour effet d\u2019augmenter la r\u00e9tention d\u2026",
-        "Sens": "commun",
+        "Definition": "Actions qui visent \u00e0 ralentir l\u2019\u00e9coulement de l\u2019eau de surface et \u00e0 favoriser son infiltration, \u00e0 l\u2019\u00e9chelle du bassin versant, en s\u2019appuyant sur les\u2026",
+        "Sens": "technique",
         "Source": "d'apr\u00e8s OFB, OIEau",
         "Sigle": "MNRE"
     },
     {
         "Id": "18707",
         "Libelle": "Solutions fond\u00e9es sur la nature",
-        "Definition": "Les Solutions fond\u00e9es sur la Nature (SfN) sont les actions qui s\u2019appuient sur les \u00e9cosyst\u00e8mes afin de relever les d\u00e9fis globaux comme la lutte contre\u2026",
-        "Sens": "commun",
-        "Source": "d'apr\u00e8s UICN, FNE",
+        "Definition": "Actions visant \u00e0 prot\u00e9ger, g\u00e9rer de mani\u00e8re durable et restaurer des \u00e9cosyst\u00e8mes naturels ou modifi\u00e9s, pour relever directement les enjeux de soci\u00e9t\u00e9\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s UICN",
         "Sigle": "SfN"
     },
     {
         "Id": "18709",
         "Libelle": "Agro\u00e9cologie",
-        "Definition": "Concept utilis\u00e9 en agriculture et en agronomie. L\u2019agro\u00e9cologie renvoie \u00e0 la fois \u00e0 une discipline scientifique, \u00e0 un mouvement social et \u00e0 des\u2026",
+        "Definition": "Concept qui remet la biodiversit\u00e9 et les processus \u00e9cologiques au c\u0153ur de l\u2019agriculture. Elle vise \u00e0 r\u00e9duire les impacts environnementaux (sur l\u2019eau,\u2026",
         "Sens": "commun",
-        "Source": "d'apr\u00e8s Minist\u00e8re de l'agriculture, et la Cit\u00e9 de l'agriculture"
+        "Source": "d'apr\u00e8s OFB, et Minist\u00e8re charg\u00e9 de l'Agriculture"
     },
     {
         "Id": "18719",
@@ -10468,7 +10454,7 @@
         "Libelle": "Agro\u00e9cologie",
         "Definition": "D\u00e9marche scientifique attentive aux ph\u00e9nom\u00e8nes biologiques qui combine d\u00e9veloppement agricole et protection\/r\u00e9g\u00e9n\u00e9ration de l\u2019environnement naturel\u2026",
         "Sens": "technique",
-        "Source": "d'apr\u00e8s Minist\u00e8re de l'agriculture et l'INRAe"
+        "Source": "d'apr\u00e8s Minist\u00e8re charg\u00e9 de l'Agriculture et l'INRAe"
     },
     {
         "Id": "18847",
@@ -10488,9 +10474,9 @@
     {
         "Id": "18859",
         "Libelle": "Artificialisation des sols",
-        "Definition": "Ph\u00e9nom\u00e8ne qui consiste \u00e0 transformer un sol naturel, agricole ou forestier, par des op\u00e9rations d\u2019am\u00e9nagement pouvant entra\u00eener une imperm\u00e9abilisation\u2026",
-        "Sens": "technique",
-        "Source": "d'apr\u00e8s Minist\u00e8re en charge de l'environnement et OFB"
+        "Definition": "Article 192 de la loi \u00ab Climat et r\u00e9silience \u00bb - Chapitre III : Lutter contre l'artificialisation des sols en adaptant les r\u00e8gles d'urbanisme \u2026",
+        "Sens": "r\u00e9glementaire",
+        "Source": "d'apr\u00e8s L\u00e9gifrance"
     },
     {
         "Id": "18860",
@@ -10618,6 +10604,13 @@
         "Source": "d'apr\u00e8s Eur-lex"
     },
     {
+        "Id": "18957",
+        "Libelle": "G\u00e9odiversit\u00e9",
+        "Definition": "Ensemble des \u00e9l\u00e9ments des sous-sols, sols et paysages qui, assembl\u00e9s les uns aux autres, constituent des syst\u00e8mes organis\u00e9s, issus de processus\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s l'INPN"
+    },
+    {
         "Id": "18972",
         "Libelle": "Digestat de boues d'\u00e9puration",
         "Definition": "R\u00e9sidu liquide, p\u00e2teux ou solide issu de la m\u00e9thanisation de boues d'\u00e9puration, seules ou en m\u00e9lange avec d'autres mati\u00e8res. (cf.&nbsp;D\u00e9cret n\u00b0 2021\u2026",
@@ -10654,7 +10647,7 @@
     },
     {
         "Id": "19005",
-        "Libelle": "Directive  relative \u00e0 l\u2019\u00e9valuation et \u00e0 la gestion des risques d\u2019inondation",
+        "Libelle": "Directive 2007\/60\/CE du Parlement et du Conseil du 23 octobre 2007 relative \u00e0 l\u2019\u00e9valuation et \u00e0 la gestion des risques d\u2019inondation",
         "Definition": "Directive n\u00b0 2007\/60\/CE du Parlement Europ\u00e9en et du Conseil du 23\/10\/07 relative \u00e0 l\u2019\u00e9valuation et \u00e0 la gestion des risques d\u2019inondation : La\u2026",
         "Sens": "r\u00e9glementaire",
         "Source": "d'apr\u00e8s Eur-lex et Minist\u00e8re charg\u00e9 de l'environnement"
@@ -10672,5 +10665,3120 @@
         "Definition": "R\u00e8glement (UE) 2020\/741 du Parlement europ\u00e9en et du Conseil&nbsp; du 25 mai 2020 relatif aux exigences minimales applicables \u00e0 la r\u00e9utilisation de l\u2026",
         "Sens": "r\u00e9glementaire",
         "Source": "d'apr\u00e8s Minist\u00e8re charg\u00e9 de l'\u00e9cologie et Eur-lex"
+    },
+    {
+        "Id": "19084",
+        "Libelle": "District hydrographique",
+        "Definition": "Toute zone terrestre et maritime, au sens de la DCE, compos\u00e9e d'un ou plusieurs bassins hydrographiques ainsi que des eaux souterraines et eaux\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s Eur-lex et Sandre"
+    },
+    {
+        "Id": "19088",
+        "Libelle": "BASSIN DCE",
+        "Definition": "Un bassin DCE correspond: - soit \u00e0 un district hydrographique national (exemple: Les cours d'eau de la Corse) ; - soit \u00e0 une portion d'un district\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s Eaufrance et Sandre"
+    },
+    {
+        "Id": "19108",
+        "Libelle": "Erosion c\u00f4ti\u00e8re",
+        "Definition": "Effondrement de falaises vives, l\u2019envasement des baies et le remaniement des plages lors des temp\u00eates hivernales impliquent des ph\u00e9nom\u00e8nes d\u2019origine\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s Minist\u00e8re charg\u00e9 de l'environnement"
+    },
+    {
+        "Id": "19109",
+        "Libelle": "Boue rouge",
+        "Definition": "Effluent constitu\u00e9 de r\u00e9sidus de l'industrie extractive, dont la couleur provient de mati\u00e8res en suspension riches en oxydes de fer.\r\nOn note que\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s Legifrance"
+    },
+    {
+        "Id": "19116",
+        "Libelle": "Infrastructure verte",
+        "Definition": "R\u00e9seau strat\u00e9gique constitu\u00e9 de zones naturelles et semi-naturelles de qualit\u00e9, ainsi que d\u2019autres \u00e9l\u00e9ments environnementaux, qui est con\u00e7u et g\u00e9r\u00e9\u2026",
+        "Sens": "technique",
+        "Source": "d'ap\u00e8s Commission Europ\u00e9enne"
+    },
+    {
+        "Id": "19118",
+        "Libelle": "Gestion int\u00e9gr\u00e9e des eaux pluviales",
+        "Definition": "M\u00e9thode de gestion des eaux pluviales visant \u00e0 rester au plus pr\u00e8s du grand cycle naturel de l\u2019eau en privil\u00e9giant l\u2019infiltration des eaux au plus\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s Agences de l'Eau, Adopta"
+    },
+    {
+        "Id": "19131",
+        "Libelle": "Atlas de la biodiversit\u00e9 communale",
+        "Definition": "Inventaire des milieux et esp\u00e8ces pr\u00e9sents sur un territoire donn\u00e9. Il implique l'ensemble des acteurs d'une commune (\u00e9lus, citoyens, associations,\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s OFB",
+        "Sigle": "ABC"
+    },
+    {
+        "Id": "19140",
+        "Libelle": "Bio\u00e9conomie",
+        "Definition": "Ensemble des activit\u00e9s \u00e9conomiques qui couvre tous les secteurs et les syst\u00e8mes qui s\u2019appuient sur les ressources biologiques (animaux, plantes,\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s Minist\u00e8re charg\u00e9 de  l'Agriculture et l'INRAe"
+    },
+    {
+        "Id": "19146",
+        "Libelle": "Bio\u00e9conomie bleue",
+        "Definition": "Ensemble des activit\u00e9s li\u00e9es \u00e0 la production, \u00e0 la mobilisation, \u00e0 l\u2019utilisation et \u00e0 la transformation de bioressources renouvelables issues du\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s Minist\u00e8re charg\u00e9 de  l'Agriculture"
+    },
+    {
+        "Id": "19158",
+        "Libelle": "Conformit\u00e9 de l\u2019agglom\u00e9ration",
+        "Definition": "Indicateur de contr\u00f4le annuel utile \u00e0 l\u2019\u00e9valuation du respect du droit europ\u00e9en en mati\u00e8re d\u2019assainissement collectif. Selon la directive ERU (Eaux\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s Minist\u00e8re charg\u00e9 de l'environnement"
+    },
+    {
+        "Id": "19172",
+        "Libelle": "Pesticide",
+        "Definition": "Substance chimique ou des pr\u00e9parations utilis\u00e9es pour lutter contre des organismes consid\u00e9r\u00e9s comme nuisibles : la pr\u00e9vention, le contr\u00f4le ou l\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s OFB, Minist\u00e8re charg\u00e9 de la sant\u00e9 et Minist\u00e8re charg\u00e9 de l'agriculture"
+    },
+    {
+        "Id": "19176",
+        "Libelle": "Substance active",
+        "Definition": "Substance ou microorganisme qui exerce une action sur ou contre les organismes nuisibles (autrement que par une action physique ou m\u00e9canique). On en\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Minist\u00e8re charg\u00e9 de  la sant\u00e9",
+        "Sigle": "SA"
+    },
+    {
+        "Id": "19183",
+        "Libelle": "It\u00e9ropare",
+        "Definition": "En biologie, Se dit d\u2019un organisme vivant ou une esp\u00e8ce qui se reproduit plusieurs fois au cours de sa vie. Pour les poissons on peut citer : alose,\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Agence de l'eau Rh\u00f4ne-M\u00e9diterran\u00e9e et Corse"
+    },
+    {
+        "Id": "19185",
+        "Libelle": "S\u00e9melpare",
+        "Definition": "En biologie, se dit d'un organisme vivant ou une esp\u00e8ce qui se reproduit une fois au cours de sa vie. Pour les poissons on peut citer : Anguille, ou\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Agence de l'eau Rh\u00f4ne-M\u00e9diterran\u00e9e et Corse"
+    },
+    {
+        "Id": "19196",
+        "Libelle": "D\u00e9cision n\u00b0 2455\/2001\/CE",
+        "Definition": "D\u00e9cision n\u00b0 2455\/2001\/CE du Parlement europ\u00e9en et du Conseil du 20 novembre 2001 \u00e9tablissant la liste des substances prioritaires dans le domaine de\u2026",
+        "Sens": "r\u00e9glementaire",
+        "Source": "d'apr\u00e8s Eur-lex"
+    },
+    {
+        "Id": "19200",
+        "Libelle": "Directive (UE) n\u00b0 2020\/2184 du 16\/12\/20 relative \u00e0 la qualit\u00e9 des eaux destin\u00e9es \u00e0 la consommation humaine (refonte)",
+        "Definition": "Directive qui concerne la qualit\u00e9 des eaux destin\u00e9es \u00e0 la consommation humaine pour tous dans l\u2019Union Europ\u00e9enne. Les objectifs de la pr\u00e9sente\u2026",
+        "Sens": "r\u00e9glementaire",
+        "Source": "d'apr\u00e8s Eur-lex"
+    },
+    {
+        "Id": "19208",
+        "Libelle": "D\u00e9cision n\u00b0 2455\/2001\/CE du Parlement europ\u00e9en et du Conseil  du 20 novembre 2001  \u00e9tablissant la liste des substances prioritaires dans le domaine de l'eau et modifiant la directive 2000\/60\/CE",
+        "Definition": "La liste des substances prioritaires, incluant les substances dangereuses prioritaires, de la directive 2000\/60\/CE est adopt\u00e9e par la pr\u00e9sente\u2026",
+        "Sens": "r\u00e9glementaire",
+        "Source": "d'apr\u00e8s Eur-lex"
+    },
+    {
+        "Id": "19682",
+        "Libelle": "Abiotique",
+        "Definition": "Se dit d'un facteur li\u00e9 au milieu et ind\u00e9pendant des \u00eatres vivants (par exemple, la temp\u00e9rature et la salinit\u00e9 de l'eau)",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Ifremer"
+    },
+    {
+        "Id": "19684",
+        "Libelle": "Anthropique",
+        "Definition": "Relatif \u00e0 l'existence et \u00e0 l'action de l'homme",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Ifremer"
+    },
+    {
+        "Id": "19686",
+        "Libelle": "Anthropog\u00e9nique",
+        "Definition": "Caus\u00e9 ou g\u00e9n\u00e9r\u00e9 par l'action de l'homme",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Ifremer"
+    },
+    {
+        "Id": "19688",
+        "Libelle": "Biomasse",
+        "Definition": "Ensemble de la mati\u00e8re organique, d'origine v\u00e9g\u00e9tale ou animale",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Ifremer"
+    },
+    {
+        "Id": "19690",
+        "Libelle": "Biosurveillance",
+        "Definition": "Ensemble de m\u00e9thodes visant \u00e0 d\u00e9tecter et \u00e0 mesurer la concentration des polluants dans le milieu et dans les organismes",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Ifremer"
+    },
+    {
+        "Id": "19692",
+        "Libelle": "C\u00e2blier",
+        "Definition": "Navire sp\u00e9cialis\u00e9 dans la pose, le relevage et l\u2019entretien des c\u00e2bles sous-marins",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Ifremer"
+    },
+    {
+        "Id": "19694",
+        "Libelle": "Trophique",
+        "Definition": "Ensemble des relations alimentairess existant \u00e0 l\u2019int\u00e9rieur d\u2019une bioc\u00e9nose entre les diverses cat\u00e9gories \u00e9cologiques d\u2019\u00eatres vivants constituant\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Ifremer"
+    },
+    {
+        "Id": "19696",
+        "Libelle": "Cohorte",
+        "Definition": "Groupe d'individus n\u00e9s \u00e0 une m\u00eame p\u00e9riode",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Ifremer"
+    },
+    {
+        "Id": "19698",
+        "Libelle": "Conditions abiotiques",
+        "Definition": "Conditions physico-chimiques d'un milieu, ayant une influence sur les organismes qui y vivent",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Ifremer"
+    },
+    {
+        "Id": "19700",
+        "Libelle": "D\u00e9posivore",
+        "Definition": "Qui se nourrit de mati\u00e8res d\u00e9pos\u00e9es sur le fond",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Ifremer"
+    },
+    {
+        "Id": "19702",
+        "Libelle": "Eaux de ballast",
+        "Definition": "Eaux stock\u00e9es dans un r\u00e9servoir de grande contenance (le ballast) pr\u00e9sent sur certains navires et le stockage et la vidange permettent d'optimiser la\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Ifremer"
+    },
+    {
+        "Id": "19704",
+        "Libelle": "Esp\u00e8ce benthique",
+        "Definition": "Le benthos regroupe l'ensemble des organismes vivant en relation \u00e9troite avec les grands fonds.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Ifremer"
+    },
+    {
+        "Id": "19706",
+        "Libelle": "Esp\u00e8ce d\u00e9mersale",
+        "Definition": "Les esp\u00e8ces d\u00e9mersales vivent au dessus du fond. Ces esp\u00e8ces sont tr\u00e8s mobiles mais tr\u00e8s d\u00e9pendantes du fond d\u2019o\u00f9 elles tirent leur nourriture.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Ifremer"
+    },
+    {
+        "Id": "19708",
+        "Libelle": "Esp\u00e8ce non-indig\u00e8ne",
+        "Definition": "Une esp\u00e8ce non-indig\u00e8ne est une esp\u00e8ce animale ou v\u00e9g\u00e9tale qui, pour une raison naturelle ou par le biais des activit\u00e9s humaines, est observ\u00e9e hors\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Biolit"
+    },
+    {
+        "Id": "19710",
+        "Libelle": "Esp\u00e8ce sentinelle",
+        "Definition": "Esp\u00e8ce dont la sensibilit\u00e9 sert d'indicateur pr\u00e9coce des changements de l'environnement d'un \u00e9cosyst\u00e8me donn\u00e9",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Futura sciences"
+    },
+    {
+        "Id": "19712",
+        "Libelle": "Esp\u00e8ce p\u00e9lagique",
+        "Definition": "Esp\u00e8ce vivant proche de la surface ou entre la surface et le fond (par opposition aux esp\u00e8ces vivant sur ou proche des fonds)",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Ifremer"
+    },
+    {
+        "Id": "19714",
+        "Libelle": "Hauturier",
+        "Definition": "Relatif \u00e0 la haute mer",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Wiktionnaire"
+    },
+    {
+        "Id": "19716",
+        "Libelle": "Lumi\u00e8re incidente",
+        "Definition": "Lumi\u00e8re qui provient directement d'une source lumineuse et qui est r\u00e9fl\u00e9chie sur un objet ou une surface",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Ifremer"
+    },
+    {
+        "Id": "19718",
+        "Libelle": "M\u00e9thanier",
+        "Definition": "Navire servant \u00e0 transporter du gaz naturel liqu\u00e9fi\u00e9",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Wikipedia"
+    },
+    {
+        "Id": "19720",
+        "Libelle": "P\u00eacherie",
+        "Definition": "(Selon le contexte) 1) Somme de toutes les activit\u00e9s halieutiques portant sur une ressource donn\u00e9e, par exemple une p\u00eacherie de merlus ou de\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s FAO"
+    },
+    {
+        "Id": "19722",
+        "Libelle": "Photosynth\u00e8se",
+        "Definition": "Processus par lequel les v\u00e9g\u00e9taux synth\u00e9tisent de la mati\u00e8re organique gr\u00e2ce \u00e0 l'\u00e9nergie lumineuse",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Wikipedia"
+    },
+    {
+        "Id": "19724",
+        "Libelle": "Phycotoxine",
+        "Definition": "Les phycotoxines (ou toxines d\u2019algues) sont des toxines produites par quelques esp\u00e8ces phytoplanctoniques.",
+        "Sens": "commun",
+        "Source": "D'apr\u00e8s Ifremer"
+    },
+    {
+        "Id": "19726",
+        "Libelle": "Polyplo\u00efde",
+        "Definition": "(Selon le contexte) 1) Se dit d'un \u00eatre vivant dot\u00e9 d'un patrimoine chromosomique compos\u00e9 d'au moins trois lots complets de chromosomes; 2) Se dit d\u2026",
+        "Sens": "commun",
+        "Source": "D'apr\u00e8s Ifremer"
+    },
+    {
+        "Id": "19728",
+        "Libelle": "Pr\u00e9cipit\u00e9 chimique",
+        "Definition": "Cristal solide qui se forme \u00e0 partir d'un sel dissout dans un liquide",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Wikipedia"
+    },
+    {
+        "Id": "19730",
+        "Libelle": "R\u00e9seau trophique",
+        "Definition": "Ensemble de cha\u00eenes alimentaires reli\u00e9es entre elles au sein d'un \u00e9cosyst\u00e8me",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Wikipedia"
+    },
+    {
+        "Id": "19732",
+        "Libelle": "Ressource g\u00e9n\u00e9tique",
+        "Definition": "Mat\u00e9riel d'origine v\u00e9g\u00e9tale, animale, microbienne ou autre, contenant des unit\u00e9s fonctionnelles de l'h\u00e9r\u00e9dit\u00e9",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Convention sur la Diversit\u00e9 Biologique"
+    },
+    {
+        "Id": "19734",
+        "Libelle": "Service de provision",
+        "Definition": "B\u00e9n\u00e9fice tir\u00e9 par l'homme de l'approvisionnement par une ressource",
+        "Sens": "commun",
+        "Source": "D'apr\u00e8s Ifremer"
+    },
+    {
+        "Id": "19736",
+        "Libelle": "Stock halieutique",
+        "Definition": "Ressource biologique correspondant \u00e0 une unit\u00e9 de gestion plus ou moins ind\u00e9pendante (souvent, une population d'une esp\u00e8ce de poisson ou d'invert\u00e9br\u00e9\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s FAO"
+    },
+    {
+        "Id": "19738",
+        "Libelle": "Stress",
+        "Definition": "Ensemble des r\u00e9ponses d'un organisme soumis \u00e0 des pressions ou contraintes de la part de son environnement",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Wikipedia"
+    },
+    {
+        "Id": "19740",
+        "Libelle": "Substrat s\u00e9dimentaire",
+        "Definition": "Couche de mat\u00e9riau constitu\u00e9e par le d\u00e9p\u00f4t de particules pr\u00e9sentes dans l'eau",
+        "Sens": "commun",
+        "Source": "D'apr\u00e8s Ifremer"
+    },
+    {
+        "Id": "19742",
+        "Libelle": "Suspensivore",
+        "Definition": "Qui se nourrit d'organismes ou de particules en suspension dans l'eau",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Wikipedia"
+    },
+    {
+        "Id": "19744",
+        "Libelle": "Taxon",
+        "Definition": "Le taxon est une unit\u00e9 quelconque (genre, famille, esp\u00e8ce, sous-esp\u00e8ce, etc.) des classifications hi\u00e9rarchiques des \u00eatres vivants.\nG\u00e9n\u00e9ralement le\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INSEE"
+    },
+    {
+        "Id": "19746",
+        "Libelle": "Topographie",
+        "Definition": "Description du relief d'un terrain ou d'un territoire",
+        "Sens": "commun",
+        "Source": "D'apr\u00e8s Ifremer"
+    },
+    {
+        "Id": "19748",
+        "Libelle": "Tubicole",
+        "Definition": "Ver ann\u00e9lide qui vit dans le tube qu'il a s\u00e9cr\u00e9t\u00e9 ou construit",
+        "Sens": "commun",
+        "Source": "D'apr\u00e8s Ifremer"
+    },
+    {
+        "Id": "19750",
+        "Libelle": "Donn\u00e9e de synth\u00e8se",
+        "Definition": "Dans l\u2019INPN, une donn\u00e9e de synth\u00e8se r\u00e9sulte de l\u2019agr\u00e9gation des donn\u00e9es d\u2019observation d\u2019un taxon au niveau d\u2019une maille et aboutit par exemple au\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Minist\u00e8re charg\u00e9 de l'environnement"
+    },
+    {
+        "Id": "19752",
+        "Libelle": "Domestique",
+        "Definition": "Esp\u00e8ce animale ou v\u00e9g\u00e9tale, g\u00e9n\u00e9tiquement modifi\u00e9e par s\u00e9lection humaine, \u00e9lev\u00e9e par l\u2019Homme, et qui vit dans son entourage pour l\u2019aider, le\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19754",
+        "Libelle": "Embranchement",
+        "Definition": "Grande division de la classification classique des esp\u00e8ces vivantes. En syst\u00e9matique, l'embranchement (ou phylum) est le deuxi\u00e8me niveau de\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19756",
+        "Libelle": "Emigration",
+        "Definition": "D\u00e9placement centrifuge.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19758",
+        "Libelle": "End\u00e9mique",
+        "Definition": "Taxon naturellement restreint \u00e0 la zone g\u00e9ographique consid\u00e9r\u00e9e. Cette notion est donc d\u00e9pendante de la zone consid\u00e9r\u00e9e : end\u00e9mique d'un continent,\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19760",
+        "Libelle": "Envahissant",
+        "Definition": "Taxon dont les populations sont tr\u00e8s prolifiques; il peut \u00eatre autochtone ou allochtone.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19762",
+        "Libelle": "Eradication",
+        "Definition": "Op\u00e9ration  de gestion destin\u00e9e \u00e0 \u00e9liminer totalement les populations d'un taxon donn\u00e9 sur un secteur g\u00e9ographique donn\u00e9.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19764",
+        "Libelle": "Erratique",
+        "Definition": "Se dit d'individus isol\u00e9s de la faune vagile se d\u00e9pla\u00e7ant en dehors de l'aire de r\u00e9partition habituelle, et dans l'incapacit\u00e9 d'assurer la\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19766",
+        "Libelle": "Espace vert",
+        "Definition": "D\u00e9signe, dans un environnement fortement anthropis\u00e9 (ville, zone industrielle...) un parc plant\u00e9, souvent arbor\u00e9.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19768",
+        "Libelle": "Esp\u00e8ce banale",
+        "Definition": "Esp\u00e8ce commune, ordinaire. Par opposition \u00e0 esp\u00e8ce rare ou \u00e0 esp\u00e8ce menac\u00e9e. Notion portant un certain jugement de valeur. Pr\u00e9f\u00e9rer le terme \"esp\u00e8ce\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19770",
+        "Libelle": "Esp\u00e8ce caract\u00e9ristique",
+        "Definition": "Esp\u00e8ce repr\u00e9sentative d'un milieu donn\u00e9, qui peut servir \u00e0 d\u00e9finir l'habitat. En phytosociologie (sens strict), d\u00e9signe une esp\u00e8ce qui ne se trouve\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19772",
+        "Libelle": "Esp\u00e8ce cl\u00e9 de vo\u00fbte",
+        "Definition": "Dans un \u00e9cosyst\u00e8me, esp\u00e8ce dont la perte entra\u00eenerait un changement sup\u00e9rieur au changement induit par n\u2019importe quelle autre esp\u00e8ce de cet\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Wikipedia"
+    },
+    {
+        "Id": "19774",
+        "Libelle": "Esp\u00e8ce commune",
+        "Definition": "Esp\u00e8ce dont les populations sont largement distribu\u00e9es et\/ou dont les individus sont souvent observ\u00e9s par l'Homme. Par opposition \u00e0 esp\u00e8ce rare.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19776",
+        "Libelle": "Esp\u00e8ce continentale",
+        "Definition": "Esp\u00e8ce qui vit sur terre ou en eau douce.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19778",
+        "Libelle": "Esp\u00e8ce cosmopolite",
+        "Definition": "Esp\u00e8ce \u00e0 tr\u00e8s large r\u00e9partition mondiale.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19780",
+        "Libelle": "Esp\u00e8ce cryptique",
+        "Definition": "Esp\u00e8ce difficile \u00e0 d\u00e9celer par sa morphologie, souvent d\u00e9couverte lors d'analyses g\u00e9n\u00e9tiques. Ce sont de fait des esp\u00e8ces difficiles \u00e0 inventorier\u2026",
+        "Sens": "commun",
+        "Source": "D'apr\u00e8s Keith et Allardi 2001 p. 85."
+    },
+    {
+        "Id": "19782",
+        "Libelle": "Esp\u00e8ce cultiv\u00e9e",
+        "Definition": "Plante maintenue artificiellement par l'Homme dans un endroit donn\u00e9.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19784",
+        "Libelle": "Esp\u00e8ce d'eau douce",
+        "Definition": "Esp\u00e8ce vivant en eau douce.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19786",
+        "Libelle": "Esp\u00e8ce de liste rouge",
+        "Definition": "Une des esp\u00e8ces \u00e9valu\u00e9es par l\u2019UICN pour ses listes rouges. Elle n'est pas n\u00e9cessairement menac\u00e9e.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19788",
+        "Libelle": "Esp\u00e8ce d\u00e9terminante ZNIEFF",
+        "Definition": "Dans le cadre des ZNIEFF, sont qualifi\u00e9es de d\u00e9terminantes : 1) les esp\u00e8ces en danger, vuln\u00e9rables, rares ou remarquables r\u00e9pondant aux cotations\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19790",
+        "Libelle": "Esp\u00e8ce embl\u00e9matique",
+        "Definition": "Esp\u00e8ce sauvage ayant une importance culturelle, religieuse, parfois \u00e9conomique, pour l'Homme dans une r\u00e9gion donn\u00e9e. Ex. l'Ibis sacr\u00e9 en Egypte, la\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19792",
+        "Libelle": "Esp\u00e8ce en d\u00e9clin",
+        "Definition": "Esp\u00e8ce dont les effectifs des populations diminuent significativement par rapport \u00e0 un \u00e9tat de r\u00e9f\u00e9rence ant\u00e9rieur.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19794",
+        "Libelle": "Esp\u00e8ce end\u00e9mique stricte",
+        "Definition": "Esp\u00e8ce ayant une localisation g\u00e9ographique tr\u00e8s limit\u00e9e, notamment strictement limit\u00e9e \u00e0 un pays ou une \u00eele. Exemple aux Antilles : une esp\u00e8ce qui ne\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19796",
+        "Libelle": "Esp\u00e8ce erratique",
+        "Definition": "Esp\u00e8ce dont les individus se d\u00e9placent de fa\u00e7on peu coordonn\u00e9e.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19798",
+        "Libelle": "Esp\u00e8ce halieutique",
+        "Definition": "Esp\u00e8ce constituant une ressource p\u00each\u00e9e par l'Homme.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19800",
+        "Libelle": "Esp\u00e8ce indig\u00e8ne",
+        "Definition": "Esp\u00e8ce dont les populations ont toujours exist\u00e9 dans un endroit donn\u00e9.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19802",
+        "Libelle": "Esp\u00e8ce introduite",
+        "Definition": "Esp\u00e8ce dont un(des) individu(s) d'une esp\u00e8ce ont \u00e9t\u00e9 d\u00e9plac\u00e9s par l'Homme de mani\u00e8re volontaire ou involontaire sur un territoire donn\u00e9 \u00e0 un moment\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19804",
+        "Libelle": "Esp\u00e8ce lessepsienne",
+        "Definition": "Esp\u00e8ce marine, g\u00e9n\u00e9ralement d'origine indopacifique, ayant \u00e9t\u00e9 introduite en M\u00e9diterran\u00e9e via le canal de Suez.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19806",
+        "Libelle": "Esp\u00e8ce marine",
+        "Definition": "Au sens strict, esp\u00e8ce qui se reproduit en mer. Au sens plus large, esp\u00e8ce qui vit en eau plus ou moins sal\u00e9e. Corr\u00e9lat : oiseau marin, esp\u00e8ce d'eau\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19808",
+        "Libelle": "Esp\u00e8ce m\u00e9diatique",
+        "Definition": "Esp\u00e8ce tr\u00e8s connue dont on parle beaucoup en raison de certaines particulatit\u00e9s morphologiques (l'\u00e9l\u00e9phant et sa trompe), historique (ex. fossile\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19810",
+        "Libelle": "Esp\u00e8ce migratrice",
+        "Definition": "Esp\u00e8ce dont les individus se d\u00e9placent p\u00e9riodiquement en fonction de l'\u00e9poque de l'ann\u00e9e (ex. oiseaux) ou du cycle de reproduction (ex. anguille,\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19812",
+        "Libelle": "Esp\u00e8ce naturalis\u00e9e",
+        "Definition": "esp\u00e8ce introduite rencontrant des conditions \u00e9cologiques favorables \u00e0 son implantation durable dans le temps pouvant y \u00e9tablir des populations de\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19814",
+        "Libelle": "Arr\u00e9t\u00e9 de Protection de Biotope",
+        "Definition": "Texte r\u00e9glementaire pr\u00e9fectoral destin\u00e9 \u00e0 prot\u00e9ger localement un biotope h\u00e9bergeant une ou des esp\u00e8ces prot\u00e9g\u00e9es.",
+        "Sens": "r\u00e9glementaire",
+        "Source": "d'apr\u00e8s INPN",
+        "Sigle": "APB"
+    },
+    {
+        "Id": "19816",
+        "Libelle": "Atlas de la Biodiversit\u00e9 des Communes",
+        "Definition": "Issu du Grenelle de l'environnement, le projet ABC a pour objet de faire le bilan des connaissances naturalistes et d'acqu\u00e9rir de nouvelles\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN",
+        "Sigle": "ABC"
+    },
+    {
+        "Id": "19818",
+        "Libelle": "Atlas de r\u00e9partition",
+        "Definition": "C\u2019est le produit de la d\u00e9marche d\u2019inventaire qui \u00ab fige \u00bb la meilleure connaissance disponible, compil\u00e9e et valid\u00e9e dans son ensemble \u00e0 un moment\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19820",
+        "Libelle": "Aut\u00e9cologie",
+        "Definition": "L'aut\u00e9cologie (appel\u00e9e \u00e9galement auto\u00e9cologie ou auto-\u00e9cologie) concerne l'\u00e9tude des individus pris s\u00e9par\u00e9ment dans leurs milieux. Elle s'int\u00e9resse\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19822",
+        "Libelle": "Autochtone",
+        "Definition": "Pour une zone g\u00e9ographique donn\u00e9e, pendant une p\u00e9riode donn\u00e9e, se dit d'un taxon originaire de cette m\u00eame zone.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19824",
+        "Libelle": "Autotrophe",
+        "Definition": "Cat\u00e9gorie de v\u00e9g\u00e9taux qui ont la facult\u00e9 d'\u00e9laborer des substances organiques \u00e0 partir d'\u00e9l\u00e9ments min\u00e9raux.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19826",
+        "Libelle": "Accidentel, accidentelle",
+        "Definition": "(1 - Sens habituel). Qualifie la pr\u00e9sence inhabituelle ou exceptionelle d'une esp\u00e8ce dans une localit\u00e9 donn\u00e9e. (2 - Sens INPN). Esp\u00e8ce dont la\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19828",
+        "Libelle": "Acclimatation",
+        "Definition": "D\u00e9signe l'ensemble du processus par lequel une esp\u00e8ce s'installe de fa\u00e7on durable dans une nouvelle r\u00e9gion g\u00e9ographique.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19830",
+        "Libelle": "Acclimat\u00e9e",
+        "Definition": "Qualifie un taxon qui a r\u00e9ussi \u00e0 s'installer de fa\u00e7on d\u00e9finitive dans une nouvelle r\u00e9gion g\u00e9ographique.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19832",
+        "Libelle": "Accompagnatrice",
+        "Definition": "Esp\u00e8ce transport\u00e9e non intentionellement avec une autre. Ex. les vers parasites sont les esp\u00e8ces accompagnatrices fr\u00e9quentes des poissons.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19834",
+        "Libelle": "Alien",
+        "Definition": "D\u00e9signe une esp\u00e8ce ou un organisme situ\u00e9 en dehors de son aire de r\u00e9partition originelle.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19836",
+        "Libelle": "Allochtone",
+        "Definition": "Pour une zone g\u00e9ographique donn\u00e9e, pendant une p\u00e9riode donn\u00e9e, se dit d'un taxon originaire d\u2019une autre r\u00e9gion g\u00e9ographique.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19838",
+        "Libelle": "Approche \u00e9cosyst\u00e9mique",
+        "Definition": "Strat\u00e9gie de gestion des activit\u00e9s humaines \u00e9tablie sur la base des meilleures connaissances scientifiques disponibles, notamment sur les diff\u00e9rents\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19840",
+        "Libelle": "Cahiers d'habitats",
+        "Definition": "Collection d'ouvrages pr\u00e9sentant une synth\u00e8se actualis\u00e9e des connaissances scientifiques et une approche globale des modes de gestion conservatoire\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19842",
+        "Libelle": "Cantonnement",
+        "Definition": "Zone r\u00e9glement\u00e9e, interdite \u00e0 la p\u00eache pour une partie ou la totalit\u00e9 de l'ann\u00e9e.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19844",
+        "Libelle": "Carnet d\u2019Observation",
+        "Definition": "CardObs est un outil de gestion en ligne de donn\u00e9es naturalistes et d\u2019informations associ\u00e9es (localisation, observation, dates,\u2026) permettant  leur\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN",
+        "Sigle": "CardObs"
+    },
+    {
+        "Id": "19846",
+        "Libelle": "Cavernicole",
+        "Definition": "(1) Se dit des animaux qui recherchent l'obscurit\u00e9 et qui se r\u00e9fugient ou vivent dans des grottes. (2) En ornithologie, se dit d'un oiseau qui s\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19848",
+        "Libelle": "Charismatique",
+        "Definition": "Se dit d'une esp\u00e8ce ayant une certaine importance dans les traditions, l'alimentation, les croyances etc. d'une population humaine donn\u00e9e.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19850",
+        "Libelle": "Chorologie",
+        "Definition": "Etude de la mani\u00e8re dont les \u00eatres vivants sont r\u00e9partis sur la Terre (aires de r\u00e9partition actuelles et pass\u00e9es des esp\u00e8ces, genres, familles). Par\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19852",
+        "Libelle": "Chr\u00e9sonyme",
+        "Definition": "Un chr\u00e9sonyme est une combinaison \"nom latin + auteur, date\" qui se r\u00e9f\u00e8re \u00e0 un usage publi\u00e9 incorrect de la partie \"auteur, date\" original de l\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19854",
+        "Libelle": "Cin\u00e9tique d'expansion",
+        "Definition": "Vitesse de propagation d'une invasion.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19856",
+        "Libelle": "Classe",
+        "Definition": "Unit\u00e9 taxonomique regroupant plusieurs ordres. Ex: Mammalia (mammif\u00e8res).",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19858",
+        "Libelle": "Climax",
+        "Definition": "Etat d\u2019un \u00e9cosyst\u00e8me ayant atteint un stade d\u2019\u00e9quilibre relativement stable (du moins \u00e0 l\u2019\u00e9chelle humaine), conditionn\u00e9 par les seuls facteurs\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19860",
+        "Libelle": "Colonisateur",
+        "Definition": "Se dit d'un taxon qui, dans une zone hors de sa contr\u00e9e d'origine, s'installe dans un nouveau site. Les esp\u00e8ces pionni\u00e8res sont des esp\u00e8ces\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19862",
+        "Libelle": "Communaut\u00e9",
+        "Definition": "Ensemble structur\u00e9 et homog\u00e8ne d\u2019organismes vivants \u00e9voluant dans un milieu (biotope) donn\u00e9 et \u00e0 un moment donn\u00e9.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19864",
+        "Libelle": "Convention de Barcelone",
+        "Definition": "La Convention de Barcelone du 12 f\u00e9vrier 1976, amend\u00e9e en 1995, et les protocoles \u00e9labor\u00e9s dans le cadre de cette convention ont pour objet la\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19866",
+        "Libelle": "Conservatoire du littoral",
+        "Definition": "Organisme public achetant des terrains sur le littoral afin de les prot\u00e9ger.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19868",
+        "Libelle": "Convention OSlo PARis (OSPAR)",
+        "Definition": "La Convention de Paris du 22 septembre 1992 pour la protection du milieu marin de l'Atlantique du Nord-Est, dite Convention OSPAR, est entr\u00e9e en\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Comolet-Tirman et al. 2007."
+    },
+    {
+        "Id": "19870",
+        "Libelle": "Convention RAMSAR",
+        "Definition": "Convention internationale de protection des zones humides.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19872",
+        "Libelle": "Convention sur la Diversit\u00e9 Biologique (CDB)",
+        "Definition": "Convention internationale \u00e9labor\u00e9e \u00e0 Rio de Janeiro en 1992 et destin\u00e9e \u00e0 prot\u00e9ger la biodiversit\u00e9 mondiale.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19874",
+        "Libelle": "Corallig\u00e8ne",
+        "Definition": "Bioconcr\u00e9tion, bioc\u00e9nose ou biotope dur particulier \u00e0 la M\u00e9diterran\u00e9e, g\u00e9n\u00e9ralement entre 20 et 40 m, \u00e9labor\u00e9 peu \u00e0 peu par des organismes\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19876",
+        "Libelle": "CORINE Biotope",
+        "Definition": "Syst\u00e8me hi\u00e9rarchis\u00e9 de classification des habitats naturels et semi-naturels de l'Europe de l'Ouest.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19878",
+        "Libelle": "Cryptog\u00e9nique",
+        "Definition": "Se dit d\u2019un taxon dont on ne peut d\u00e9terminer avec certitude sa zone d'origine. Exemple: escargot de Bourgogne. Pour certains taxons, la d\u00e9couverte de\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19880",
+        "Libelle": "Descripteur",
+        "Definition": "Dans le sens de l'Observatoire national de la biodiversit\u00e9, mesure qui fournit une information jug\u00e9e int\u00e9ressante sur une composante de la\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Observatoire national de la biodiversit\u00e9"
+    },
+    {
+        "Id": "19882",
+        "Libelle": "D\u00e9veloppement durable",
+        "Definition": "Type de d\u00e9veloppement soucieux de pr\u00e9server les ressources et les \u00e9quilibres naturels, permettant de m\u00e9nager l'avenir. Compromis bas\u00e9 sur trois\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19884",
+        "Libelle": "Diachronique (atlas)",
+        "Definition": "Un atlas diachronique pr\u00e9sente l\u2019\u00e9volution de la distribution des esp\u00e8ces en fonction du temps (leur arriv\u00e9e, leur disparition, leur \u00e9ventuel retour).",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19886",
+        "Libelle": "Direction R\u00e9gionale de l'Environnement",
+        "Definition": "Services d\u00e9concentr\u00e9s de l\u2019\u00c9tat qui, sous l\u2019autorit\u00e9 du pr\u00e9fet de r\u00e9gion et des pr\u00e9fets de d\u00e9partement, exercent certaines des attributions relevant\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN",
+        "Sigle": "DIREN"
+    },
+    {
+        "Id": "19888",
+        "Libelle": "Directive  \"Oiseaux\"",
+        "Definition": "Directive 79\/409\/CE du Conseil des Communaut\u00e9s Europ\u00e9ennes du 2 avril 1979 concernant la conservation des oiseaux sauvages. Directive europ\u00e9enne\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19890",
+        "Libelle": "Directive \"Habitats Faune Flore\"",
+        "Definition": "Directive europ\u00e9enne destin\u00e9e \u00e0 la protection des milieux et des esp\u00e8ces \"remarquables\". Appellation courante de la Directive 92\/43\/CEE du Conseil\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN",
+        "Sigle": "DHFF"
+    },
+    {
+        "Id": "19892",
+        "Libelle": "Directive Cadre sur l'Eau (DCE)",
+        "Definition": "R\u00e9glementation europ\u00e9enne incitant, entre autres, \u00e0 obtenir des eaux de meilleurs qualit\u00e9 physicochimique et biologique; et \u00e0 suivre cet \u00e9tat par\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19894",
+        "Libelle": "Distribution",
+        "Definition": "Ensemble des unit\u00e9s g\u00e9ographiques r\u00e9ellement occup\u00e9es par une une esp\u00e8ce (ou un taxon, ou un habitat naturel) donn\u00e9",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19896",
+        "Libelle": "Distribution de r\u00e9f\u00e9rence",
+        "Definition": "Une distribution de r\u00e9f\u00e9rence est une image fig\u00e9e de la r\u00e9partition d\u2019un taxon, obtenue \u00e0 partir d\u2019un ensemble valid\u00e9 de donn\u00e9es d\u2019observation\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Minist\u00e8re charg\u00e9 de l'environnement"
+    },
+    {
+        "Id": "19898",
+        "Libelle": "Diversit\u00e9 sp\u00e9cifique",
+        "Definition": "Quantification du nombre d'esp\u00e8ces (notion de richesse sp\u00e9cifique, ou de densit\u00e9 d'esp\u00e8ce), de la r\u00e9partition num\u00e9rique des esp\u00e8ces (notion d\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19900",
+        "Libelle": "Sites d\u2019Importance Communautaire",
+        "Definition": "Sites s\u00e9lectionn\u00e9s, sur la base des propositions des Etats membres, par la Commission Europ\u00e9enne pour int\u00e9grer le r\u00e9seau Natura 2000 en application\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN",
+        "Sigle": "SIC"
+    },
+    {
+        "Id": "19902",
+        "Libelle": "Sous-esp\u00e8ce nominative (nominale)",
+        "Definition": "Sous-esp\u00e8ce qui porte le m\u00eame nom que le nom d'esp\u00e8ce. Ex. Processa edulis edulis est la sous-esp\u00e8ce nominative de Processa edulis.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19904",
+        "Libelle": "Spontan\u00e9e",
+        "Definition": "Se dit d'un taxon (famille, genre, esp\u00e8ce) poussant naturellement dans une r\u00e9gion donn\u00e9e sans qu'il y ait \u00e9t\u00e9 introduit volontairement ou\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19906",
+        "Libelle": "Station type",
+        "Definition": "Endroit o\u00f9 a \u00e9t\u00e9 r\u00e9colt\u00e9 le sp\u00e9cimen type (holotype ou lectotype) ayant servi \u00e0 d\u00e9crire l\u2019esp\u00e8ce. Syn: Locus typicus.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19908",
+        "Libelle": "Structure et fonction (habitat)",
+        "Definition": "Sens DHFF : rejoint la notion de qualit\u00e9 \u00e9cologique de l'\u00e9cosyst\u00e8me.\nLa structure recouvre les composantes physiques d\u2019un type d\u2019habitat. Il s\u2019agira\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19910",
+        "Libelle": "Subend\u00e9mique",
+        "Definition": "Esp\u00e8ce qui ne se rencontre qu\u2019en France ou dans une zone tr\u00e8s limit\u00e9e d\u2019un pays voisin.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19912",
+        "Libelle": "Syn\u00e9cologie",
+        "Definition": "La syn\u00e9cologie, ou \u00e9cologie des communaut\u00e9s, est une sous-discipline de l'\u00e9cologie qui concerne l'analyse des rapports entre des individus d'esp\u00e8ces\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19914",
+        "Libelle": "Synonyme",
+        "Definition": "Un nom qui d\u00e9crit un taxon pr\u00e9c\u00e9demment publi\u00e9 sous un autre nom.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19916",
+        "Libelle": "Synsyst\u00e8me",
+        "Definition": "Ensemble de la classification des communaut\u00e9s v\u00e9g\u00e9tales (Phytosociologie).",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19918",
+        "Libelle": "Syntaxon",
+        "Definition": "Un syntaxon est, dans la classification phytosociologique, une unit\u00e9 taxinomique (c'est-\u00e0-dire un groupement v\u00e9g\u00e9tal) de rang ind\u00e9termin\u00e9 \u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19920",
+        "Libelle": "Syst\u00e9matique",
+        "Definition": "La syst\u00e9matique est la science de la classification des taxons, via un syst\u00e8me permettant de les d\u00e9nombrer et surtout de les classer en les\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Wikipedia"
+    },
+    {
+        "Id": "19922",
+        "Libelle": "Syst\u00e8me d'information sur la nature et les paysages",
+        "Definition": "Ce projet national, initi\u00e9 par l\u2019Etat, est mis en \u0153uvre au niveau de chaque r\u00e9gion, dans le cadre d'un protocole national. Il a pour objectif de\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN",
+        "Sigle": "SINP"
+    },
+    {
+        "Id": "19924",
+        "Libelle": "Taxinomie (taxonomie)",
+        "Definition": "La taxinomie est la science qui a pour objet de d\u00e9crire les organismes vivants et de les regrouper en entit\u00e9s appel\u00e9es taxons afin de les identifier\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Wikipedia"
+    },
+    {
+        "Id": "19926",
+        "Libelle": "Temps de r\u00e9sidence",
+        "Definition": "Temps \u00e9coul\u00e9 depuis le moment de l\u2019introduction d\u2019un taxon dans une r\u00e9gion.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19928",
+        "Libelle": "V\u00e9g\u00e9tation",
+        "Definition": "La v\u00e9g\u00e9tation est l'ensemble des plantes qui poussent en un lieu donn\u00e9. Il ne faut pas confondre la v\u00e9g\u00e9tation avec la flore qui est la liste des\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Wikipedia"
+    },
+    {
+        "Id": "19930",
+        "Libelle": "Visiteuse (esp\u00e8ce)",
+        "Definition": "Esp\u00e8ce dont la pr\u00e9sence est inhabituelle  en France.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19932",
+        "Libelle": "Zone d'Importance Communautaire pour les Oiseaux Sauvages",
+        "Definition": "Zones \u00e9tablies en application de la directive CEE 79\/409 sur la protection des oiseaux et de leurs habitats. Elles ont \u00e9t\u00e9 d\u00e9limit\u00e9es par le r\u00e9seau\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN",
+        "Sigle": "ZICO"
+    },
+    {
+        "Id": "19934",
+        "Libelle": "Esp\u00e8ce ou habitat d\u2019int\u00e9r\u00eat communautaire prioritaire",
+        "Definition": "Habitat ou esp\u00e8ce en danger de disparition sur le territoire europ\u00e9en des Etats membres. L\u2019Union europ\u00e9enne porte une responsabilit\u00e9 particuli\u00e8re \u00e0\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19936",
+        "Libelle": "Esp\u00e8ce nuisible",
+        "Definition": "Les animaux (mammif\u00e8res \/ oiseaux) qui causent des dommages au propri\u00e9taire ou au fermier, peuvent \u00eatre d\u00e9truits sur les terres de ces derniers\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19938",
+        "Libelle": "Esp\u00e8ce patrimoniale",
+        "Definition": "Notion subjective qui attribue une valeur d\u2019existance forte aux esp\u00e8ces qui sont plus rares que les autres et qui sont bien connues. Par exemple,\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19940",
+        "Libelle": "Esp\u00e8ce planctonique",
+        "Definition": "Animal ou v\u00e9g\u00e9tal vivant en suspension dans la mer ou dans l'eau douce.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19942",
+        "Libelle": "Esp\u00e8ce rare (raret\u00e9)",
+        "Definition": "Notion g\u00e9n\u00e9ralement relative (rare par rapport \u00e0 d'autres esp\u00e8ces plus communes). En \u00e9cologie, on distingue trois formes de raret\u00e9 qui peuvent se\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19944",
+        "Libelle": "Esp\u00e8ce r\u00e9glement\u00e9e",
+        "Definition": "Esp\u00e8ce faisant l\u2019objet d\u2019une r\u00e9glementation moins stricte que dans le cas d\u2019esp\u00e8ces prot\u00e9g\u00e9es, et limitant par exemple les tailles de capture ou le\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19946",
+        "Libelle": "Esp\u00e8ce subspontan\u00e9e (botanique)",
+        "Definition": "Plante allochtone, introduite, cultiv\u00e9e dans les jardins, les parcs ou les champs, \u00e9chapp\u00e9e de ces espaces mais ne se m\u00ealant pas ou gu\u00e8re \u00e0 la flore\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19948",
+        "Libelle": "Esp\u00e8ce type",
+        "Definition": "Esp\u00e8ce qui sert de mod\u00e8le \u00e0 la d\u00e9finition d'un genre.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19950",
+        "Libelle": "Etablie (esp\u00e8ce ou taxon)",
+        "Definition": "Se dit d'une esp\u00e8ce ayant r\u00e9ussi dans un endroit donn\u00e9 \u00e0 s'\u00e9tablir de fa\u00e7on durable et dont les populations ont une certaine stabilit\u00e9 au fil des\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19952",
+        "Libelle": "Etat de conservation favorable",
+        "Definition": "Une esp\u00e8ce ou un habitat est dans un \u00e9tat de conservation favorable lorsqu\u2019elle\/il prosp\u00e8re et a de bonnes chances de continuer \u00e0 prosp\u00e9rer \u00e0 l\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19954",
+        "Libelle": "Etranger, \u00e9trang\u00e8re (esp\u00e8ce ou taxon)",
+        "Definition": "Se dit d'une esp\u00e8ce situ\u00e9e en dehors de son aire de distribution originelle.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19956",
+        "Libelle": "Exotique",
+        "Definition": "cf. alien, introduite",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19958",
+        "Libelle": "Expansion (en)",
+        "Definition": "Se dit d'une esp\u00e8ce qui, dans une zone hors de sa contr\u00e9e d'origine, s'installe de proche en proche dans de nouvelles zones.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19960",
+        "Libelle": "Extension d'aire",
+        "Definition": "Processus au cours duquel des populations viables s'installent de proche en proche et accroissant par l\u00e0 m\u00eame l'aire de distribution d'une esp\u00e8ce.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19962",
+        "Libelle": "Famille",
+        "Definition": "Unit\u00e9 taxonomique qui regroupe les genres qui pr\u00e9sentent le plus de similitude entre eux (ex : Ursid\u00e9s, Canid\u00e9s).",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19964",
+        "Libelle": "Fonctionnement (\u00e9cosyst\u00e8me)",
+        "Definition": "Ensemble de processus naturels qui permettent le maintien des caract\u00e9ristiques de l\u2019\u00e9cosyst\u00e8me (exemple d\u00e9gradation du bois mort dans les for\u00eats, la\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19966",
+        "Libelle": "Fonge",
+        "Definition": "R\u00e8gne c'est-\u00e0-dire \u00e9chelon de classification du vivant de m\u00eame niveau que les animaux et les v\u00e9g\u00e9taux. Encore appel\u00e9 Fungi, Mycota ou myc\u00e8tes, il s\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19968",
+        "Libelle": "For\u00eat",
+        "Definition": "Milieu naturel constitu\u00e9 d'esp\u00e8ces ligneuses de grande taille (arbres).\nTerritoire occupant une superficie d\u2019au moins 50 ares avec des essences\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19970",
+        "Libelle": "For\u00eat-galerie",
+        "Definition": "For\u00eat d\u00e9velopp\u00e9e le long de cours d'eau (cf. ripisylve).",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19972",
+        "Libelle": "Formulaire standard de donn\u00e9es",
+        "Definition": "Sorte de fiche d'identit\u00e9 d'un site Natura 2000, regroupant les informations sur les esp\u00e8ces et habitats ayant justifi\u00e9s la d\u00e9signation ainsi que d\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN",
+        "Sigle": "FSD"
+    },
+    {
+        "Id": "19974",
+        "Libelle": "Fray\u00e8re",
+        "Definition": "Zone o\u00f9 une esp\u00e8ce aquatique se reproduit.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19976",
+        "Libelle": "Genre",
+        "Definition": "Unit\u00e9 taxonomique rassemblant des esp\u00e8ces voisines, d\u00e9sign\u00e9es par un m\u00eame nom (ex. le genre Rosa).",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19978",
+        "Libelle": "Gestion durable",
+        "Definition": "Utilisation de la nature par l'Homme n'affectant pas les ressources dans la dimention temporelle.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19980",
+        "Libelle": "Gestion int\u00e9gr\u00e9e de la z\u00f4ne c\u00f4ti\u00e8re",
+        "Definition": "Processus dynamique qui r\u00e9unit gouvernement et soci\u00e9t\u00e9, science et d\u00e9cideur, int\u00e9r\u00eats publics et priv\u00e9s en vue de la pr\u00e9paration et de l'ex\u00e9cition d\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19982",
+        "Libelle": "Global species database",
+        "Definition": "Les GSD sont des r\u00e9f\u00e9rentiels taxonomiques qui traitent d\u2019un groupe taxonomique dans sa globalit\u00e9, ce qui est l\u2019objectif m\u00eame de la taxonomie. Ce\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN",
+        "Sigle": "GSD"
+    },
+    {
+        "Id": "19984",
+        "Libelle": "Go\u00e9mon",
+        "Definition": "Algues laiss\u00e9es sur l\u2019estran par le retrait de la mer.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19986",
+        "Libelle": "Habitat (naturel)",
+        "Definition": "Par habitat on entend un ensemble indissociable avec :\n- une faune, avec des esp\u00e8ces ayant tout ou partie de leurs diverses activit\u00e9s vitales sur l\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Rameau et al."
+    },
+    {
+        "Id": "19988",
+        "Libelle": "Habitat d\u2019esp\u00e8ce",
+        "Definition": "Un habitat d\u2019esp\u00e8ce correspond au milieu de vie de l\u2019esp\u00e8ce (zone de reproduction, zone d\u2019alimentation, zone de chasse ...). Il peut comprendre\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19990",
+        "Libelle": "Haie",
+        "Definition": "Milieu artificiel lin\u00e9aire comportant typiquement un petit talus avec plantes herbac\u00e9es surmont\u00e9 par des plantes ligneuses et arbustes, destin\u00e9 \u00e0\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19992",
+        "Libelle": "Haute-mer",
+        "Definition": "Zone marine \u00e9loign\u00e9e de la c\u00f4te, et peu influenc\u00e9e par les apports telluriques. La haute mer s\u2019\u00e9tend au-del\u00e0 des 12 milles nautiques.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Comolet-Tirman et al. 2007."
+    },
+    {
+        "Id": "19994",
+        "Libelle": "Indicateur",
+        "Definition": "Grandeur ou repr\u00e9sentation qui permet de r\u00e9pondre \u00e0 une question \u00e9valuative, en r\u00e9sumant l\u2019information de sorte \u00e0 la rendre accessible au public sans\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19996",
+        "Libelle": "Indig\u00e8ne",
+        "Definition": "cf. autochtone.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "19998",
+        "Libelle": "Inoculum",
+        "Definition": "Groupe d'individus limit\u00e9 en nombre, s'implantant dans une nouvelle r\u00e9gion.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20000",
+        "Libelle": "Introduction",
+        "Definition": "Processus par lequel l'Homme apporte volontairement ou non, une esp\u00e8ce dans un territoire o\u00f9 elle \u00e9tait absente auparavant.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20002",
+        "Libelle": "Introduction intentionnelle",
+        "Definition": "Introduction d\u00e9lib\u00e9r\u00e9e par l'Homme impliquant le d\u00e9placement d'une esp\u00e8ce hors de son aire de r\u00e9partition naturelle ou de son aire de dispersion\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20004",
+        "Libelle": "Invasion biologique",
+        "Definition": "Processus de colonisation d'un nouveau territoire par un taxon, qu'il soit autochtone ou allochtone.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20006",
+        "Libelle": "Invasion postglaciaire (colonisation)",
+        "Definition": "Processus de recolonisation par une esp\u00e8ce en direction d\u2019un p\u00f4le (g\u00e9n\u00e9ralement p\u00f4le Nord) suite \u00e0 une p\u00e9riode froide.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20008",
+        "Libelle": "Invasive",
+        "Definition": "cf. esp\u00e8ce exotique envahissante.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20010",
+        "Libelle": "Inventaire biologique g\u00e9n\u00e9ralis\u00e9",
+        "Definition": "Ce type d'inventaire a pour but de faire intervenir de nombreux taxonomistes afin de r\u00e9aliser un inventaire exhaustif de toutes les esp\u00e8ces pr\u00e9sentes\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN",
+        "Sigle": "ATBI"
+    },
+    {
+        "Id": "20012",
+        "Libelle": "Inventaire national d'esp\u00e8ce",
+        "Definition": "C'est un processus organis\u00e9 d\u2019acquisition de donn\u00e9es de r\u00e9partition d\u2019esp\u00e8ces dans le temps et dans l\u2019espace, caract\u00e9ris\u00e9 au minimum par les 5\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20014",
+        "Libelle": "Inventaire naturaliste",
+        "Definition": "(1) D\u00e9marche m\u00e9thodique en vue de lister les esp\u00e8ces pr\u00e9sentes dans un endroit donn\u00e9. Ex. inventaire des oiseaux de Versailles.\n(2) Liste des esp\u00e8ces\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20016",
+        "Libelle": "Jeu de donn\u00e9es de r\u00e9f\u00e9rence",
+        "Definition": "Un jeu de donn\u00e9es de r\u00e9f\u00e9rence diff\u00e8re de la distribution de r\u00e9f\u00e9rence par sa compl\u00e9tude. Par exemple, un jeu de donn\u00e9es ne concernant qu\u2019une sous\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Minist\u00e8re charg\u00e9 de l'environnement"
+    },
+    {
+        "Id": "20018",
+        "Libelle": "Klepton",
+        "Definition": "Plac\u00e9 entre le nom du genre et de l'esp\u00e8ce, ce terme sert \u00e0 indiquer le r\u00e9sultat d'un processus d'hybridogen\u00e8se.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20020",
+        "Libelle": "Livre rouge",
+        "Definition": "Ouvrage traitant des esp\u00e8ces menac\u00e9es.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20022",
+        "Libelle": "Maille (maillage)",
+        "Definition": "Unit\u00e9 g\u00e9om\u00e9trique normalis\u00e9e utilis\u00e9e comme unit\u00e9 d'\u00e9chantillonnage dans un inventaire et\/ou comme mode de restitution synth\u00e9tique de donn\u00e9es de\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20024",
+        "Libelle": "Matorral",
+        "Definition": "Formation ligneuse m\u00e9diterrann\u00e9enne. Le matorral est, selon la d\u00e9finition de Ruiz de la Torre en 1971, \u00ab une formation de plantes ligneuses dont la\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20026",
+        "Libelle": "Mer territoriale",
+        "Definition": "Autrefois, la mer territoriale s\u2019\u00e9tendait \u00e0 3 milles marins de la c\u00f4te (\u00e0 une port\u00e9e de canon). Aujourd\u2019hui elle peut s\u2019\u00e9tendre jusqu'\u00e0 12 milles\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20028",
+        "Libelle": "M\u00e9tadonn\u00e9e",
+        "Definition": "Texte explicatif aidant \u00e0 la compr\u00e9hension d\u2019un ensemble d\u2019autres donn\u00e9es, sur support papier ou informatique.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20030",
+        "Libelle": "Mouill\u00e8re",
+        "Definition": "D\u00e9pression en plein champ o\u00f9 l'eau stagne pendant quelques semaines apr\u00e8s des pluies.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20032",
+        "Libelle": "Naturalisation",
+        "Definition": "Phase arrivant apr\u00e8s l'acclimatation et conduisant le taxon \u00e0 produire des population viables dans la nature, de mani\u00e8re autonome. Le taxon est\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20034",
+        "Libelle": "Neophyte (pl. n\u00e9ophyta)",
+        "Definition": "D\u00e9signe d'une fa\u00e7on g\u00e9n\u00e9rale et globale les plantes nouvellement arriv\u00e9es sur un territoire donn\u00e9, soit \u00e0 la suite d'une extension d'aire, soit par\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20036",
+        "Libelle": "Nom vernaculaire",
+        "Definition": "Nom populaire ou nom fran\u00e7ais d\u00e9signant une esp\u00e8ce dans une r\u00e9gion plus ou moins vaste.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20038",
+        "Libelle": "Observatoire national de la biodiversit\u00e9",
+        "Definition": "L\u2019ONB propose des indicateurs \u2013 nouveaux ou existants \u2013 adapt\u00e9s aux diff\u00e9rents publics int\u00e9ress\u00e9s, aux diff\u00e9rentes \u00e9chelles pertinentes  et sur l\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN",
+        "Sigle": "ONB"
+    },
+    {
+        "Id": "20040",
+        "Libelle": "Oiseau marin",
+        "Definition": "Esp\u00e8ce d\u2019oiseau vivant essentiellement en mer. En France, les esp\u00e8ces d\u2019oiseaux qui peuvent \u00eatre qualifi\u00e9es d\u2019oiseaux marins appartiennent\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Comolet-Tirman et al. 2007."
+    },
+    {
+        "Id": "20042",
+        "Libelle": "Oiseau nicheur",
+        "Definition": "Esp\u00e8ce d\u2019oiseau habituellement reproducteur sur un territoire donn\u00e9.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20044",
+        "Libelle": "Ordre",
+        "Definition": "Unit\u00e9 taxonomique regroupant plusieurs familles (ex. : Rosales).",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20046",
+        "Libelle": "Organisation Non Gouvernementale",
+        "Definition": "Association souvent \u00e0 action internationale.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN",
+        "Sigle": "ONG"
+    },
+    {
+        "Id": "20048",
+        "Libelle": "Parc naturel marin",
+        "Definition": "Espace marin prot\u00e9g\u00e9 au titre de la loi du 14 avril 2006.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20050",
+        "Libelle": "Patrimoine naturel",
+        "Definition": "Notion double de patrimonialit\u00e9 qui \u00e9voque une notion de valeur intrins\u00e8que et notion de besoin de conservation, voire de gestion restauratoire. Le\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20052",
+        "Libelle": "Pelouse",
+        "Definition": "Une pelouse est une formation v\u00e9g\u00e9tale naturelle ou artificielle form\u00e9e d'esp\u00e8ces herbac\u00e9es de faible hauteur, essentiellement des gramin\u00e9es.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20054",
+        "Libelle": "Perte de la biodiversit\u00e9",
+        "Definition": "Diminution irr\u00e9versible d'une des formes de la biodiversit\u00e9.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20056",
+        "Libelle": "Phrygane",
+        "Definition": "Les phryganes sont des formations thermo m\u00e9diterran\u00e9ennes scl\u00e9rophylles (v\u00e9g\u00e9taux disposants de feuilles persistantes et coriaces, \u00e0 cuticule \u00e9paisse\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20058",
+        "Libelle": "Phytosociologie",
+        "Definition": "La phytosociologie est la discipline botanique qui \u00e9tudie les communaut\u00e9s v\u00e9g\u00e9tales, en se basant sur des listes floristiques les plus exhaustives\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Wikipedia"
+    },
+    {
+        "Id": "20060",
+        "Libelle": "Pionni\u00e8re",
+        "Definition": "(1) Esp\u00e8ce de d\u00e9but de succession \u00e9cologique (par exemple colonisant un milieu qui vient d'\u00eatre perturb\u00e9, une coupe foresti\u00e8re).\n(2) Esp\u00e8ce qui s\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20062",
+        "Libelle": "Pollution c\u00f4ti\u00e8re",
+        "Definition": "Introduction ou pr\u00e9sence d'un \u00e9l\u00e9ment extrins\u00e8que dans un milieu c\u00f4tier dont il alt\u00e8re la qualit\u00e9.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20064",
+        "Libelle": "Pontique",
+        "Definition": "Se dit d'une esp\u00e8ce originaire du secteur g\u00e9ographique de la Mer Noire uniquement.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20066",
+        "Libelle": "Pontocaspienne",
+        "Definition": "Se dit d'une esp\u00e8ce originaire du secteur g\u00e9ographique de la Mer Noire ou de la Mer Caspienne.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20068",
+        "Libelle": "Prairie",
+        "Definition": "Formation v\u00e9g\u00e9tale herbac\u00e9e, dense, surtout constitu\u00e9e de Poac\u00e9es et de Fabac\u00e9es. Une prairie \u00e9volue naturellement vers la for\u00eat, en milieu terrestre\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20070",
+        "Libelle": "Prodrome",
+        "Definition": "Expos\u00e9 pr\u00e9liminaire \u00e0 l'\u00e9tude d'une science; en particulier, introduction \u00e0 un trait\u00e9 d'histoire naturelle.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20072",
+        "Libelle": "Prolif\u00e9rant",
+        "Definition": "Taxon dont les populations augmentent tr\u00e8s rapidement en nombre et en surface occup\u00e9e.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20074",
+        "Libelle": "Propagule",
+        "Definition": "Tout ou partie d\u2019un organisme capable de r\u00e9aliser un cycle de reproduction ou de multiplication.\" (Viard et Comtet 2009).  \"La pression en propagule\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Williamson 1996, Lonsdale in Py\u0161ek et al. 2009"
+    },
+    {
+        "Id": "20076",
+        "Libelle": "Pullulation",
+        "Definition": "Production d\u2019un grand nombre de sp\u00e9cimens d'une esp\u00e8ce donn\u00e9e.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20078",
+        "Libelle": "Qualit\u00e9 \u00e9cologique",
+        "Definition": "Expression de la structure et de la fonction du syst\u00e8me \u00e9cologique prenant en compte les facteurs g\u00e9ographiques et climatiques aussi bien que\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20080",
+        "Libelle": "Ramsar (convention de)",
+        "Definition": "Convention visant \u00e0 la protection des zones humides d'importance internationale.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20082",
+        "Libelle": "R\u00e9f\u00e9rentiel esp\u00e8ces",
+        "Definition": "Document servant de base de r\u00e9f\u00e9rence pour la nomenclature des esp\u00e8ces.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20084",
+        "Libelle": "R\u00e9f\u00e9rentiel habitat",
+        "Definition": "Document servant de base de r\u00e9f\u00e9rence pour la nomenclature des habitats.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20086",
+        "Libelle": "R\u00e9f\u00e9rentiel taxonomique",
+        "Definition": "Document servant de base de r\u00e9f\u00e9rence pour la nomenclature et la classification des esp\u00e8ces. Le r\u00e9f\u00e9rentiel national pour la France est TAXREF,\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20088",
+        "Libelle": "R\u00e9gion biog\u00e9ographique",
+        "Definition": "Vaste zone qui pr\u00e9sente des conditions \u00e9cologiques relativement homog\u00e8nes (climat notamment)  avec des caract\u00e9ristiques communes en termes de cort\u00e8ge\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20090",
+        "Libelle": "R\u00e9introduction",
+        "Definition": "D\u00e9signe une r\u00e9implantation, un repeuplement ou un renforcement de population et non une tentative de nouvelle introduction d'esp\u00e8ce exog\u00e8ne.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20092",
+        "Libelle": "Renforcement de population",
+        "Definition": "Apport volontaire d'individus d'une m\u00eame esp\u00e8ce, et soit pr\u00e9lev\u00e9s dans la nature dans un endroit o\u00f9 les individus sont abondants, soit provenant d\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20094",
+        "Libelle": "Reproducteur",
+        "Definition": "Individu adulte, en \u00e2ge de se reproduire.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20096",
+        "Libelle": "R\u00e9serve biologique",
+        "Definition": "Les r\u00e9serves biologiques s'appliquent au domaine forestier de l'Etat (r\u00e9serve biologique domaniale) g\u00e9r\u00e9 par l'Office national des for\u00eats (ONF)",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN",
+        "Sigle": "RB"
+    },
+    {
+        "Id": "20098",
+        "Libelle": "R\u00e9serve naturelle volontaire",
+        "Definition": "Zone g\u00e9n\u00e9ralement priv\u00e9e, prot\u00e9g\u00e9e volontairement par son propri\u00e9taire. Les RNR, cr\u00e9\u00e9es \u00e0 l'initiative des r\u00e9gions, remplacent les anciennes r\u00e9serves\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN",
+        "Sigle": "RNV"
+    },
+    {
+        "Id": "20100",
+        "Libelle": "Sauvage (esp\u00e8ce ou taxon)",
+        "Definition": "Se dit d'une esp\u00e8ce vivant dans le milieu naturel sans d\u00e9pendre d'interaction avec l'Homme.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20102",
+        "Libelle": "Sciences participatives",
+        "Definition": "La notion de sciences participatives d\u00e9signe des programmes de recherche associant des scientifiques et une participation d\u2019amateurs volontaires, d\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20104",
+        "Libelle": "S\u00e9dentaire (esp\u00e8ce ou taxon)",
+        "Definition": "Se dit d'une esp\u00e8ce dont les individus ne se d\u00e9placent que tr\u00e8s peu. Antonyme : esp\u00e8ce migratrice.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20106",
+        "Libelle": "Service du Patrimoine Naturel",
+        "Definition": "Service commun du Mus\u00e9um national d\u2019Histoire naturelle.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN",
+        "Sigle": "SPN"
+    },
+    {
+        "Id": "20108",
+        "Libelle": "Service \u00e9cologique (\u00e9cosyst\u00e9mique)",
+        "Definition": "Avantages que l\u2019Homme retire de la Nature. G\u00e9n\u00e9ralement class\u00e9s dans 4 cat\u00e9gories : services d'approvisionnement (ex : nourriture, eau, bois,\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20110",
+        "Libelle": "Sex-ratio",
+        "Definition": "Proportion entre les m\u00e2les et les femelles au sein d'une population.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20112",
+        "Libelle": "Site de protection",
+        "Definition": "Endroit destin\u00e9 prioritairement \u00e0 la conservation d'esp\u00e8ces ou d'habitats sensibles.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20114",
+        "Libelle": "Qualification",
+        "Definition": "La qualification est l'aptitude \u00e0 r\u00e9pondre aux usages. Elle est le r\u00e9sultat d'une s\u00e9lection selon des crit\u00e8res inh\u00e9rents \u00e0 l'objectif vis\u00e9 et est\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20116",
+        "Libelle": "Abrasion",
+        "Definition": "Dommage physique consistant en l\u2019usure ou l\u2019\u00e9rosion des fonds marins par interaction directe entre des \u00e9quipements et le fond.",
+        "Sens": "commun",
+        "Source": "Directive-cadre \"Strat\u00e9gie pour le milieu marin\" (DCSMM)"
+    },
+    {
+        "Id": "20118",
+        "Libelle": "Absence (d'un taxon)",
+        "Definition": "Donn\u00e9e de synth\u00e8se d\u00e9duite de l'analyse de plusieurs occurrences de \"non-observation\" d'un taxon et\/ou issue de l'expertise prenant en compte l\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20120",
+        "Libelle": "Accessibilit\u00e9",
+        "Definition": "Capacit\u00e9 d'un syst\u00e8me d'information \u00e0 rendre le plus facile possible, la recherche, l'identification et l'acc\u00e8s \u00e0 ses diff\u00e9rents contenus. pour des\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20122",
+        "Libelle": "Acquisition de donn\u00e9es",
+        "Definition": "Action d\u2019acqu\u00e9rir des donn\u00e9es. Cette terminologie est en lien avec le concept de propri\u00e9t\u00e9. Le protocole du SINP5 stipule que la notion de propri\u00e9t\u00e9\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Dupont P. & Touroult J. 2018. Guide pour la constitution des jeux de donn\u00e9es du SINP et le renseignement des m\u00e9tadonn\u00e9es associ\u00e9es. Rapport UMS PatriNat (AFB, MNHN, CNRS) N\u00b0244790."
+    },
+    {
+        "Id": "20124",
+        "Libelle": "Acteur SINP",
+        "Definition": "Personnes morales ou physiques , publics et priv\u00e9s intervenant dans la production, la qualification, la gestion, le traitement, la valorisation et la\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20126",
+        "Libelle": "Adaptabilit\u00e9",
+        "Definition": "Capacit\u00e9 d'un syst\u00e8me d'information \u00e0 recevoir facilement de nouvelles fonctionnalit\u00e9s et \u00e0 fonctionner aisement dans de nouveaux contextes.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20128",
+        "Libelle": "Adh\u00e9rent SINP",
+        "Definition": "Acteur du SINP dont l'adh\u00e9sion au SINP est effective, c'est-\u00e0-dire dont le processus d'adh\u00e9sion a abouti positivement.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20130",
+        "Libelle": "Administrateur",
+        "Definition": "Personne disposant des comp\u00e9tences et droits d\u2019acc\u00e8s suffisants pour param\u00e9trer le comportement d\u2019un syst\u00e8me d\u2019information , g\u00e9rer des utilisateurs\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20132",
+        "Libelle": "Administration de la saisie et des formulaires associ\u00e9s",
+        "Definition": "Fonctions permettant \u00e0 l\u2019administrateur d\u2019un SI de reconfigurer les formulaires et environnements de saisies pour modifier l\u2019ordre de saisie des\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20134",
+        "Libelle": "Administration des attributs de donn\u00e9es",
+        "Definition": "Fonctions permettant \u00e0 l\u2019administrateur d\u2019un organisme de configurer le mod\u00e8le de donn\u00e9es de l\u2019application",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20136",
+        "Libelle": "Agr\u00e9gation de donn\u00e9es",
+        "Definition": "Proposition : op\u00e9ration de regroupement de donn\u00e9es qui modifie le nombre d\u2019occurrence des donn\u00e9es en pr\u00e9sentant une synth\u00e8se d\u2019un lot de donn\u00e9es\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20138",
+        "Libelle": "Annuaire",
+        "Definition": "Conteneur d'information organis\u00e9 o\u00f9 sont stock\u00e9s de mani\u00e8re hi\u00e9rarchique les acteurs et les adh\u00e9rents au SINP, par unit\u00e9s organisationnelles.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20140",
+        "Libelle": "Attributs",
+        "Definition": "Ce qui est propre \u00e0 un \u00eatre ou \u00e0 un objet. Les attributs (ou propri\u00e9t\u00e9s) sont des informations qui caract\u00e9risent une entit\u00e9 (ou objet). Ces\u2026",
+        "Sens": "commun",
+        "Source": "D\u2019apr\u00e8s SANDRE, OFB et OIEau"
+    },
+    {
+        "Id": "20142",
+        "Libelle": "Auteur",
+        "Definition": "La qualit\u00e9 d'auteur appartient, sauf preuve contraire, \u00e0 celui ou \u00e0 ceux sous le nom de qui l\u2019\u0153uvre est divulgu\u00e9e. L\u2019auteur est celui qui cr\u00e9\u00e9 l\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Code de la propri\u00e9t\u00e9 intellectuelle"
+    },
+    {
+        "Id": "20144",
+        "Libelle": "Autorit\u00e9 publique",
+        "Definition": "Sont d\u00e9finies comme autorit\u00e9s publiques, l'Etat, les collectivit\u00e9s territoriales et leurs groupements, les \u00e9tablissements publics; les personnes\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Code de l'environnement"
+    },
+    {
+        "Id": "20146",
+        "Libelle": "Balise",
+        "Definition": "El\u00e9ment s\u00e9mantique des langages informatiques permettant de d\u00e9limiter et structurer des donn\u00e9es contenues dans un document. Dans un langage de\u2026",
+        "Sens": "commun",
+        "Source": "D\u2019apr\u00e8s SANDRE, OFB et OIEau"
+    },
+    {
+        "Id": "20148",
+        "Libelle": "Bancarisation",
+        "Definition": "Les processus de bancarisation des donn\u00e9es permettent de conserver les donn\u00e9es dans le cadre organis\u00e9 d\u2019une base de donn\u00e9es d\u2019o\u00f9 il est ais\u00e9 de les\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20150",
+        "Libelle": "Banque de donn\u00e9es",
+        "Definition": "Ensemble de donn\u00e9es relatif \u00e0 un domaine d\u00e9fini de connaissances et organis\u00e9 pour \u00eatre offert aux consultations d'utilisateurs.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Commission de terminologie et de n\u00e9ologie"
+    },
+    {
+        "Id": "20152",
+        "Libelle": "Base de donn\u00e9es",
+        "Definition": "Recueil d'\u0153uvres, de donn\u00e9es ou d'autres \u00e9l\u00e9ments ind\u00e9pendants, dispos\u00e9s de mani\u00e8re syst\u00e9matique ou m\u00e9thodique, et individuellement accessibles par\u2026",
+        "Sens": "r\u00e9glementaire",
+        "Source": "d'apr\u00e8s Code de la propri\u00e9t\u00e9 intellectuelle"
+    },
+    {
+        "Id": "20154",
+        "Libelle": "Base de donn\u00e9es",
+        "Definition": "Ensemble de donn\u00e9es organis\u00e9es, en vue de son utilisation, par des programmes correspondant \u00e0 des applications distinctes et de mani\u00e8re \u00e0 faciliter l\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Glossaire informatique des termes de la Commission minist\u00e9rielle de terminologie informatique"
+    },
+    {
+        "Id": "20156",
+        "Libelle": "Benthique",
+        "Definition": "Des fonds marins. Les habitats benthiques sont les habitats des fonds marins. Par opposition aux habitats p\u00e9lagiques qui sont les habitats de pleine\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20158",
+        "Libelle": "Biodiversit\u00e9",
+        "Definition": "Diversit\u00e9 des organismes vivants, qui s\u2019appr\u00e9cie en consid\u00e9rant la diversit\u00e9 des esp\u00e8ces, celle des g\u00e8nes au sein de chaque esp\u00e8ce, ainsi que l\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Code de l'environnement"
+    },
+    {
+        "Id": "20160",
+        "Libelle": "Bordereau",
+        "Definition": "Formulaire de saisie adapt\u00e9 \u00e0 un protocole d'observation (\u00e9quivalent au concept d\u2019inventaire).",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20162",
+        "Libelle": "Cache",
+        "Definition": "M\u00e9moire ou partie de m\u00e9moire informatique dans laquelle sont stock\u00e9s de fa\u00e7on temporaire les donn\u00e9es ou les programmes les plus fr\u00e9quemment ou les\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Commission de terminologie et de n\u00e9ologie"
+    },
+    {
+        "Id": "20164",
+        "Libelle": "Cadre d'acquisition",
+        "Definition": "Contexte strat\u00e9gique et op\u00e9rationnel d\u2019un projet ou d\u2019un programme conduisant \u00e0 la constitution d\u2019un ou de plusieurs jeux de donn\u00e9es. Il correspond :\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Dupont P. & Touroult J. 2018. Guide pour la constitution des jeux de donn\u00e9es du SINP et le renseignement des m\u00e9tadonn\u00e9es associ\u00e9es. Rapport UMS PatriNat (AFB, MNHN, CNRS) N\u00b0244790."
+    },
+    {
+        "Id": "20166",
+        "Libelle": "CARtographie du Minist\u00e8re de l'ENvironnement",
+        "Definition": "CARtographie du Minist\u00e8re de l'ENvironnement, application permettant aux adh\u00e9rents du SINP de publier des cartes. C\u2019est une des applications\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s CARMEN",
+        "Sigle": "CARMEN"
+    },
+    {
+        "Id": "20168",
+        "Libelle": "Catalogage de m\u00e9tadonn\u00e9es",
+        "Definition": "Action de construire un catalogue de m\u00e9tadonn\u00e9es ou de renseigner des fiches de m\u00e9tadonn\u00e9es dans un catalogue selon une m\u00e9thode pr\u00e9alablement\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20170",
+        "Libelle": "Catalogue de m\u00e9tadonn\u00e9es",
+        "Definition": "Catalogue en ligne permettant de rechercher sur Internet les fiches de m\u00e9tadonn\u00e9es et de les r\u00e9pertorier automatiquement, afin de permettre leur\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s \"La directive Inspire pour les n\u00e9ophytes\", F. Merrien et M. L\u00e9obet, 2\u00e8me \u00e9dition, f\u00e9vrier 2011"
+    },
+    {
+        "Id": "20172",
+        "Libelle": "Catalogue des expertises",
+        "Definition": "Le catalogue des expertises est un r\u00e9f\u00e9rentiel servant \u00e0 cataloguer, \u00e0 regrouper et \u00e0 centraliser les expertises offertes ou mises en avant par le\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20174",
+        "Libelle": "Catalogue des normes",
+        "Definition": "Le catalogue des normes est un r\u00e9f\u00e9rentiel regroupant et centralisant les normes, chartes, directives et tout document d\u00e9finissant une r\u00e8gle de\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20176",
+        "Libelle": "Client",
+        "Definition": "Utilisateur ou application informatique utilisatrice d\u2019un syst\u00e8me d\u2019information disposant de droits plus ou moins \u00e9tendus sur le fonctionnement ou l\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20178",
+        "Libelle": "Client-serveur",
+        "Definition": "L'environnement client-serveur d\u00e9signe un mode de communication interactif \u00e0 travers un r\u00e9seau entre plusieurs programmes ou logiciels : l'un,\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s Wikipedia"
+    },
+    {
+        "Id": "20180",
+        "Libelle": "Coh\u00e9rence",
+        "Definition": "La coh\u00e9rence d\u00e9signe le respect de la logique combinatoire des informations transmises au sein des donn\u00e9es, au sein des m\u00e9tadonn\u00e9es et entre les\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20182",
+        "Libelle": "Colmatage",
+        "Definition": "Processus d\u2019accumulation s\u00e9dimentaire (vase ou sable). Ce processus de colmatage peut \u00eatre naturel ou g\u00e9n\u00e9r\u00e9 par une source de pression anthropique\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Directive-cadre \"Strat\u00e9gie pour le milieu marin\" (DCSMM)"
+    },
+    {
+        "Id": "20184",
+        "Libelle": "Communicabilit\u00e9",
+        "Definition": "Ensemble de crit\u00e8res autorisant la mise \u00e0 disposition d'une information, au regard du droit, de la qualit\u00e9, de l'opportunit\u00e9 et d'autres enjeux\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20186",
+        "Libelle": "Communication de donn\u00e9es",
+        "Definition": "Par communication, on entend une mise \u00e0 disposition limit\u00e9e des donn\u00e9es du SINP pour un objet pr\u00e9cis et un usage pr\u00e9cis (exemple : une \u00e9tude d\u2019impact\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Protocole SINP 2017"
+    },
+    {
+        "Id": "20188",
+        "Libelle": "Compl\u00e9tion",
+        "Definition": "Fonctionnalit\u00e9 informatique permettant \u00e0 l'utilisateur de limiter la quantit\u00e9 d'informations qu'il saisit avec son clavier, en se voyant proposer un\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s Wikipedia"
+    },
+    {
+        "Id": "20190",
+        "Libelle": "Configuration d\u2019attributs [dans un mod\u00e8le de donn\u00e9es]",
+        "Definition": "L\u2019application permet \u00e0 l\u2019administrateur fonctionnel d\u2019un organisme d\u2019\u00e9tendre ou de modifier \u00e0 la marge des attributs de l\u2019application pour prendre en\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20192",
+        "Libelle": "Configuration du mod\u00e8le de donn\u00e9es",
+        "Definition": "L\u2019application permet \u00e0 l\u2019administrateur fonctionnel d\u2019un organisme d\u2019ajouter \u00e0 sa convenance des attributs, tables et relations dans l\u2019application :\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20194",
+        "Libelle": "Connexion",
+        "Definition": "Proc\u00e9dure permettant \u00e0 un client (utilisateur physique ou application informatique) de se mettre en relation avec un syst\u00e8me informatique et, si\u2026",
+        "Sens": "commun",
+        "Source": "d\u2019apr\u00e8s franceterme.culture.fr - JO du 10\/10\/1998"
+    },
+    {
+        "Id": "20196",
+        "Libelle": "Consolidation de donn\u00e9es",
+        "Definition": "La consolidation est la notion de regroupement coh\u00e9rent de deux ensembles homog\u00e8nes de valeurs (fichiers, bases de donn\u00e9es diverses) en un ensemble\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Wikipedia"
+    },
+    {
+        "Id": "20198",
+        "Libelle": "Consommateur de services",
+        "Definition": "Acteur capable d\u2019interroger l\u2019infrastructure d\u2019un fournisseur de service pour en obtenir la r\u00e9ponse attendue, qu\u2019il peut utiliser dans sa propre\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20200",
+        "Libelle": "Consultation",
+        "Definition": "Action de lecture permise par la mise \u00e0 disposition du public d'une biblioth\u00e8que ou d'un service de documentation, de documents ou d'informations\u2026",
+        "Sens": "commun",
+        "Source": "d\u2019apr\u00e8s Dictionnaire encyclop\u00e9dique de l'information et de la documentation \/ Serge Cacaly (dir.) - Nathan, Paris : 1997."
+    },
+    {
+        "Id": "20202",
+        "Libelle": "Contrat de service",
+        "Definition": "Dans le SINP, le contrat de service sera figur\u00e9, selon les cas, par : le cahier des charges du lot de donn\u00e9es ; la charte nationale SINP ; la charte\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20204",
+        "Libelle": "Contr\u00f4le des donn\u00e9es",
+        "Definition": "C\u2019est un ensemble de proc\u00e9dures permettant d'appr\u00e9cier la fiabilit\u00e9 technique et scientifique d'une donn\u00e9e. Cet ensemble de proc\u00e9dures est effectu\u00e9\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20206",
+        "Libelle": "Coordinateur",
+        "Definition": "Dans le SINP, le coordinateur (national, r\u00e9gional ou th\u00e9matique) est la personne habilit\u00e9e \u00e0 attribuer au producteur de donn\u00e9es les droits\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20208",
+        "Libelle": "Cordon dunaire",
+        "Definition": "Les cordons dunaires sont des zones sableuses dont les sommets, toujours \u00e9merg\u00e9s, forment des dunes qui d\u00e9limitent l\u2019arri\u00e8re-pays terrestre.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20210",
+        "Libelle": "Crit\u00e8re qualit\u00e9 (de la donn\u00e9e)",
+        "Definition": "Niveau d'exigence correspondant \u00e0 une liste de propri\u00e9t\u00e9s qu'il convient de qualifier sur une \u00e9chelle de suffisance (exemple : pr\u00e9cision temporelle \/\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20212",
+        "Libelle": "Darwin Core",
+        "Definition": "Le format Darwin Core vise \u00e0 faciliter l\u2019\u00e9change d\u2019informations concernant les occurrences g\u00e9ographiques de pr\u00e9sence des organismes et l\u2019existence de\u2026",
+        "Sens": "commun",
+        "Source": "d\u2019apr\u00e8s Biodiversity Information Standards (TDWG)"
+    },
+    {
+        "Id": "20214",
+        "Libelle": "D\u00e9cideur du SINP",
+        "Definition": "Le r\u00f4le de d\u00e9cideur est le r\u00f4le tenu au niveau national par le comit\u00e9 de pilotage du SINP (COPIL SINP et au niveau r\u00e9gional par le comit\u00e9 de suivi\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20216",
+        "Libelle": "D\u00e9finition",
+        "Definition": "Explication de la ou des significations d'un mot ou d'une expression d'un lexique. Les dictionnaires de donn\u00e9es \u00e9tablis par le Sandre comportent un\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Sandre"
+    },
+    {
+        "Id": "20218",
+        "Libelle": "D\u00e9terminateur",
+        "Definition": "Personne ayant r\u00e9alis\u00e9 la d\u00e9termination taxonomique de l\u2019observation",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20220",
+        "Libelle": "Dictionnaire de donn\u00e9es",
+        "Definition": "Recueil de mots ou d'expressions d'une langue, pr\u00e9sent\u00e9s dans un ordre convenu et destin\u00e9s \u00e0 apporter une information. Les dictionnaires de donn\u00e9es\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Sandre"
+    },
+    {
+        "Id": "20222",
+        "Libelle": "Diffusion de donn\u00e9es",
+        "Definition": "Par diffusion, on entend tous les moyens de recherche des donn\u00e9es et de leur visualisation en ligne ainsi que l\u2019extraction des m\u00e9tadonn\u00e9es, donn\u00e9es\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20224",
+        "Libelle": "Diffusion de donn\u00e9es",
+        "Definition": "Activit\u00e9 qui consiste pour un producteur de contenu informatif \u00e0 organiser un syst\u00e8me actif pour porter \u00e0 la connaissance d'un public pr\u00e9d\u00e9fini l\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20226",
+        "Libelle": "Dispositif de collecte sur la biodiversit\u00e9",
+        "Definition": "Tout dispositif qui permet, par mesure, observation ou toute autre m\u00e9thode, d'acqu\u00e9rir des donn\u00e9es de connaissance sur : les milieux, les ressources\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Sandre, OFB et OIEau"
+    },
+    {
+        "Id": "20228",
+        "Libelle": "Distribution de r\u00e9f\u00e9rence d\u2019un taxon",
+        "Definition": "Une distribution de r\u00e9f\u00e9rence est un jeu de donn\u00e9es fig\u00e9 repr\u00e9sentant la r\u00e9partition d\u2019un taxon, obtenu \u00e0 partir d\u2019un ensemble valid\u00e9 de donn\u00e9es d\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20230",
+        "Libelle": "Document administratif",
+        "Definition": "Sont consid\u00e9r\u00e9s comme documents administratifs [\u2026] notamment les dossiers, rapports, \u00e9tudes, comptes rendus, proc\u00e8s-verbaux, statistiques, directives\u2026",
+        "Sens": "commun",
+        "Source": "d\u2019apr\u00e8s loi CADA de 1978"
+    },
+    {
+        "Id": "20232",
+        "Libelle": "Donn\u00e9e",
+        "Definition": "El\u00e9ment fondamental servant \u00e0 la base \u00e0 un raisonnement, \u00e0 une recherche. R\u00e9sultats d\u2019observations ou de recherches. Hypoth\u00e8se figurant dans l\u2019\u00e9nonc\u00e9\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Petit Larousse"
+    },
+    {
+        "Id": "20234",
+        "Libelle": "Donn\u00e9e d\u2019observation",
+        "Definition": "Les donn\u00e9es d\u2019observation [naturalistes] correspondent g\u00e9n\u00e9ralement \u00e0 des donn\u00e9es issues des relev\u00e9s de terrain lors des inventaires, des suivis ou\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20236",
+        "Libelle": "Donn\u00e9e de collection",
+        "Definition": "Les donn\u00e9es de collection correspondent aux donn\u00e9es bancaris\u00e9es dans des collections, comme les herbiers, ou encore des collections photographiques\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20238",
+        "Libelle": "Donn\u00e9e de maillage",
+        "Definition": "Donn\u00e9e particuli\u00e8re repr\u00e9sentant via un traitement sp\u00e9cifique plusieurs donn\u00e9es d\u2019observation a priori homog\u00e8nes dans la cellule d\u2019un maillage\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20240",
+        "Libelle": "Donn\u00e9e de r\u00e9f\u00e9rentiel",
+        "Definition": "Ce sont les donn\u00e9es utiles \u00e0 l\u2019interop\u00e9rabilit\u00e9 des syst\u00e8mes d\u2019information, servant notamment \u00e0 l'\u00e9tablissement des standards d'\u00e9changes de donn\u00e9es\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20242",
+        "Libelle": "Donn\u00e9e de synth\u00e8se",
+        "Definition": "Ce sont des donn\u00e9es cr\u00e9\u00e9es soit directement \u00e0 partir de donn\u00e9es-sources ou de donn\u00e9es \u00e9l\u00e9mentaires d'\u00e9change (DEE), soit \u00e0 partir d\u2019une combinaison\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20244",
+        "Libelle": "Donn\u00e9e de synth\u00e8se",
+        "Definition": "Donn\u00e9es cr\u00e9es \u00e0 partir de donn\u00e9es sources du SINP ou de donn\u00e9es \u00e9l\u00e9mentaires d\u2019\u00e9changes avec un objectif n\u00e9cessitant une transformation qui r\u00e9duit et\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s Dupont P. & Touroult J. 2018. Guide pour la constitution des jeux de donn\u00e9es du SINP et le renseignement des m\u00e9tadonn\u00e9es associ\u00e9es. Rapport UMS PatriNat (AFB, MNHN, CNRS) N\u00b0244790."
+    },
+    {
+        "Id": "20246",
+        "Libelle": "Donn\u00e9e du SINP",
+        "Definition": "Donn\u00e9es utiles \u00e0 la connaissance, \u00e0 la conservation et \u00e0 la gestion des esp\u00e8ces sauvages (faune, flore, fonge, microbiologie), des habitats naturels\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20248",
+        "Libelle": "Donn\u00e9e \u00e9l\u00e9mentaire",
+        "Definition": "En mod\u00e9lisation des syst\u00e8mes d\u2019information, les donn\u00e9es \u00e9l\u00e9mentaires sont, parmi les donn\u00e9es dont la d\u00e9composition n\u2019a pas de sens, celles qui ne\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s R\u00e9seau CERTA"
+    },
+    {
+        "Id": "20250",
+        "Libelle": "Donn\u00e9e \u00e9l\u00e9mentaire d'\u00e9change SINP",
+        "Definition": "Ce sont des donn\u00e9es standardis\u00e9es inter-op\u00e9rables. Elles sont \u00e9labor\u00e9es \u00e0 partir des donn\u00e9es-source selon un format standard national propre \u00e0 chaque\u2026",
+        "Sens": "juridique",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20252",
+        "Libelle": "Donn\u00e9e \u00e9l\u00e9mentaire d'\u00e9change SINP",
+        "Definition": "Ce sont des donn\u00e9es standardis\u00e9es interop\u00e9rables. Elles sont \u00e9labor\u00e9es \u00e0 partir des donn\u00e9es sources selon un format standard partag\u00e9 par l'ensemble\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20254",
+        "Libelle": "Donn\u00e9e \u00e9l\u00e9mentaire d'\u00e9change SINP",
+        "Definition": "Ces donn\u00e9es standardis\u00e9es interop\u00e9rables sont \u00e9labor\u00e9es \u00e0 partir des donn\u00e9es sources selon un format standard partag\u00e9 par l'ensemble des acteurs\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Dupont P. & Touroult J. 2018. Guide pour la constitution des jeux de donn\u00e9es du SINP et le renseignement des m\u00e9tadonn\u00e9es associ\u00e9es. Rapport UMS PatriNat (AFB, MNHN, CNRS) N\u00b0244790."
+    },
+    {
+        "Id": "20256",
+        "Libelle": "Donn\u00e9e source",
+        "Definition": "Donn\u00e9es pr\u00e9sentes dans la base de donn\u00e9es d\u2019un producteur constituant la source des donn\u00e9es du SINP. Ces donn\u00e9es r\u00e9sultent de l\u2019int\u00e9gration dans la\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s Dupont P. & Touroult J. 2018. Guide pour la constitution des jeux de donn\u00e9es du SINP et le renseignement des m\u00e9tadonn\u00e9es associ\u00e9es. Rapport UMS PatriNat (AFB, MNHN, CNRS) N\u00b0244790."
+    },
+    {
+        "Id": "20258",
+        "Libelle": "Donn\u00e9e-source SINP",
+        "Definition": "Ce sont les informations telles qu'elles existent dans les bases de donn\u00e9es des producteurs (par exemple : observations naturalistes, photos, audio,\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20260",
+        "Libelle": "Donn\u00e9es publiques et m\u00e9tadonn\u00e9es",
+        "Definition": "Ce sont des donn\u00e9es et m\u00e9tadonn\u00e9es produites ou re\u00e7ues par une autorit\u00e9 publique pour les besoins de mission de service public (article L300-2 et\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s Code des relations entre le public et l\u2019administration"
+    },
+    {
+        "Id": "20262",
+        "Libelle": "Droit applicatif de saisie",
+        "Definition": "Possibilit\u00e9 pour un op\u00e9rateur de disposer de droits lui permettant de saisir \u00ab au nom de \u00bb l\u2019observateur. Ce droit est distinct du r\u00f4le (\u00ab je valide \u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20264",
+        "Libelle": "\u00c9change de donn\u00e9es informatis\u00e9",
+        "Definition": "Terme g\u00e9n\u00e9rique d\u00e9finissant un \u00e9change d'informations sur des r\u00e9seaux d'informations d'origines diverses selon des sp\u00e9cifications ou des normes.",
+        "Sens": "commun",
+        "Source": "d\u2019apr\u00e8s OFB et OiEau",
+        "Sigle": "EDI"
+    },
+    {
+        "Id": "20266",
+        "Libelle": "\u00c9diteur de requ\u00eates avanc\u00e9es",
+        "Definition": "\u00c9diteur de requ\u00eates permettant de travailler sur plusieurs tables ou plusieurs vues et sur plusieurs crit\u00e8res, c\u2019est-\u00e0-dire d\u2019interroger, modifier,\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20268",
+        "Libelle": "En ligne",
+        "Definition": "1. Se dit d'un mat\u00e9riel lorsqu'il fonctionne en relation directe avec un autre. 2. Se dit d'un service accessible par l'interm\u00e9diaire d'un r\u00e9seau\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s franceterme.culture.fr - parution au JO du 22\/09\/2000"
+    },
+    {
+        "Id": "20270",
+        "Libelle": "Enregistrement",
+        "Definition": "En programmation informatique, un enregistrement (ou article) d\u00e9signe souvent l'unit\u00e9 d'acc\u00e8s logique \u00e0 un fichier, c'est-\u00e0-dire la plus petite\u2026",
+        "Sens": "technique",
+        "Source": "d\u2019apr\u00e8s R\u00e9seau CERTA"
+    },
+    {
+        "Id": "20272",
+        "Libelle": "Entrep\u00f4t de donn\u00e9es",
+        "Definition": "Ensemble de donn\u00e9es collect\u00e9es et organis\u00e9es dans une entreprise ou un organisme pour \u00eatre exploit\u00e9es par des outils d'aide \u00e0 la d\u00e9cision.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s franceterme.culture.fr - parution JO du 20\/04\/2007"
+    },
+    {
+        "Id": "20274",
+        "Libelle": "\u00c9touffement",
+        "Definition": "Privation de lumi\u00e8re, d\u2019oxyg\u00e8ne et\/ou de nourriture en raison de l\u2019apport massif de s\u00e9diments ou de mat\u00e9riaux, ou de mati\u00e8re organique (y compris des\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Directive Cadre \"Strat\u00e9gie pour le milieu marin\" (DCSMM)"
+    },
+    {
+        "Id": "20276",
+        "Libelle": "\u00c9v\u00e9nement",
+        "Definition": "R\u00e9sultat d\u2019un processus interne ou externe d\u2019un syst\u00e8me d\u2019information ou \u00e9tat particulier d\u2019un syst\u00e8me d\u2019information d\u00e9clenchant un nouveau processus\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20278",
+        "Libelle": "\u00c9volutif",
+        "Definition": "Se dit d'un syst\u00e8me dont on peut modifier certains \u00e9l\u00e9ments sans en alt\u00e9rer le fonctionnement global, capacit\u00e9 \u00e0 \u00e9voluer.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20280",
+        "Libelle": "Expertise",
+        "Definition": "A) Proc\u00e9dure par laquelle on confie \u00e0 un ou plusieurs experts le soin de donner un avis sur les \u00e9l\u00e9ments d'un diff\u00e9rend, quand ceux-ci pr\u00e9sentent des\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Centre national de ressources textuelles et lexicales du CNRS"
+    },
+    {
+        "Id": "20282",
+        "Libelle": "Extraction",
+        "Definition": "Transfert permanent ou temporaire de la totalit\u00e9 ou d'une partie substantielle du contenu d'une base de donn\u00e9es sur un autre support par quelque\u2026",
+        "Sens": "r\u00e9glementaire",
+        "Source": "d'apr\u00e8s Article 7 -2a de la Directive 96\/9\/CE du Parlement europ\u00e9en et du conseil du 11 mars 1996 concernant la protection juridique des bases de donn\u00e9es"
+    },
+    {
+        "Id": "20284",
+        "Libelle": "Extranet",
+        "Definition": "R\u00e9seau de t\u00e9l\u00e9communication et de t\u00e9l\u00e9informatique constitu\u00e9 d'un intranet \u00e9tendu pour permettre la communication avec certains organismes ext\u00e9rieurs\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8 franceterme.culture.fr - parution au JO du 16\/3\/1999"
+    },
+    {
+        "Id": "20286",
+        "Libelle": "Fiabilit\u00e9",
+        "Definition": "Probabilit\u00e9 qu'un syst\u00e8me informatique (mat\u00e9riel et\/ou logiciel) fonctionne sans tomber en panne pendant un certain temps et dans des conditions d\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20288",
+        "Libelle": "Fiche de m\u00e9tadonn\u00e9es",
+        "Definition": "Une fiche de m\u00e9tadonn\u00e9es d\u00e9crit une s\u00e9rie ou un jeu de donn\u00e9es. Une fiche contient l\u2019adresse sur Internet (URL) de cette s\u00e9rie ou de ce jeu.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s R\u00e8glement europ\u00e9en n\u00b01205\/2008 du 3 d\u00e9cembre 2008, repris dans : La Directive Inspire pour les n\u00e9ophytes, F. Merrien et M. L\u00e9obet, 2\u00e8me \u00e9dition, f\u00e9vrier 2011"
+    },
+    {
+        "Id": "20290",
+        "Libelle": "Format",
+        "Definition": "1. Agencement structur\u00e9 d'un support de donn\u00e9es.\n2. Disposition des donn\u00e9es elles-m\u00eames. \u00c9quivalent \u00e9tranger : format (en)",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s franceterme.culture.fr - parution au JO du 22\/09\/2000"
+    },
+    {
+        "Id": "20292",
+        "Libelle": "Formulaire d'habilitation SINP",
+        "Definition": "Document officiel par lequel un producteur de donn\u00e9es ou un administrateur de plate-forme (r\u00e9gionale ou th\u00e9matique) fait une demande aupr\u00e8s du comit\u00e9\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20294",
+        "Libelle": "Fournisseur de services",
+        "Definition": "Acteur dont l\u2019infrastructure supporte l\u2019interrogation par un client (au sens informatique) de services qu\u2019elle h\u00e9berge.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20296",
+        "Libelle": "Fournisseur du jeu de donn\u00e9es",
+        "Definition": "C\u2019est la personne physique ou morale interm\u00e9diaire qui a r\u00e9cup\u00e9r\u00e9 et transmet le jeu de donn\u00e9es et les m\u00e9tadonn\u00e9es associ\u00e9es, au SINP. Dans la grande\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Dupont P. & Touroult J. 2018. Guide pour la constitution des jeux de donn\u00e9es du SINP et le renseignement des m\u00e9tadonn\u00e9es associ\u00e9es. Rapport UMS PatriNat (AFB, MNHN, CNRS) N\u00b0244790."
+    },
+    {
+        "Id": "20298",
+        "Libelle": "G\u00e9olocalisation",
+        "Definition": "Op\u00e9ration consistant \u00e0 localiser une entit\u00e9 (ouvrage, \u00e9v\u00e8nement,...) dans un r\u00e9f\u00e9rentiel g\u00e9ographique donn\u00e9 avec plus ou moins de pr\u00e9cision : de\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Minist\u00e8re charg\u00e9 de l\u2019environnement, Sandre"
+    },
+    {
+        "Id": "20300",
+        "Libelle": "Habilitation",
+        "Definition": "L'habilitation consiste \u00e0 autoriser la consolidation, l'identification et la qualification des DEE et m\u00e9tadonn\u00e9es pouvant alimenter la plate-forme\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20302",
+        "Libelle": "H\u00e9bergement SINP",
+        "Definition": "Service propos\u00e9 par un acteur du SINP pour un producteur de donn\u00e9es, quand ce dernier ne dispose pas des moyens humains, techniques et financiers\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20304",
+        "Libelle": "Identifiant unique SINP",
+        "Definition": "Attribut sp\u00e9cifique qui identifie de mani\u00e8re unique un objet au sein d'un ensemble de donn\u00e9es.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Sandre"
+    },
+    {
+        "Id": "20306",
+        "Libelle": "Implanter",
+        "Definition": "Installer un logiciel ou un sous-syst\u00e8me donn\u00e9 en r\u00e9alisant les adaptations n\u00e9cessaires \u00e0 leur fonctionnement dans un environnement d\u00e9fini. Voir\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s franceterme.culture.fr - parution au JO du 22\/09\/2000"
+    },
+    {
+        "Id": "20308",
+        "Libelle": "Information",
+        "Definition": "En informatique, l'information est un \u00e9l\u00e9ment de connaissance susceptible d'\u00eatre conserv\u00e9, trait\u00e9 ou transmis \u00e0 l'aide d'un support ou d'un mode de\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20310",
+        "Libelle": "Infrastructure d\u2019information g\u00e9ographique",
+        "Definition": "Ensemble d\u2019informations disponibles sur Internet, r\u00e9partis sur les sites web des diff\u00e9rents acteurs concern\u00e9s, et permettant la diffusion et le\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s \"La Directive Inspire pour les n\u00e9ophytes\", F. Merrien et M. L\u00e9obet, 2\u00e8me \u00e9dition, f\u00e9vrier 2011"
+    },
+    {
+        "Id": "20312",
+        "Libelle": "Infrastructure de donn\u00e9es spatiales",
+        "Definition": "Une SDI (Spatial Data Infrastructure; en fran\u00e7ais IDS, Infrastructure de Donn\u00e9es Spatiales) est un syst\u00e8me informatique qui int\u00e8gre un ensemble de\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Wikipedia"
+    },
+    {
+        "Id": "20314",
+        "Libelle": "Interactif\/interactive",
+        "Definition": "Qualifie les mat\u00e9riels, les programmes ou les conditions d'exploitation qui permettent des actions r\u00e9ciproques entre des utilisateurs ou entre des\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s franceterme.culture.fr parution au JO du 22\/09\/2000"
+    },
+    {
+        "Id": "20316",
+        "Libelle": "Interop\u00e9rabilit\u00e9",
+        "Definition": "L\u2019interop\u00e9rabilit\u00e9 est la capacit\u00e9 que poss\u00e8de un produit ou un syst\u00e8me, dont les interfaces sont int\u00e9gralement connues, \u00e0 fonctionner avec d'autres\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s \"La Directive Inspire pour les n\u00e9ophytes\", F. Merrien et M. L\u00e9obet, 2\u00e8me \u00e9dition, f\u00e9vrier 2011"
+    },
+    {
+        "Id": "20318",
+        "Libelle": "Inventaire",
+        "Definition": "Ensemble de relev\u00e9s r\u00e9alis\u00e9s par un ou plusieurs acteurs suivant un protocole sur une p\u00e9riode donn\u00e9e",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20320",
+        "Libelle": "Jeu de donn\u00e9es d'observation",
+        "Definition": "Ensemble de donn\u00e9es d\u2019observation homog\u00e8nes et identifiables",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20322",
+        "Libelle": "Lagune c\u00f4ti\u00e8re",
+        "Definition": "Une lagune c\u00f4ti\u00e8re est un \u00e9tang sal\u00e9 s\u00e9par\u00e9 de la mer par un cordon littoral.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20324",
+        "Libelle": "Licence",
+        "Definition": "Une licence est, soit en droit administratif une autorisation, soit en droit commercial, un contrat de licence. Exemple : Licence Etalab et Licence\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s Lexique de termes juridiques, 8e \u00e9dition Dalloz"
+    },
+    {
+        "Id": "20326",
+        "Libelle": "Localisation",
+        "Definition": "Objet g\u00e9ographique (point, ligne, polygone, site, station, placette) r\u00e9f\u00e9renc\u00e9 auquel on peut rattacher une observation ou une mesure.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20328",
+        "Libelle": "Localisation absolue",
+        "Definition": "La localisation d\u00e9signe en premier lieu la position d\u2019un objet sur la surface de la terre \u00e0 l\u2019aide d\u2019un syst\u00e8me de r\u00e9f\u00e9rence explicite, qui est\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20330",
+        "Libelle": "Localisation relative [d\u2019une observation naturaliste]",
+        "Definition": "d\u00e9finition de la localisation d\u2019un objet par rapport \u00e0 un autre objet g\u00e9ographique d\u00e9j\u00e0 d\u00e9fini (distance, azimut \u00e0 un point d\u2019eau par exemple).",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20332",
+        "Libelle": "Logiciel",
+        "Definition": "Ensemble de programmes informatiques, proc\u00e9d\u00e9s, r\u00e8gles, interfaces et \u00e9ventuellement documentation, qui permettent diverses op\u00e9rations de traitements\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s franceterme.culture.fr - parution au JO du 22\/09\/2000"
+    },
+    {
+        "Id": "20334",
+        "Libelle": "Maillage",
+        "Definition": "Objet g\u00e9ographique prenant la forme d\u2019une grille avec un point d\u2019origine commun et une taille d\u00e9finie de cellules. Sert de support \u00e0 la synth\u00e8se de\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20336",
+        "Libelle": "M\u00e9tadonn\u00e9es",
+        "Definition": "Information d\u00e9crivant les s\u00e9ries et services de donn\u00e9es g\u00e9ographiques et rendant possible leur recherche, leur inventaire et leur utilisation.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Code de l'environnement"
+    },
+    {
+        "Id": "20338",
+        "Libelle": "M\u00e9tadonn\u00e9es",
+        "Definition": "Ce sont des informations servant, conform\u00e9ment aux dispositions de l'article L. 127-1 du code de l'environnement, \u00e0 d\u00e9crire les s\u00e9ries et les\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20340",
+        "Libelle": "M\u00e9tadonn\u00e9es du jeu de donn\u00e9es",
+        "Definition": "Les m\u00e9tadonn\u00e9es sont des informations structur\u00e9es servant \u00e0 d\u00e9crire une source de donn\u00e9es (jeu ou s\u00e9rie de donn\u00e9es). Elles s'attachent \u00e0 d\u00e9crire\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Dupont P. & Touroult J. 2018. Guide pour la constitution des jeux de donn\u00e9es du SINP et le renseignement des m\u00e9tadonn\u00e9es associ\u00e9es. Rapport UMS PatriNat (AFB, MNHN, CNRS) N\u00b0244790."
+    },
+    {
+        "Id": "20342",
+        "Libelle": "Mise \u00e0 disposition",
+        "Definition": "Activit\u00e9 qui consiste pour un producteur de contenu informatif \u00e0 organiser un syst\u00e8me passif pour porter \u00e0 la connaissance d'un public pr\u00e9d\u00e9fini l\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Diffusion des donn\u00e9es publiques et r\u00e9volution num\u00e9rique \/ Dieudonn\u00e9 MANDELKERN, Commissariat g\u00e9n\u00e9ral du Plan : 1999"
+    },
+    {
+        "Id": "20344",
+        "Libelle": "Mise \u00e0 disposition",
+        "Definition": "La mise \u00e0 disposition de donn\u00e9es consiste \u00e0 organiser un syst\u00e8me pour porter \u00e0 la connaissance d\u2019un destinataire l\u2019existence et le contenu d\u2019une\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20346",
+        "Libelle": "Mise \u00e0 disposition de donn\u00e9es SINP",
+        "Definition": "Elle consiste \u00e0 organiser un syst\u00e8me pour porter \u00e0 la connaissance d'un destinataire l'existence et le contenu des donn\u00e9es SINP. Dans le SINP, cette\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20348",
+        "Libelle": "Moteur d\u2019appariement [de r\u00e9f\u00e9rentiels]",
+        "Definition": "Outil permettant la r\u00e9conciliation entre deux r\u00e9f\u00e9rentiels par le nom et la hi\u00e9rarchie et susceptible de faire des propositions de rattachement quand\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20350",
+        "Libelle": "Non-observation (d'un taxon)",
+        "Definition": "Donn\u00e9e \u00e9l\u00e9mentaire indiquant que l'observateur n'a pas d\u00e9tect\u00e9 un taxon particulier, recherch\u00e9 suivant le protocole ad\u00e9quat \u00e0 la localisation et \u00e0 la\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20352",
+        "Libelle": "Objet g\u00e9ographique",
+        "Definition": "Une repr\u00e9sentation abstraite d'un ph\u00e9nom\u00e8ne r\u00e9el li\u00e9 \u00e0 un lieu sp\u00e9cifique ou \u00e0 une zone g\u00e9ographique : B\u00e2timents, routes, zones prot\u00e9g\u00e9s, forets,\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Code de l'Environnement"
+    },
+    {
+        "Id": "20354",
+        "Libelle": "Observateur",
+        "Definition": "Personne ayant r\u00e9alis\u00e9 l'observation",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20356",
+        "Libelle": "Observation naturaliste",
+        "Definition": "Ensemble des crit\u00e8res relev\u00e9s ou mesur\u00e9s sur le terrain caract\u00e9risant un objet physique (\u00eatre vivant, habitat, autre) ou une association d\u2019objets.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20358",
+        "Libelle": "Observation naturaliste",
+        "Definition": "L\u2019observation est l\u2019identification selon des m\u00e9thodes directes (de visu) ou indirectes (empreintes, f\u00e8ces...) de la pr\u00e9sence ou de l'absence d\u2019un\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20360",
+        "Libelle": "Occurence",
+        "Definition": "c'est l'observation ou non-observation d\u2019un taxon, \u00e0 une localisation, une date donn\u00e9es, avec ses observateurs, par des m\u00e9thodes d\u2019observation\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20362",
+        "Libelle": "Op\u00e9rateur",
+        "Definition": "Organismes dot\u00e9s de la personnalit\u00e9 morale et juridiquement distincts des services des minist\u00e8res, mettant en \u0153uvre les politiques de l\u2019Etat. \nIls\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s LOLF"
+    },
+    {
+        "Id": "20364",
+        "Libelle": "Passerelle",
+        "Definition": "Dispositif destin\u00e9 \u00e0 connecter des r\u00e9seaux de t\u00e9l\u00e9communication ayant des architectures diff\u00e9rentes ou des protocoles diff\u00e9rents ou offrant des\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s franceterme.culture.fr - parution au JO du 16\/03\/1999"
+    },
+    {
+        "Id": "20366",
+        "Libelle": "P\u00e9lagique",
+        "Definition": "De pleine eau. Les habitats p\u00e9lagiques sont les habitats de pleine eau. Par opposition aux habitats benthiques qui sont les habitats des fonds marins.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20368",
+        "Libelle": "P\u00e9rennisation",
+        "Definition": "Conservation \u00e0 long terme de l'information num\u00e9rique sous une forme correcte et imm\u00e9diatement compr\u00e9hensible.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20370",
+        "Libelle": "Performance d\u2019un syst\u00e8me d\u2019information",
+        "Definition": "R\u00e9sultat optimal que peut obtenir un mat\u00e9riel. Le temps de r\u00e9ponse (temps s\u00e9parant l'arriv\u00e9e d'une requ\u00eate et son traitement), le d\u00e9bit (nombre de\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20372",
+        "Libelle": "Pertinence",
+        "Definition": "La pertinence est l'aptitude \u00e0 correspondre \u00e0 ce que l'on attendait. Une information pertinente est une information appropri\u00e9e au contexte dans\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20374",
+        "Libelle": "Plateforme",
+        "Definition": "Il s\u2019agit d\u2019un espace d\u00e9mat\u00e9rialis\u00e9 permettant le d\u00e9p\u00f4t de donn\u00e9es et d\u2019assurer l\u2019interface avec les bases de donn\u00e9es. La gestion des plateformes est\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20376",
+        "Libelle": "Plateforme habilit\u00e9e SINP",
+        "Definition": "Une plateforme habilit\u00e9e SINP est une plateforme dont la demande d'habilitation a abouti positivement. Elle est reconnue, par le COPIL SINP, comme\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20378",
+        "Libelle": "Plateforme r\u00e9gionale du SINP",
+        "Definition": "Dispositif r\u00e9gional habilit\u00e9 qui assure l\u2019animation des acteurs et repose sur des outils permettant le partage des donn\u00e9es selon les principes du\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20380",
+        "Libelle": "Plateforme SINP",
+        "Definition": "D\u00e9signe \u00e0 la fois une \u00e9quipe en charge de l\u2019administration des donn\u00e9es de plusieurs producteurs r\u00e9unis en r\u00e9seau dans le SINP et le syst\u00e8me d\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20382",
+        "Libelle": "Portail",
+        "Definition": "Site web faisant office, dans un domaine particulier, de point d'acc\u00e8s vers une large gamme de services (d\u00e9p\u00f4t de fichiers, h\u00e9bergement,\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20384",
+        "Libelle": "Pr\u00e9-adh\u00e9rent",
+        "Definition": "Acteur ayant sollicit\u00e9 une adh\u00e9sion au SINP et dont l\u2019adh\u00e9sion a \u00e9t\u00e9 accept\u00e9e dans la 1\u00e8re phase du processus d\u2019adh\u00e9sion. Cet \u00e9tat est temporaire :\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20386",
+        "Libelle": "Pr\u00e9-sal\u00e9",
+        "Definition": "Un pr\u00e9-sal\u00e9 est une forme de prairie \u00e0 v\u00e9g\u00e9tation basse qui est inond\u00e9e par la mer lors des grandes mar\u00e9es ; il joue un r\u00f4le important dans le cycle\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20388",
+        "Libelle": "Producteur de base de donn\u00e9es",
+        "Definition": "Personne (physique ou morale) qui prend l'initiative ET le risque de r\u00e9aliser un investissement substantiel (financier, mat\u00e9riel ou humain) en vue de\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Code de la propri\u00e9t\u00e9 intellectuelle"
+    },
+    {
+        "Id": "20390",
+        "Libelle": "Producteur de jeu de donn\u00e9es",
+        "Definition": "C\u2019est la personne physique ou morale qui produit les donn\u00e9es et les m\u00e9tadonn\u00e9es associ\u00e9es. Ce n\u2019est pas n\u00e9cessairement l\u2019observateur. Il a autorit\u00e9\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Dupont P. & Touroult J. 2018. Guide pour la constitution des jeux de donn\u00e9es du SINP et le renseignement des m\u00e9tadonn\u00e9es associ\u00e9es. Rapport UMS PatriNat (AFB, MNHN, CNRS) N\u00b0244790."
+    },
+    {
+        "Id": "20392",
+        "Libelle": "Producteur SINP",
+        "Definition": "Il s\u2019agit de la personne physique ou morale, priv\u00e9e ou publique qui produit, administre, v\u00e9rifie, \u00e9ventuellement diffuse des donn\u00e9es-source \u00e0 l\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20394",
+        "Libelle": "Programme",
+        "Definition": "Ensemble d\u2019informations permettant de d\u00e9crire le contexte administratif, contractuel ou financier d\u2019un dispositif de collecte : le programme peut\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20396",
+        "Libelle": "Programme",
+        "Definition": "Ensemble de projets coh\u00e9rents entre eux qui partagent un m\u00eame objectif final. La r\u00e9alisation de l\u2019objectif final n\u00e9cessite le d\u00e9coupage en sous\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s Dupont P. & Touroult J. 2018. Guide pour la constitution des jeux de donn\u00e9es du SINP et le renseignement des m\u00e9tadonn\u00e9es associ\u00e9es. Rapport UMS PatriNat (AFB, MNHN, CNRS) N\u00b0244790."
+    },
+    {
+        "Id": "20398",
+        "Libelle": "Projet",
+        "Definition": "Ensemble d\u2019actions coh\u00e9rentes entre elles et d\u00e9velopp\u00e9es pour atteindre un objectif pr\u00e9alablement fix\u00e9 et associ\u00e9 \u00e0 un produit sp\u00e9cifique (ex :\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s Dupont P. & Touroult J. 2018. Guide pour la constitution des jeux de donn\u00e9es du SINP et le renseignement des m\u00e9tadonn\u00e9es associ\u00e9es. Rapport UMS PatriNat (AFB, MNHN, CNRS) N\u00b0244790."
+    },
+    {
+        "Id": "20400",
+        "Libelle": "Protocole",
+        "Definition": "Ensemble des conventions n\u00e9cessaires pour faire coop\u00e9rer des entit\u00e9s distantes, en particulier pour \u00e9tablir et entretenir des \u00e9changes d'informations\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20402",
+        "Libelle": "Protocole d'acquisition",
+        "Definition": "Ensemble de r\u00e8gles et m\u00e9thodes \u00e0 respecter lors de la collecte de donn\u00e9es permettant de constituer des jeux homog\u00e8nes et norm\u00e9s de donn\u00e9es \u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20404",
+        "Libelle": "Qualification de donn\u00e9es",
+        "Definition": "La qualit\u00e9 \u00e9tant d\u2019une fa\u00e7on g\u00e9n\u00e9rale, l\u2019aptitude d\u2019un produit ou d\u2019un service \u00e0 r\u00e9pondre aux usages qui sont attendus de lui, la qualification est\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20406",
+        "Libelle": "Qualit\u00e9 de la donn\u00e9e",
+        "Definition": "C\u2019est l\u2019\u00e9tude des caract\u00e9ristiques d\u2019exactitude, de compl\u00e9tude, de pr\u00e9cision, de coh\u00e9rence interne et externe des donn\u00e9es par rapport \u00e0 leur m\u00e9thode\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20408",
+        "Libelle": "R\u00e9conciliation de deux r\u00e9f\u00e9rentiels",
+        "Definition": "Proc\u00e9dure permettant de mettre \u00e0 jour des donn\u00e9es initialement li\u00e9es \u00e0 la nomenclature d\u2019un premier r\u00e9f\u00e9rentiel selon la nomenclature d\u2019un second\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20410",
+        "Libelle": "R\u00e9f\u00e9rentiel",
+        "Definition": "Ensemble structur\u00e9 d'informations, utilis\u00e9 pour l'ex\u00e9cution d'un logiciel, et constituant un cadre commun \u00e0 plusieurs applications. Le SINP s\u2019appuie\u2026",
+        "Sens": "technique",
+        "Source": "d\u2019apr\u00e8s franceterme.culture.fr - parution au JO du 10\/10\/1998"
+    },
+    {
+        "Id": "20412",
+        "Libelle": "R\u00e9f\u00e9rentiel de coordonn\u00e9es",
+        "Definition": "Syst\u00e8me de r\u00e9f\u00e9rencement unique des informations g\u00e9ographiques dans l\u2019espace sous forme d\u2019une s\u00e9rie de coordonn\u00e9es (x, y, z) et\/ou la latitude et la\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s \"La Directive Inspire pour les n\u00e9ophytes\", F. Merrien et M. L\u00e9obet, 2\u00e8me \u00e9dition, f\u00e9vrier 2011"
+    },
+    {
+        "Id": "20414",
+        "Libelle": "R\u00e9f\u00e9rentiel g\u00e9ographique",
+        "Definition": "Ensemble de donn\u00e9es coh\u00e9rentes permettant de localiser directement ou indirectement un objet dans l\u2019espace",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s CNIG"
+    },
+    {
+        "Id": "20416",
+        "Libelle": "R\u00e9f\u00e9rentiel Habitats",
+        "Definition": "Classification des habitats naturels et semi-naturels pr\u00e9sents dans une zone g\u00e9ographique donn\u00e9e.Pour le SINP, les r\u00e9f\u00e9rentiels habitats sont ceux\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20418",
+        "Libelle": "R\u00e9f\u00e9rentiel spatial",
+        "Definition": "Un r\u00e9f\u00e9rentiel spatial doit \u00eatre compris comme un dispositif technique permettant \u00e0 un utilisateur particulier l\u2019association de donn\u00e9es de diverses\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s \"La Directive Inspire pour les n\u00e9ophytes\", F. Merrien et M. L\u00e9obet, 2\u00e8me \u00e9dition, f\u00e9vrier 2011"
+    },
+    {
+        "Id": "20420",
+        "Libelle": "R\u00e9f\u00e9rentiel taxonomique",
+        "Definition": "Liste de r\u00e9f\u00e9rence des esp\u00e8ces connues, tenue \u00e0 jour en fonction des connaissances scientifiques \u00e0 un instant donn\u00e9.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20422",
+        "Libelle": "R\u00e9partition des syst\u00e8mes d\u2019information",
+        "Definition": "Plusieurs syst\u00e8mes d\u2019information (donn\u00e9es et\/ou traitement) situ\u00e9s en des lieux diff\u00e9rents et distants, reli\u00e9s par une infrastructure (r\u00e9seaux,\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20424",
+        "Libelle": "Repr\u00e9sentant du SINP",
+        "Definition": "Le repr\u00e9sentant du SINP est le destinataire des demandes d\u2019adh\u00e9sion au SINP. Ce r\u00f4le est assur\u00e9 au niveau national par le directeur g\u00e9n\u00e9ral charg\u00e9 de\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20426",
+        "Libelle": "R\u00e9seau",
+        "Definition": "Ensemble d'acteurs en relation entre eux, \u00e9ventuellement regroup\u00e9s autour d'une structure f\u00e9d\u00e9ratrice et animatrice. Dans le SINP, il existe des\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20428",
+        "Libelle": "R\u00e9seau informatique",
+        "Definition": "Un r\u00e9seau informatique est un ensemble d'\u00e9quipements reli\u00e9s entre eux pour \u00e9changer des informations. Par analogie avec un filet (un r\u00e9seau est un \u00ab\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Wikipedia"
+    },
+    {
+        "Id": "20430",
+        "Libelle": "R\u00e9utilisateur",
+        "Definition": "Personne physique ou morale qui proc\u00e8de \u00e0 une r\u00e9utilisation des donn\u00e9es du SINP.",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20432",
+        "Libelle": "R\u00e9utilisation",
+        "Definition": "Correspond \u00e0 \u00ab toute utilisation des informations contenues dans les documents administratifs \u00e0 d\u2019autres fins que celles de la mission de service\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s loi CADA de 1978"
+    },
+    {
+        "Id": "20434",
+        "Libelle": "Richesse sp\u00e9cifique territoriale",
+        "Definition": "Nombre d\u2019esp\u00e8ces ou nombre d\u2019observations par unit\u00e9 spatiale ou maille.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20436",
+        "Libelle": "Saisie collaborative",
+        "Definition": "Mode de saisie visible et \u00ab commentable \u00bb par d\u2019autres utilisateurs. Il est possible de commenter une observation apr\u00e8s la saisie et garder l\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20438",
+        "Libelle": "Saisie par projet",
+        "Definition": "L\u2019entr\u00e9e de donn\u00e9es ou la saisie par projet correspond \u00e0 un objectif sur un p\u00e9rim\u00e8tre donn\u00e9 suivant tel ou tel protocole. Un projet correspond \u00e0 des\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20440",
+        "Libelle": "Sansou\u00efre",
+        "Definition": "Surface limoneuse r\u00e9guli\u00e8rement inond\u00e9e par les \u00e9tangs qu\u2019elle borde. Elle est situ\u00e9e derri\u00e8re le cordon sableux, ou lido, qui s\u00e9pare les lagunes de\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20442",
+        "Libelle": "Sarti\u00e8re",
+        "Definition": "Bassin destin\u00e9 \u00e0 l\u2019affinage des hu\u00eetres et creus\u00e9 sur la partie non endigu\u00e9e (submersible) des marais sal\u00e9s.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20444",
+        "Libelle": "S\u00e9curit\u00e9 informatique",
+        "Definition": "La s\u00e9curit\u00e9 informatique est l'ensemble des techniques qui assurent que les ressources du syst\u00e8me d'information (mat\u00e9rielles ou logicielles) d'une\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20446",
+        "Libelle": "S\u00e9mantique",
+        "Definition": "La s\u00e9mantique est l\u2019analyse du sens des mots et le processus par lequel ils se chargent de ce sens.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20448",
+        "Libelle": "S\u00e9rie de donn\u00e9es g\u00e9ographiques",
+        "Definition": "Une s\u00e9rie de donn\u00e9es g\u00e9ographiques est \u00ab une compilation identifiable de donn\u00e9es g\u00e9ographiques homog\u00e8nes\u00bb.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s \"La Directive Inspire pour les n\u00e9ophytes\", F. Merrien et M. L\u00e9obet, 2\u00e8me \u00e9dition, f\u00e9vrier 2011"
+    },
+    {
+        "Id": "20450",
+        "Libelle": "Serveur informatique",
+        "Definition": "Mat\u00e9riel, logiciel ou syst\u00e8me informatique destin\u00e9 \u00e0 fournir un service d\u00e9termin\u00e9 \u00e0 d'autres syst\u00e8mes informatiques ou \u00e0 des utilisateurs connect\u00e9s\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s franceterme.culture.fr - parution au JO du 20\/04\/2007"
+    },
+    {
+        "Id": "20452",
+        "Libelle": "Serveur informatique mandataire",
+        "Definition": "Dispositif informatique associ\u00e9 \u00e0 un serveur et r\u00e9alisant, pour des applications autoris\u00e9es, des fonctions de m\u00e9diation, telles que le stockage des\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s franceterme.culture.fr - parution au JO du 16\/03\/1999"
+    },
+    {
+        "Id": "20454",
+        "Libelle": "Service de d\u00e9p\u00f4t",
+        "Definition": "Interface et processus permettant l\u2019int\u00e9gration d\u2019informations organis\u00e9es en fichiers dans une archive, une base de donn\u00e9e ou sur une plateforme.",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20456",
+        "Libelle": "Service de r\u00e9f\u00e9rencement de donn\u00e9es \/ m\u00e9tadonn\u00e9es",
+        "Definition": "Il permet l'indexation d'une source d'information en vue de son interrogation ult\u00e9rieure. L'indexation peut conserver les param\u00e8tres utiles au\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20458",
+        "Libelle": "Service de r\u00e9solution",
+        "Definition": "Il permet de donner toute information utile sur la donn\u00e9e \u00e0 partir de celles contenues dans les index. Permet notamment de d\u00e9livrer des informations\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20460",
+        "Libelle": "Services de consultation",
+        "Definition": "Possibilit\u00e9 d\u2019afficher au moins des donn\u00e9es, de naviguer, de changer d\u2019\u00e9chelle, d\u2019opter pour une vue panoramique, ou de superposer plusieurs s\u00e9ries\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s \"La Directive Inspire pour les n\u00e9ophytes\", F. Merrien et M. L\u00e9obet, 2\u00e8me \u00e9dition, f\u00e9vrier 2011"
+    },
+    {
+        "Id": "20462",
+        "Libelle": "Services de donn\u00e9es g\u00e9ographiques",
+        "Definition": "Les op\u00e9rations qui peuvent \u00eatre ex\u00e9cut\u00e9es \u00e0 l'aide d'une application informatique sur les donn\u00e9es g\u00e9ographiques contenues dans des s\u00e9ries de donn\u00e9es\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Art L127-1 du Code de l'Environnement"
+    },
+    {
+        "Id": "20464",
+        "Libelle": "Services de recherche",
+        "Definition": "Les services de recherche permettent d\u2019identifier des s\u00e9ries et des services de donn\u00e9es sur la base du contenu des m\u00e9tadonn\u00e9es correspondantes et d\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s \"La Directive Inspire pour les n\u00e9ophytes\", F. Merrien et M. L\u00e9obet, 2\u00e8me \u00e9dition, f\u00e9vrier 2011"
+    },
+    {
+        "Id": "20466",
+        "Libelle": "Services de t\u00e9l\u00e9chargement",
+        "Definition": "Fonction de mise \u00e0 disposition par un serveur permettant de r\u00e9cup\u00e9rer les donn\u00e9es pour pouvoir les traiter. Possibilit\u00e9 de t\u00e9l\u00e9charger des copies de\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s \"La Directive Inspire pour les n\u00e9ophytes\", F. Merrien et M. L\u00e9obet, 2\u00e8me \u00e9dition, f\u00e9vrier 2012"
+    },
+    {
+        "Id": "20468",
+        "Libelle": "Services de transformation",
+        "Definition": "Possibilit\u00e9 de transformer des s\u00e9ries de donn\u00e9es en vue de r\u00e9aliser l\u2019interop\u00e9rabilit\u00e9.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s \"La Directive Inspire pour les n\u00e9ophytes\", F. Merrien et M. L\u00e9obet, 2\u00e8me \u00e9dition, f\u00e9vrier 2012"
+    },
+    {
+        "Id": "20470",
+        "Libelle": "Services OGC",
+        "Definition": "Services standardis\u00e9s par l\u2019Open Geospatial Consortium, servant de base \u00e0 l\u2019acc\u00e8s et la diffusion de donn\u00e9es g\u00e9ographiques. Ses services ont \u00e9t\u00e9\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20472",
+        "Libelle": "Services web",
+        "Definition": "Technologie qui permet \u00e0 des applications de dialoguer \u00e0 distance via l'Internet ind\u00e9pendamment des plates-formes et des langages sur lesquelles\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20474",
+        "Libelle": "Source bibliographique",
+        "Definition": "Crit\u00e8res de description d\u2019un document (ouvrage, article\u2026) identifi\u00e9 dans un syst\u00e8me d\u2019archivage dont les informations permettent de cr\u00e9er une donn\u00e9e.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20476",
+        "Libelle": "Splittage de taxons existants",
+        "Definition": "Un taxon est subdivis\u00e9 en plusieurs, l'un d'eux gardant \u00e9ventuellement le nom du taxon initial. Le \u00ab splittage \u00bb s'op\u00e8re selon au moins trois cas : l\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20478",
+        "Libelle": "Standard",
+        "Definition": "Dans le cadre des ateliers d'architecture SINP, la notion de \"standard\" fait r\u00e9f\u00e9rence au format standard de donn\u00e9es \u00e9l\u00e9mentaires d\u2019\u00e9changes ou de\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20480",
+        "Libelle": "Standardisation",
+        "Definition": "Activit\u00e9 de sp\u00e9cification voire de normalisation des donn\u00e9es. Elle s'appuie pour cela sur des dictionnaires de donn\u00e9es.",
+        "Sens": "commun",
+        "Source": "d\u2019apr\u00e8s Sandre, OFB et OiEau"
+    },
+    {
+        "Id": "20482",
+        "Libelle": "Synchronisation",
+        "Definition": "La synchronisation de fichiers (ou de r\u00e9pertoires) est le processus permettant de faire correspondre les contenus de deux emplacements de stockage\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20484",
+        "Libelle": "Syndication",
+        "Definition": "Regroupement automatis\u00e9 de certaines donn\u00e9es disponibles dans un ensemble de sites, au fur et \u00e0 mesure de leur mise \u00e0 jour. le principe de la\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s franceterme.culture.fr - Parution au JO du 7\/6\/2007"
+    },
+    {
+        "Id": "20486",
+        "Libelle": "Syst\u00e8me d'information",
+        "Definition": "Ensemble des moyens (organisation, acteurs, proc\u00e9dures, syst\u00e8mes informatiques) n\u00e9cessaires \u00e0 la collecte, \u00e0 la bancarisation, au traitement et \u00e0 l\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Sandre, OFB et OiEau"
+    },
+    {
+        "Id": "20488",
+        "Libelle": "Syst\u00e8me de maillage g\u00e9ographique",
+        "Definition": "Grille multi-r\u00e9solution harmonis\u00e9e avec un point d\u2019origine commun et une localisation ainsi qu\u2019une taille des cellules harmonis\u00e9es.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s \"La Directive Inspire pour les n\u00e9ophytes\", F. Merrien et M. L\u00e9obet, 2\u00e8me \u00e9dition, f\u00e9vrier 2011"
+    },
+    {
+        "Id": "20490",
+        "Libelle": "Taxon cit\u00e9",
+        "Definition": "C\u2019est l\u2019information du taxon (en r\u00e9f\u00e9rence \u00e0 Taxref ou d\u2019autres r\u00e9f\u00e9rentiels) telle qu\u2019elle a \u00e9t\u00e9 saisie initialement par l\u2019observateur ou le\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20492",
+        "Libelle": "Taxon exploitable",
+        "Definition": "Nom du taxon dans le r\u00e9f\u00e9rentiel Taxref au moment de l\u2019exploitation de la donn\u00e9e d\u2019observation. Ce taxon \u00e9volue en fonction des mises \u00e0 jour de\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20494",
+        "Libelle": "Th\u00e9matique INSPIRE",
+        "Definition": "Domaine de connaissance faisant l\u2019objet d\u2019une sp\u00e9cification technique INSPIRE dans la pr\u00e9sentation des donn\u00e9es s\u2019y rapportant. Les th\u00e9matiques\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20496",
+        "Libelle": "Th\u00e9matique SINP",
+        "Definition": "Domaine de connaissance du SINP pr\u00e9sentant des caract\u00e9ristiques homog\u00e8nes en terme de comp\u00e9tences, de m\u00e9tier, de r\u00e9seau ,ou d\u2019expertise ou encore en\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20498",
+        "Libelle": "Th\u00e9saurus",
+        "Definition": "Le th\u00e9saurus est un type de langage documentaire. Un langage documentaire est un langage artificiel, un m\u00e9ta- langage, constitu\u00e9 de notions et de\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Dictionnaire encyclop\u00e9dique de l'information et de la documentation \/ Serge CACALY (dir.)- Nathan, Paris : 1997"
+    },
+    {
+        "Id": "20500",
+        "Libelle": "Tiers",
+        "Definition": "Toute personne physique ou morale autre qu'une autorit\u00e9 publique.",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20502",
+        "Libelle": "Tra\u00e7abilit\u00e9",
+        "Definition": "Ensemble des informations n\u00e9cessaires et suffisantes pour conna\u00eetre soit les diff\u00e9rents \u00e9tats successifs pris par une donn\u00e9e dans les diff\u00e9rents\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20504",
+        "Libelle": "Trait de c\u00f4te",
+        "Definition": "Le trait de c\u00f4te est d\u00e9fini comme la ligne th\u00e9orique qui s\u00e9pare la mer de la terre dans l\u2019hypoth\u00e8se d\u2019une mar\u00e9e haute de coefficient maximal (120).",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20506",
+        "Libelle": "Transparence",
+        "Definition": "La transparence s'applique principalement \u00e0 l'information elle-m\u00eame mais elle est fortement d\u00e9pendante de son traitement. La transparence d'une\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20508",
+        "Libelle": "Unit\u00e9 d'organisation",
+        "Definition": "[Dans un annuaire] Les unit\u00e9s d'organisation sont des conteneurs dans lesquels sont plac\u00e9s des utilisateurs, des groupes, des ressources et d'autres\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20510",
+        "Libelle": "Utilisateur",
+        "Definition": "Il s\u2019agit de toute personne physique ou morale qui utilise les donn\u00e9es conform\u00e9ment aux libert\u00e9s et aux conditions pr\u00e9vues par le protocole du SINP\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20512",
+        "Libelle": "Validateur",
+        "Definition": "Personne ayant proc\u00e9d\u00e9 \u00e0 la validation",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20514",
+        "Libelle": "Validation de donn\u00e9es",
+        "Definition": "La validation est un processus d\u2019expertise visant \u00e0 renseigner sur la fiabilit\u00e9 (d\u00e9signe le degr\u00e9 de confiance que l\u2019on peut accorder \u00e0 la donn\u00e9e)\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20516",
+        "Libelle": "Validation scientifique",
+        "Definition": "La validation scientifique consiste en des processus d\u2019expertises visant \u00e0 renseigner sur la fiabilit\u00e9 (d\u00e9signe le degr\u00e9 de confiance que l\u2019on peut\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20518",
+        "Libelle": "Validation technique",
+        "Definition": "V\u00e9rification (automatique ou non) de la conformit\u00e9 des jeux de donn\u00e9es et des m\u00e9tadonn\u00e9es associ\u00e9es avec les standards d\u00e9finis pr\u00e9alablement et\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20520",
+        "Libelle": "Valorisation des donn\u00e9es",
+        "Definition": "Dans le SINP, la valorisation correspond \u00e0 la publicit\u00e9 et un acc\u00e8s facilit\u00e9 \u00e0 l\u2019existence des acteurs du SINP et aux travaux des diff\u00e9rents acteurs\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20522",
+        "Libelle": "V\u00e9rifications de coh\u00e9rence",
+        "Definition": "Cette \u00e9tape consiste \u00e0 v\u00e9rifier la coh\u00e9rence de chaque champ obligatoire (ex : la date est inf\u00e9rieure \u00e0 la date du jour) ainsi que la coh\u00e9rence inter\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20524",
+        "Libelle": "V\u00e9rifications de conformit\u00e9",
+        "Definition": "Cette \u00e9tape consiste \u00e0 v\u00e9rifier la conformit\u00e9 des fichiers \u00e9chang\u00e9s au regard des standards d\u2019\u00e9change du SINP (donn\u00e9es et m\u00e9tadonn\u00e9es). Ces\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20526",
+        "Libelle": "Widget",
+        "Definition": "El\u00e9ment graphique d\u2019une application informatique utilis\u00e9 pour l'interface homme-machine, comme par exemple un bouton ou une liste d\u00e9roulante \u00e0 l\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "20528",
+        "Libelle": "Workflow",
+        "Definition": "Processus industriel ou administratif au cours duquel des t\u00e2ches, des documents et des informations sont trait\u00e9s successivement, selon des r\u00e8gles\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s franceterme.culture.fr - parution au JO du 27\/02\/2003"
+    },
+    {
+        "Id": "20530",
+        "Libelle": "Zone importante pour la conservation des oiseaux",
+        "Definition": "Zone importante pour la conservation des oiseaux (IBA en anglais pour Important Bird Area), renvoie \u00e0 un inventaire scientifique dress\u00e9 en\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Birdlife International",
+        "Sigle": "ZICO"
     }
 ]
