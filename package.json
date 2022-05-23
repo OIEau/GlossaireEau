@@ -1,7 +1,7 @@
 {
   "name": "glossaire_auto",
   "version": "0.0.40",
-  "description": "Permet de générer les définitions des mots affichés sur la page selon les termes du Glossaire Eau et Milieux Aquatiques (http://www.glossaire-eau.fr).",
+  "description": "Permet de générer les définitions des mots affichés sur la page selon les termes du Glossaire Eau et Milieux Aquatiques (https://glossaire.eauetbiodiversite.fr/).",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
