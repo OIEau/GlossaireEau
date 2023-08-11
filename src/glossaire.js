@@ -290,7 +290,7 @@ class Glossary {
     html += "<h6 style='color: #EEEEEE;text-align:left;font-family: Georgia, serif;font-size: 13px; font-style: italic;padding: 0 0 5px 0!important;margin:0!important;'>Sens " + glossary[conceptIndex].Sens + "</h6>";
     html += "<p style='color: #CCCCCC; text-align:left;font-size: 12px;padding: 0 0 5px 0!important;margin:0!important;'>" + utils.truncate(glossary[conceptIndex].Definition, 350) + "</p>";
     html += "<p style='text-align:left;font-size: 11px;padding: 0 0 5px 0!important;margin:0!important;'><u>Source</u> : " + glossary[conceptIndex].Source + "</p>";
-    html += "<p style='text-align:center;margin: 10px 0;'><a style='margin:0!important;display: inline-block; width: 60%; font-size: 13px; font-weight: bold; background:#1a9ee9; border-radius: 5px; color: #FFFFFF; padding: 5px 15px;' target='_blank' href='https://glossaire.eauetbiodiversite.fr/node/"  + glossary[conceptIndex].Id +  "'>En savoir plus sur <i><u>glossaire.eauetbiodiversite.fr</u></i></a></p>";
+    html += "<p style='text-align:center;margin: 10px 0;'><a style='margin:0!important;display: inline-block; width: 60%; font-size: 13px; font-weight: bold; background:#1a9ee9; border-radius: 5px; color: #FFFFFF; padding: 5px 15px;' target='_blank' href='https://glossaire.eauetbiodiversite.fr/node/"  + glossary[conceptIndex].Id +  "' onclick=\"_paq.push(['trackEvent', 'Affiche Definition', 'Clic En savoir plus']);\">En savoir plus sur <i><u>glossaire.eauetbiodiversite.fr</u></i></a></p>";
 
     return html;
   }
@@ -320,6 +320,22 @@ class Glossary {
       glossary.removeTags(excluded[i]);
     }
   }
+
+
+  /**
+   * Prepare Matomo tracking
+   */
+  matomoTrack(){
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="https://po.oieau.fr/piwik/";
+      _paq.push(['setTrackerUrl', u+'matomo.php']);
+      _paq.push(['setSiteId', '39']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+  }
 }
 
 /**
@@ -334,7 +350,12 @@ var tippy = require('tippy.js');
 
 var glossary = new Glossary();
 
+var _paq = window._paq = window._paq || [];
+
 window.onload = function () {
+  // Configure Matomo tracking
+  glossary.matomoTrack();
+
   // Get DOM element to process.
   var targets = glossary.getTargetsToProcess(document);
 
