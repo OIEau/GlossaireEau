@@ -62,7 +62,7 @@ class Glossary {
     }
 
     // Default to body.
-    return document.body;
+    return [document.body];
   }
 
 
@@ -198,6 +198,7 @@ class Glossary {
   processTagsInPage(divToProcess) {
     // Get tagged elements in page.
     var elements = divToProcess.querySelectorAll('._geau_glossary_concept');
+    var glossary = this.getGlossaryData();
 
     for (var i = 0; i < elements.length; i++) {
       elements[i].setAttribute("style", "border-bottom: 1px dashed #333;");
@@ -212,7 +213,10 @@ class Glossary {
         ignoreAttributes: true,
         inertia: true,
         size: 'large',
-        sticky: true
+        sticky: true, 
+        onShown(instance, glo = glossary, index = conceptIndex){
+          _paq.push(['trackEvent', 'Affiche Definition', 'Affiche Popup', 'concept : ' + utils.getLibelleFromHTMLContent(instance.popper.innerHTML) + ", page appelante : " + window.location.href]);
+        }
       });
     }
   }
@@ -290,7 +294,7 @@ class Glossary {
     html += "<h6 style='color: #EEEEEE;text-align:left;font-family: Georgia, serif;font-size: 13px; font-style: italic;padding: 0 0 5px 0!important;margin:0!important;'>Sens " + glossary[conceptIndex].Sens + "</h6>";
     html += "<p style='color: #CCCCCC; text-align:left;font-size: 12px;padding: 0 0 5px 0!important;margin:0!important;'>" + utils.truncate(glossary[conceptIndex].Definition, 350) + "</p>";
     html += "<p style='text-align:left;font-size: 11px;padding: 0 0 5px 0!important;margin:0!important;'><u>Source</u> : " + glossary[conceptIndex].Source + "</p>";
-    html += "<p style='text-align:center;margin: 10px 0;'><a style='margin:0!important;display: inline-block; width: 60%; font-size: 13px; font-weight: bold; background:#1a9ee9; border-radius: 5px; color: #FFFFFF; padding: 5px 15px;' target='_blank' href='https://glossaire.eauetbiodiversite.fr/node/"  + glossary[conceptIndex].Id +  "' onclick=\"_paq.push(['trackEvent', 'Affiche Definition', 'Clic En savoir plus']);\">En savoir plus sur <i><u>glossaire.eauetbiodiversite.fr</u></i></a></p>";
+    html += "<p style='text-align:center;margin: 10px 0;'><a style='margin:0!important;display: inline-block; width: 60%; font-size: 13px; font-weight: bold; background:#1a9ee9; border-radius: 5px; color: #FFFFFF; padding: 5px 15px;' target='_blank' href='https://glossaire.eauetbiodiversite.fr/node/"  + glossary[conceptIndex].Id +  "' onclick=\"_paq.push(['trackLink', 'https://glossaire.eauetbiodiversite.fr/concept/" + utils.normalizeString(glossary[conceptIndex].Libelle) + "', 'link']);_paq.push(['trackEvent', 'Affiche Definition', 'Clic En savoir plus', 'concept : " + utils.normalizeString(glossary[conceptIndex].Libelle) + ", page appelante : " + window.location.href + "']);\">En savoir plus sur <i><u>glossaire.eauetbiodiversite.fr</u></i></a></p>";
 
     return html;
   }
@@ -326,6 +330,7 @@ class Glossary {
    * Prepare Matomo tracking
    */
   matomoTrack(){
+    _paq.push(['setDomains', 'glossaire.eauetbiodiversite.fr']);
     _paq.push(['trackPageView']);
     _paq.push(['enableLinkTracking']);
     (function() {
@@ -350,10 +355,9 @@ var tippy = require('tippy.js');
 
 var glossary = new Glossary();
 
-var _paq = window._paq = window._paq || [];
-
 window.onload = function () {
   // Configure Matomo tracking
+  var _paq = window._paq = window._paq || [];
   glossary.matomoTrack();
 
   // Get DOM element to process.

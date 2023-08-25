@@ -16,7 +16,9 @@
   "license": "ISC",
   "dependencies": {
     "findandreplacedomtext": "https://github.com/dchatry/findAndReplaceDOMText/tarball/master",
-    "tippy.js": "^4.2.0"
-  },
-  "devDependencies": {}
+    "html-to-text": "^9.0.5",
+    "tippy.js": "^4.2.0",
+    "utf8": "^3.0.0",
+    "utf8-encoder": "^1.0.1"
+  }
 }

@@ -64,5 +64,22 @@ module.exports = {
         return classList[i];
       }
     }
-  }
+  },
+
+  getLibelleFromHTMLContent(content){
+    HTMLBeforeLibelle = "_paq.push(['trackEvent', 'Affiche Definition', 'Clic En savoir plus', 'concept : ";
+    HTMLAfterLibelle = ", page appelante : ";
+    libelle =  content.substring(content.indexOf(HTMLBeforeLibelle) + HTMLBeforeLibelle.length, content.indexOf(HTMLAfterLibelle));
+    return libelle;
+  }, 
+
+  /*conceptLibelleToUrlFormat(str){
+    let converted = '';
+    str = decodeURIComponent(escape(str));
+    converted =  str.toLowerCase().replace(' ', '-');
+    while(converted.search(' ') != -1){
+      converted = converted.replace(' ', '');
+    }
+    return converted;
+  }*/
 };
