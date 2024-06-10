@@ -1,28 +1,28 @@
 [![](https://data.jsdelivr.com/v1/package/npm/glossaire_auto/badge)](https://www.jsdelivr.com/package/npm/glossaire_auto)
 
-# Glossaire Eau et les Milieux Aquatiques
+# Glossaire eau, milieu marin et biodiversité
 
-![](http://www.glossaire-eau.fr/themes/custom/glossaireless/img/glossaire-logo.png)
+![](https://glossaire.eauetbiodiversite.fr/themes/custom/glossaireless/img/glossaire-logo.png)
 
-### [Cliquez ici pour voir la démonstration](http://www.glossaire-eau.fr/glossaire_auto/demo.html)
+### [Cliquez ici pour voir la démonstration](https://glossaire.eauetbiodiversite.fr/glossaire_auto/demo.html)
 
-Le [Glossaire sur l'Eau et les Milieux Aquatiques](http://www.glossaire-eau.fr/) diffuse, en libre accès, les définitions de plus de 1400 termes sur l'eau et la biodiversité aquatique, en français, anglais et espagnol, pour faciliter la compréhension de ces termes par le plus grand nombre. 
+Le [Glossaire eau, milieu marin et biodiversité](https://glossaire.eauetbiodiversite.fr/) diffuse, en libre accès, les définitions de plus de 2000 termes sur l'eau, le milieu marin et la biodiversité, en français, anglais et espagnol, pour faciliter la compréhension de ces termes par le plus grand nombre. 
 
 Il est :
 
-- [consultable](http://www.glossaire-eau.fr/glossaire) en ligne et [téléchargeable](http://www.glossaire-eau.fr/noeud/t%C3%A9l%C3%A9charger-le-glossaire) sous différents formats (HTML, PDF, ASCII, JSON, RDF-XML, OWL) ;
-- [collaboratif](http://www.glossaire-eau.fr/noeud/comment-devenir-contributeur) car tout internaute peut soumettre une demande de modification ou d’ajout de termes ;
-- [partagé](http://www.glossaire-eau.fr/noeud/comment-r%C3%A9utiliser-le-glossaire) car son contenu est mis à disposition de tous, et paramétré pour pouvoir alimenter automatiquement d’autres sites web ;
+- [consultable](https://glossaire.eauetbiodiversite.fr/glossaire) en ligne et [téléchargeable](https://glossaire.eauetbiodiversite.fr/noeud/t%C3%A9l%C3%A9charger-le-glossaire) sous différents formats (HTML, PDF, ASCII, JSON, RDF-XML, OWL) ;
+- [collaboratif](https://glossaire.eauetbiodiversite.fr/noeud/comment-devenir-contributeur) car tout internaute peut soumettre une demande de modification ou d’ajout de termes ;
+- [partagé](https://glossaire.eauetbiodiversite.fr/noeud/comment-r%C3%A9utiliser-le-glossaire) car son contenu est mis à disposition de tous, et paramétré pour pouvoir alimenter automatiquement d’autres sites web ;
 - construit selon les standards du web sémantique (RDF, SKOS, SPARQL, …) permettant ainsi de diffuser des informations structurées et optimisées pour des utilisations plus efficaces et des réutilisations automatisées par des moteurs de recherche et des sites Internet ;
-- lié à d’autres bases de connaissances (telles que le [thésaurus eau](http://thesaurus.oieau.fr/thesaurus/), le [thésaurus GEMET](https://www.eionet.europa.eu/gemet/fr/themes/), …) afin de réaliser des agrégations de contenus provenant de différentes sources.
-- réutilisable sur le web via l'intégration du script Glosssaire Eau et les Milieux Aquatiques
+- lié à d’autres bases de connaissances (telles que le [thésaurus eau & biodiversité](https://thesaurus.oieau.fr/thesaurus/), le [thésaurus GEMET](https://www.eionet.europa.eu/gemet/fr/themes/), …) afin de réaliser des agrégations de contenus provenant de différentes sources.
+- réutilisable sur le web via l'intégration du script Glosssaire eau, milieu marin et biodiversité
 
-![](http://www.glossaire-eau.fr/glossaire_auto/readme.png)
+![](https://glossaire.eauetbiodiversite.fr/glossaire_auto/readme.png)
 
 
 # Comment ça marche
 
-Vous souhaitez intégrer le [Glossaire sur l'Eau et les Milieux Aquatiques](http://www.glossaire-eau.fr/) dans votre site web ? Rien de plus simple !
+Vous souhaitez intégrer le [Glossaire eau, milieu marin et biodiversité](https://glossaire.eauetbiodiversite.fr/) dans votre site web ? Rien de plus simple !
 
 Copiez le code suivant et insérez le dans le `header` ou `footer` de votre site web :
 
@@ -67,7 +67,7 @@ Vous pouvez également exclure des mots grâce à l'attribut `data-blacklist` et
 
 # Procédure compilation (build)
 
-Le plugin peut être compilé grâce à deux outils : [Browserify](http://browserify.org/) et [UglifyJS](https://www.npmjs.com/package/uglify-es) (package uglify-es), tous deux fonctionnant grâce à NPM. Si vous ne l'avez pas déjà fait, il va donc falloir installer ce dernier, vous trouverez les instructions sur cette page : [https://www.npmjs.com/get-npm](https://www.npmjs.com/get-npm)
+Le plugin peut être compilé grâce à deux outils : [Browserify](https://browserify.org/) et [UglifyJS](https://www.npmjs.com/package/uglify-js) (package uglify-es), tous deux fonctionnant grâce à NPM. Si vous ne l'avez pas déjà fait, il va donc falloir installer ce dernier, vous trouverez les instructions sur cette page : [https://www.npmjs.com/get-npm](https://www.npmjs.com/get-npm)
 
 Une fois NPM installé, vous pouvez installer Browserify et UglifyJS grâce aux commandes suivantes :
 
@@ -90,4 +90,4 @@ Cette commande permet de compiler tout le projet dans un seul fichier Javascript
 
 Copyright (C) 2019 OIEau
 
-Le logiciel est distribué sous la licence [CC BY 3.0 FR](http://creativecommons.fr/licences/).
+Le logiciel est distribué sous la licence [CC BY 3.0 FR](https://creativecommons.org/share-your-work/cclicenses/).
