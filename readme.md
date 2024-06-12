@@ -2,7 +2,7 @@
 
 # Glossaire eau, milieu marin et biodiversité
 
-![](https://glossaire.eauetbiodiversite.fr/themes/custom/glossaireless/img/glossaire-logo.png)
+![](https://glossaire.eauetbiodiversite.fr/themes/custom/glossaireless/img/glossaire-logo400-removebg.png)
 
 ### [Cliquez ici pour voir la démonstration](https://glossaire.eauetbiodiversite.fr/glossaire_auto/demo.html)
 
