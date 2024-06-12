@@ -47,13 +47,22 @@ module.exports = {
   replaceAllWith: function (div, strReplace, strWith, conceptIndex) {
     var fr = require('findandreplacedomtext');
 
-    fr.findAndReplaceDOMText(div, {
+    let options = {
       preset: 'prose',
-      find: RegExp('\\b' + strReplace + '\\b', 'gi'),
+      find: RegExp(`(?<=\\b|[^\\w])${strReplace}(?=\\b|[^\\w]|$)`, 'gi'),
       portionMode: 'first',
       wrap: 'span',
       wrapClass: '_geau_glossary_concept ' + conceptIndex
-    });
+    };
+
+    fr.findAndReplaceDOMText(div, options);
+
+    if (!strReplace || strReplace === '') {
+        return;
+    }
+    strReplace = this.normalizeString(strReplace);
+    options.find = RegExp(`(?<=\\b|[^\\w])${strReplace}(?<=\\b|[^\\w]|$)`, 'gi');
+    fr.findAndReplaceDOMText(div, options);
   },
 
   getConceptIndexFromElement: function (element) {

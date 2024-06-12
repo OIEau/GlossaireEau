@@ -11,11 +11,14 @@ class Glossary {
   constructor () {
     this.glossary_data = require('../assets/glossaire.json');
 
-    // Sort so that longer words come first.
-    this.glossary_data.sort(function(a, b) {
-      if(typeof a.Libelle !== 'undefined' && typeof b.Libelle !== 'undefined') {
-        return b.Libelle.length - a.Libelle.length;
-      }
+    // Remove objects without Libelle.
+    this.glossary_data = this.glossary_data.filter(function (el) {
+        return el.Libelle !== undefined;
+    });
+
+    // Sort glossary by length of Libelle.
+    this.glossary_data.sort(function(a, b){
+      return b.Libelle.length - a.Libelle.length;
     });
   }
 
