@@ -6,7 +6,6 @@
  *
  */
 
-
 module.exports = {
   truncate: function(str, length){
     if (str.length > length) {
@@ -17,7 +16,7 @@ module.exports = {
   },
 
   countText: function(node){
-    var counter = 0;
+    let counter = 0;
     if(node.nodeType === 3){
       counter++;
     } else if(node.nodeType === 1) {
@@ -30,7 +29,7 @@ module.exports = {
   },
 
   normalizeString(stringToCorrect) {
-    var correctedString = stringToCorrect.toUpperCase();
+    let correctedString = stringToCorrect.toUpperCase();
     correctedString = correctedString.replace(/[ÁÀÄÂ]/, "A");
     correctedString = correctedString.replace(/[ÉÈËÊ]/, "E");
     correctedString = correctedString.replace(/[ÍÌÏÎ]/, "I");
@@ -39,20 +38,20 @@ module.exports = {
     return correctedString;
   },
 
-
-  escapeRegExp: function(str) {
-    return str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); // $& means the whole matched string
-  },
-
   replaceAllWith: function (div, strReplace, strWith, conceptIndex) {
-    var fr = require('findandreplacedomtext');
+    const fr = require('findandreplacedomtext');
+
+    // The final regex must match both ’ and ' characters in the web page or in the glossary
+    if (strReplace.includes("’") || strReplace.includes("'")) {
+      strReplace = strReplace.replace(/[’']/g, "[’']");
+    }
 
     let options = {
       preset: 'prose',
       find: RegExp(`(?<=\\b|[^\\w])${strReplace}(?=\\b|[^\\w]|$)`, 'gi'),
       portionMode: 'first',
       wrap: 'span',
-      wrapClass: '_geau_glossary_concept ' + conceptIndex
+      wrapClass: '_geau_glossary_concept ' + conceptIndex,
     };
 
     fr.findAndReplaceDOMText(div, options);
@@ -66,9 +65,9 @@ module.exports = {
   },
 
   getConceptIndexFromElement: function (element) {
-    var classes = element.getAttribute('class');
-    var classList = classes.split(' ');
-    for (var i = 0; i < classList.length; i++) {
+    const classes = element.getAttribute('class');
+    const classList = classes.split(' ');
+    for (let i = 0; i < classList.length; i++) {
       if(Number.isInteger(parseInt(classList[i]))) {
         return classList[i];
       }
@@ -76,19 +75,9 @@ module.exports = {
   },
 
   getLibelleFromHTMLContent(content){
-    HTMLBeforeLibelle = "_paq.push(['trackEvent', 'Affiche Definition', 'Clic En savoir plus', 'concept : ";
-    HTMLAfterLibelle = ", page appelante : ";
-    libelle =  content.substring(content.indexOf(HTMLBeforeLibelle) + HTMLBeforeLibelle.length, content.indexOf(HTMLAfterLibelle));
-    return libelle;
+    let HTMLBeforeLibelle = "_paq.push(['trackEvent', 'Affiche Definition', 'Clic En savoir plus', 'concept : ";
+    let HTMLAfterLibelle = ", page appelante : ";
+    return content.substring(content.indexOf(HTMLBeforeLibelle) + HTMLBeforeLibelle.length, content.indexOf(HTMLAfterLibelle));
   }, 
 
-  /*conceptLibelleToUrlFormat(str){
-    let converted = '';
-    str = decodeURIComponent(escape(str));
-    converted =  str.toLowerCase().replace(' ', '-');
-    while(converted.search(' ') != -1){
-      converted = converted.replace(' ', '');
-    }
-    return converted;
-  }*/
 };

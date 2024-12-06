@@ -24,10 +24,10 @@ Il est :
 
 Vous souhaitez intégrer le [Glossaire eau, milieu marin et biodiversité](https://glossaire.eauetbiodiversite.fr/) dans votre site web ? Rien de plus simple !
 
-Copiez le code suivant et insérez le dans le `header` ou `footer` de votre site web :
+Copiez le code suivant et insérez-le dans la balise `head` de votre site web :
 
 ```
-<script type="text/javascript" id="_geaujs" data-target="" data-exclude="" src="https://cdn.jsdelivr.net/npm/glossaire_auto/dist/glossaire_eau.js"></script>
+<script type="text/javascript" id="_geaujs" data-target="" data-exclude="" src="https://cdn.jsdelivr.net/npm/glossaire_auto/dist/glossaire_eau.js" defer></script>
 ```
 
 Par défaut, le traitement des mots et l'affichage des définitions s'effectuera sur la totalité de la page web. 
@@ -50,44 +50,36 @@ Prenons en exemple le HTML suivant :
 Si nous voulons cibler le contenu principal mais exclure les boutons/menus présents dans la page, il faudra que `data-target` contienne `.main-content` et que `data-exclude` contienne `.buttons` :
 
 ```
-<script type="text/javascript" id="_geaujs" data-target=".main-content" data-exclude=".boutons" src="https://cdn.jsdelivr.net/npm/glossaire_auto/dist/glossaire_eau.js"></script>
+<script type="text/javascript" id="_geaujs" data-target=".main-content" data-exclude=".boutons" src="https://cdn.jsdelivr.net/npm/glossaire_auto/dist/glossaire_eau.js" defer></script>
 ```
 
 Vous pouvez cibler/exclure plusieurs parties de la page en séparant les valeurs par des barres verticales, par exemple :
 
 ```
-<script type="text/javascript" id="_geaujs" data-target=".main-content|#front" data-exclude=".boutons|.menu .entry" src="https://cdn.jsdelivr.net/npm/glossaire_auto/dist/glossaire_eau.js"></script>
+<script type="text/javascript" id="_geaujs" data-target=".main-content|#front" data-exclude=".boutons|.menu .entry" src="https://cdn.jsdelivr.net/npm/glossaire_auto/dist/glossaire_eau.js" defer></script>
 ```
 
 Vous pouvez également exclure des mots grâce à l'attribut `data-blacklist` et en les séparant par des barres verticales :
 
 ```
-<script type="text/javascript" id="_geaujs" data-target=".main-content|#front" data-blacklist="port|laisse|pression" src="https://cdn.jsdelivr.net/npm/glossaire_auto/dist/glossaire_eau.js"></script>
+<script type="text/javascript" id="_geaujs" data-target=".main-content|#front" data-blacklist="port|laisse|pression" src="https://cdn.jsdelivr.net/npm/glossaire_auto/dist/glossaire_eau.js" defer></script>
 ```
 
 # Procédure compilation (build)
 
-Le plugin peut être compilé grâce à deux outils : [Browserify](https://browserify.org/) et [UglifyJS](https://www.npmjs.com/package/uglify-js) (package uglify-es), tous deux fonctionnant grâce à NPM. Si vous ne l'avez pas déjà fait, il va donc falloir installer ce dernier, vous trouverez les instructions sur cette page : [https://www.npmjs.com/get-npm](https://www.npmjs.com/get-npm)
+Le plugin peut être compilé avec NPM. Si vous ne l'avez déjà fait, installez ce dernier, vous trouverez les instructions sur cette page : [https://www.npmjs.com/get-npm](https://www.npmjs.com/get-npm)
 
-Une fois NPM installé, vous pouvez installer Browserify et UglifyJS grâce aux commandes suivantes :
-
-```
-npm install browserify -g 
-npm install uglify-es -g
-```
-
-Tout est prêt pour pouvoir compiler le plugin. Placez vous dans le répertoire du plugin et exécutez la commande suivante :
+Une fois NPM installé, exécutez les commandes suivantes :
 
 ```
-browserify src/glossaire.js | uglifyjs > dist/glossaire_eau.js
+npm install
+npm run build
 ```
 
-Cette commande permet de compiler tout le projet dans un seul fichier Javascript (`glossaire_eau.js`), qui est appelé par le navigateur client pour afficher les définitions.
-
+Cette commande compile le projet dans un seul fichier Javascript (`glossaire_eau.js`), qui est appelé par le navigateur client pour afficher les définitions.
 
 # Crédits
 
-
-Copyright (C) 2019 OIEau
+Copyright (C) 2019-2024 OIEau
 
 Le logiciel est distribué sous la licence [CC BY 3.0 FR](https://creativecommons.org/share-your-work/cclicenses/).

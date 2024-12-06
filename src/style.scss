@@ -1,0 +1,64 @@
+@import "../node_modules/tippy.js/dist/tippy.css";
+@import "../node_modules/tippy.js/animations/shift-away.css";
+
+[data-tippy-root] .tippy-box .tippy-content {
+  .geau__header {
+    display: grid;
+    grid-template-columns: auto 130px;
+    margin-bottom: .5rem;
+    grid-gap: 1rem;
+  }
+
+  h4 {
+    color: #FFFFFF;
+    text-align: left;
+    font-size: 16px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    padding: 0 0 5px 0 !important;
+    margin: 0 !important;
+  }
+
+  h6 {
+    color: #EEEEEE;
+    text-align: left;
+    font-family: Georgia, serif;
+    font-size: 13px;
+    font-style: italic;
+    padding: 0 0 5px 0 !important;
+    margin: 0 !important;
+  }
+
+  p {
+    &.geau__definition {
+      color: #CCCCCC;
+      text-align: left;
+      font-size: 12px;
+      padding: 0 0 5px 0 !important;
+      margin: 0 !important;
+    }
+
+    &.geau__source {
+      text-align: left;
+      font-size: 11px;
+      padding: 0 0 5px 0 !important;
+      margin: 0 !important;
+    }
+
+    &.geau__link {
+      text-align: center;
+      margin: 10px 0;
+
+      a {
+        margin: 0 !important;
+        display: inline-block;
+        width: 60%;
+        font-size: 13px;
+        font-weight: bold;
+        background: #127CBA;
+        border-radius: 5px;
+        color: #FFFFFF;
+        padding: 5px 15px;
+      }
+    }
+  }
+}

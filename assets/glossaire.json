@@ -10558,7 +10558,7 @@
     },
     {
         "Id": "18934",
-        "Libelle": "Syst\u00e8me d'information  de l'inventaire du patrimoine naturel",
+        "Libelle": "Syst\u00e8me d'information de l'inventaire du patrimoine naturel",
         "Definition": "R\u00e9seau d'acteurs qui mettent en partage l'information naturaliste qu'ils d\u00e9tiennent selon un ensemble de m\u00e9thodes et de r\u00e8gles communes. Le SINP a\u2026",
         "Sens": "technique",
         "Source": "d'apr\u00e8s OFB et MNHN",
@@ -11432,7 +11432,7 @@
     },
     {
         "Id": "19888",
-        "Libelle": "Directive  oiseaux",
+        "Libelle": "Directive oiseaux",
         "Definition": "Directive 79\/409\/CE du Conseil des Communaut\u00e9s Europ\u00e9ennes du 2 avril 1979 concernant la conservation des oiseaux sauvages. Directive europ\u00e9enne\u2026",
         "Sens": "commun",
         "Source": "d'apr\u00e8s INPN"

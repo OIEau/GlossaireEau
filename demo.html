@@ -1,85 +1,839 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-  <title>Démonstration | Glossaire automatique</title>
-  <style>
-    .container{position:relative;width:100%;max-width:960px;margin:0 auto;padding:0 20px;box-sizing:border-box}.column,.columns{width:100%;float:left;box-sizing:border-box}@media(min-width:400px){.container{width:85%;padding:0}}@media(min-width:550px){.container{width:80%}.column,.columns{margin-left:4%}.column:first-child,.columns:first-child{margin-left:0}.one.column,.one.columns{width:4.66666666667%}.two.columns{width:13.3333333333%}.three.columns{width:22%}.four.columns{width:30.6666666667%}.five.columns{width:39.3333333333%}.six.columns{width:48%}.seven.columns{width:56.6666666667%}.eight.columns{width:65.3333333333%}.nine.columns{width:74%}.ten.columns{width:82.6666666667%}.eleven.columns{width:91.3333333333%}.twelve.columns{width:100%;margin-left:0}.one-third.column{width:30.6666666667%}.two-thirds.column{width:65.3333333333%}.one-half.column{width:48%}.offset-by-one.column,.offset-by-one.columns{margin-left:8.66666666667%}.offset-by-two.column,.offset-by-two.columns{margin-left:17.3333333333%}.offset-by-three.column,.offset-by-three.columns{margin-left:26%}.offset-by-four.column,.offset-by-four.columns{margin-left:34.6666666667%}.offset-by-five.column,.offset-by-five.columns{margin-left:43.3333333333%}.offset-by-six.column,.offset-by-six.columns{margin-left:52%}.offset-by-seven.column,.offset-by-seven.columns{margin-left:60.6666666667%}.offset-by-eight.column,.offset-by-eight.columns{margin-left:69.3333333333%}.offset-by-nine.column,.offset-by-nine.columns{margin-left:78%}.offset-by-ten.column,.offset-by-ten.columns{margin-left:86.6666666667%}.offset-by-eleven.column,.offset-by-eleven.columns{margin-left:95.3333333333%}.offset-by-one-third.column,.offset-by-one-third.columns{margin-left:34.6666666667%}.offset-by-two-thirds.column,.offset-by-two-thirds.columns{margin-left:69.3333333333%}.offset-by-one-half.column,.offset-by-one-half.columns{margin-left:52%}}html{font-size:62.5%}body{font-size:1.5em;line-height:1.6;font-weight:400;font-family:Helvetica,Arial,sans-serif;color:#222}h1,h2,h3,h4,h5,h6{margin-top:0;margin-bottom:2rem;font-weight:300}h1{font-size:4rem;line-height:1.2;letter-spacing:-.1rem}h2{font-size:3.6rem;line-height:1.25;letter-spacing:-.1rem}h3{font-size:3rem;line-height:1.3;letter-spacing:-.1rem}h4{font-size:2.4rem;line-height:1.35;letter-spacing:-.08rem}h5{font-size:1.8rem;line-height:1.5;letter-spacing:-.05rem}h6{font-size:1.5rem;line-height:1.6;letter-spacing:0}@media(min-width:550px){h1{font-size:5rem}h2{font-size:4.2rem}h3{font-size:3.6rem}h4{font-size:3rem}h5{font-size:2.4rem}h6{font-size:1.5rem}}p{margin-top:0}a{color:#1eaedb;text-decoration:none;}a:hover{color:#0fa0ce}.button,button,input[type="submit"],input[type="reset"],input[type="button"]{display:inline-block;height:38px;padding:0 30px;color:#555;text-align:center;font-size:11px;font-weight:600;line-height:38px;letter-spacing:.1rem;text-transform:uppercase;text-decoration:none;white-space:nowrap;background-color:transparent;border-radius:4px;border:1px solid #bbb;cursor:pointer;box-sizing:border-box}.button:hover,button:hover,input[type="submit"]:hover,input[type="reset"]:hover,input[type="button"]:hover,.button:focus,button:focus,input[type="submit"]:focus,input[type="reset"]:focus,input[type="button"]:focus{color:#333;border-color:#888;outline:0}.button.button-primary,button.button-primary,input[type="submit"].button-primary,input[type="reset"].button-primary,input[type="button"].button-primary{color:#FFF;background-color:#33c3f0;border-color:#33c3f0}.button.button-primary:hover,button.button-primary:hover,input[type="submit"].button-primary:hover,input[type="reset"].button-primary:hover,input[type="button"].button-primary:hover,.button.button-primary:focus,button.button-primary:focus,input[type="submit"].button-primary:focus,input[type="reset"].button-primary:focus,input[type="button"].button-primary:focus{color:#FFF;background-color:#1eaedb;border-color:#1eaedb}input[type="email"],input[type="number"],input[type="search"],input[type="text"],input[type="tel"],input[type="url"],input[type="password"],textarea,select{height:38px;padding:6px 10px;background-color:#fff;border:1px solid #d1d1d1;border-radius:4px;box-shadow:none;box-sizing:border-box}input[type="email"],input[type="number"],input[type="search"],input[type="text"],input[type="tel"],input[type="url"],input[type="password"],textarea{-webkit-appearance:none;-moz-appearance:none;appearance:none}textarea{min-height:65px;padding-top:6px;padding-bottom:6px}input[type="email"]:focus,input[type="number"]:focus,input[type="search"]:focus,input[type="text"]:focus,input[type="tel"]:focus,input[type="url"]:focus,input[type="password"]:focus,textarea:focus,select:focus{border:1px solid #33c3f0;outline:0}label,legend{display:block;margin-bottom:.5rem;font-weight:600}fieldset{padding:0;border-width:0}input[type="checkbox"],input[type="radio"]{display:inline}label>.label-body{display:inline-block;margin-left:.5rem;font-weight:normal}ul{list-style:circle inside}ol{list-style:decimal inside}ol,ul{padding-left:0;margin-top:0}ul ul,ul ol,ol ol,ol ul{margin:1.5rem 0 1.5rem 3rem;font-size:90%}li{margin-bottom:1rem}code{padding:.2rem .5rem;margin:0 .2rem;font-size:90%;white-space:nowrap;background:#f1f1f1;border:1px solid #e1e1e1;border-radius:4px}pre>code{display:block;padding:1rem 1.5rem;white-space:pre}th,td{padding:12px 15px;text-align:left;border-bottom:1px solid #e1e1e1}th:first-child,td:first-child{padding-left:0}th:last-child,td:last-child{padding-right:0}button,.button{margin-bottom:1rem}input,textarea,select,fieldset{margin-bottom:1.5rem}pre,blockquote,dl,figure,table,p,ul,ol,form{margin-bottom:2.5rem}.u-full-width{width:100%;box-sizing:border-box}.u-max-full-width{max-width:100%;box-sizing:border-box}.u-pull-right{float:right}.u-pull-left{float:left}hr{margin-top:3rem;margin-bottom:3.5rem;border-width:0;border-top:1px solid #e1e1e1}.container:after,.row:after,.u-cf{content:"";display:table;clear:both}
-  </style>
-  <!-- <script type="text/javascript" id="_geaujs" data-target="body" data-exclude="" data-blacklist="pression|port|eau douce" src="https://cdn.jsdelivr.net/npm/glossaire_auto/dist/glossaire_eau.js"></script> -->
-  <script type="text/javascript" id="_geaujs" data-target="body" data-exclude="" data-blacklist="pression|port|eau douce" src="dist/glossaire_eau.js"></script>
+    <title>Démonstration | Glossaire automatique</title>
+    <style>
+        .container {
+            position: relative;
+            width: 100%;
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 0 20px;
+            box-sizing: border-box
+        }
+
+        .column, .columns {
+            width: 100%;
+            float: left;
+            box-sizing: border-box
+        }
+
+        @media (min-width: 400px) {
+            .container {
+                width: 85%;
+                padding: 0
+            }
+        }
+
+        @media (min-width: 550px) {
+            .container {
+                width: 80%
+            }
+
+            .column, .columns {
+                margin-left: 4%
+            }
+
+            .column:first-child, .columns:first-child {
+                margin-left: 0
+            }
+
+            .one.column, .one.columns {
+                width: 4.66666666667%
+            }
+
+            .two.columns {
+                width: 13.3333333333%
+            }
+
+            .three.columns {
+                width: 22%
+            }
+
+            .four.columns {
+                width: 30.6666666667%
+            }
+
+            .five.columns {
+                width: 39.3333333333%
+            }
+
+            .six.columns {
+                width: 48%
+            }
+
+            .seven.columns {
+                width: 56.6666666667%
+            }
+
+            .eight.columns {
+                width: 65.3333333333%
+            }
+
+            .nine.columns {
+                width: 74%
+            }
+
+            .ten.columns {
+                width: 82.6666666667%
+            }
+
+            .eleven.columns {
+                width: 91.3333333333%
+            }
+
+            .twelve.columns {
+                width: 100%;
+                margin-left: 0
+            }
+
+            .one-third.column {
+                width: 30.6666666667%
+            }
+
+            .two-thirds.column {
+                width: 65.3333333333%
+            }
+
+            .one-half.column {
+                width: 48%
+            }
+
+            .offset-by-one.column, .offset-by-one.columns {
+                margin-left: 8.66666666667%
+            }
+
+            .offset-by-two.column, .offset-by-two.columns {
+                margin-left: 17.3333333333%
+            }
+
+            .offset-by-three.column, .offset-by-three.columns {
+                margin-left: 26%
+            }
+
+            .offset-by-four.column, .offset-by-four.columns {
+                margin-left: 34.6666666667%
+            }
+
+            .offset-by-five.column, .offset-by-five.columns {
+                margin-left: 43.3333333333%
+            }
+
+            .offset-by-six.column, .offset-by-six.columns {
+                margin-left: 52%
+            }
+
+            .offset-by-seven.column, .offset-by-seven.columns {
+                margin-left: 60.6666666667%
+            }
+
+            .offset-by-eight.column, .offset-by-eight.columns {
+                margin-left: 69.3333333333%
+            }
+
+            .offset-by-nine.column, .offset-by-nine.columns {
+                margin-left: 78%
+            }
+
+            .offset-by-ten.column, .offset-by-ten.columns {
+                margin-left: 86.6666666667%
+            }
+
+            .offset-by-eleven.column, .offset-by-eleven.columns {
+                margin-left: 95.3333333333%
+            }
+
+            .offset-by-one-third.column, .offset-by-one-third.columns {
+                margin-left: 34.6666666667%
+            }
+
+            .offset-by-two-thirds.column, .offset-by-two-thirds.columns {
+                margin-left: 69.3333333333%
+            }
+
+            .offset-by-one-half.column, .offset-by-one-half.columns {
+                margin-left: 52%
+            }
+        }
+
+        html {
+            font-size: 62.5%
+        }
+
+        body {
+            font-size: 1.5em;
+            line-height: 1.6;
+            font-weight: 400;
+            font-family: Helvetica, Arial, sans-serif;
+            color: #222
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            margin-top: 0;
+            margin-bottom: 2rem;
+            font-weight: 300
+        }
+
+        h1 {
+            font-size: 4rem;
+            line-height: 1.2;
+            letter-spacing: -.1rem
+        }
+
+        h2 {
+            font-size: 3.6rem;
+            line-height: 1.25;
+            letter-spacing: -.1rem
+        }
+
+        h3 {
+            font-size: 3rem;
+            line-height: 1.3;
+            letter-spacing: -.1rem
+        }
+
+        h4 {
+            font-size: 2.4rem;
+            line-height: 1.35;
+            letter-spacing: -.08rem
+        }
+
+        h5 {
+            font-size: 1.8rem;
+            line-height: 1.5;
+            letter-spacing: -.05rem
+        }
+
+        h6 {
+            font-size: 1.5rem;
+            line-height: 1.6;
+            letter-spacing: 0
+        }
+
+        @media (min-width: 550px) {
+            h1 {
+                font-size: 5rem
+            }
+
+            h2 {
+                font-size: 4.2rem
+            }
+
+            h3 {
+                font-size: 3.6rem
+            }
+
+            h4 {
+                font-size: 3rem
+            }
+
+            h5 {
+                font-size: 2.4rem
+            }
+
+            h6 {
+                font-size: 1.5rem
+            }
+        }
+
+        p {
+            margin-top: 0
+        }
+
+        a {
+            color: #1eaedb;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #0fa0ce
+        }
+
+        .button, button, input[type="submit"], input[type="reset"], input[type="button"] {
+            display: inline-block;
+            height: 38px;
+            padding: 0 30px;
+            color: #555;
+            text-align: center;
+            font-size: 11px;
+            font-weight: 600;
+            line-height: 38px;
+            letter-spacing: .1rem;
+            text-transform: uppercase;
+            text-decoration: none;
+            white-space: nowrap;
+            background-color: transparent;
+            border-radius: 4px;
+            border: 1px solid #bbb;
+            cursor: pointer;
+            box-sizing: border-box
+        }
+
+        .button:hover, button:hover, input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, .button:focus, button:focus, input[type="submit"]:focus, input[type="reset"]:focus, input[type="button"]:focus {
+            color: #333;
+            border-color: #888;
+            outline: 0
+        }
+
+        .button.button-primary, button.button-primary, input[type="submit"].button-primary, input[type="reset"].button-primary, input[type="button"].button-primary {
+            color: #FFF;
+            background-color: #33c3f0;
+            border-color: #33c3f0
+        }
+
+        .button.button-primary:hover, button.button-primary:hover, input[type="submit"].button-primary:hover, input[type="reset"].button-primary:hover, input[type="button"].button-primary:hover, .button.button-primary:focus, button.button-primary:focus, input[type="submit"].button-primary:focus, input[type="reset"].button-primary:focus, input[type="button"].button-primary:focus {
+            color: #FFF;
+            background-color: #1eaedb;
+            border-color: #1eaedb
+        }
+
+        input[type="email"], input[type="number"], input[type="search"], input[type="text"], input[type="tel"], input[type="url"], input[type="password"], textarea, select {
+            height: 38px;
+            padding: 6px 10px;
+            background-color: #fff;
+            border: 1px solid #d1d1d1;
+            border-radius: 4px;
+            box-shadow: none;
+            box-sizing: border-box
+        }
+
+        input[type="email"], input[type="number"], input[type="search"], input[type="text"], input[type="tel"], input[type="url"], input[type="password"], textarea {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none
+        }
+
+        textarea {
+            min-height: 65px;
+            padding-top: 6px;
+            padding-bottom: 6px
+        }
+
+        input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="text"]:focus, input[type="tel"]:focus, input[type="url"]:focus, input[type="password"]:focus, textarea:focus, select:focus {
+            border: 1px solid #33c3f0;
+            outline: 0
+        }
+
+        label, legend {
+            display: block;
+            margin-bottom: .5rem;
+            font-weight: 600
+        }
+
+        fieldset {
+            padding: 0;
+            border-width: 0
+        }
+
+        input[type="checkbox"], input[type="radio"] {
+            display: inline
+        }
+
+        label > .label-body {
+            display: inline-block;
+            margin-left: .5rem;
+            font-weight: normal
+        }
+
+        ul {
+            list-style: circle inside
+        }
+
+        ol {
+            list-style: decimal inside
+        }
+
+        ol, ul {
+            padding-left: 0;
+            margin-top: 0
+        }
+
+        ul ul, ul ol, ol ol, ol ul {
+            margin: 1.5rem 0 1.5rem 3rem;
+            font-size: 90%
+        }
+
+        li {
+            margin-bottom: 1rem
+        }
+
+        code {
+            padding: .2rem .5rem;
+            margin: 0 .2rem;
+            font-size: 90%;
+            white-space: nowrap;
+            background: #f1f1f1;
+            border: 1px solid #e1e1e1;
+            border-radius: 4px
+        }
+
+        pre > code {
+            display: block;
+            padding: 1rem 1.5rem;
+            white-space: pre
+        }
+
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #e1e1e1
+        }
+
+        th:first-child, td:first-child {
+            padding-left: 0
+        }
+
+        th:last-child, td:last-child {
+            padding-right: 0
+        }
+
+        button, .button {
+            margin-bottom: 1rem
+        }
+
+        input, textarea, select, fieldset {
+            margin-bottom: 1.5rem
+        }
+
+        pre, blockquote, dl, figure, table, p, ul, ol, form {
+            margin-bottom: 2.5rem
+        }
+
+        .u-full-width {
+            width: 100%;
+            box-sizing: border-box
+        }
+
+        .u-max-full-width {
+            max-width: 100%;
+            box-sizing: border-box
+        }
+
+        .u-pull-right {
+            float: right
+        }
+
+        .u-pull-left {
+            float: left
+        }
+
+        hr {
+            margin-top: 3rem;
+            margin-bottom: 3.5rem;
+            border-width: 0;
+            border-top: 1px solid #e1e1e1
+        }
+
+        .container:after, .row:after, .u-cf {
+            content: "";
+            display: table;
+            clear: both
+        }
+    </style>
+    <meta charset="UTF-8">
+    <!-- <script type="text/javascript" id="_geaujs" data-target="body" data-exclude="" data-blacklist="pression|port|eau douce" src="https://cdn.jsdelivr.net/npm/glossaire_auto/dist/glossaire_eau.js" defer></script> -->
+    <script type="text/javascript" id="_geaujs" data-target="body" data-exclude=""
+            data-blacklist="pression|port|eau" src="dist/glossaire_eau.js" defer></script>
 </head>
 <body>
 
 <div class="container">
-  <h1 style="background:#333333; color: #FFFFFF;">Démonstration | Glossaire automatique</h1>
-  <h2 id="firstHeading" class="firstHeading" lang="">Dessalement</h2>
-  
-  <div id="bodyContent" class="mw-body-content">
-    <div id="siteSub" class="noprint">Un article de Wikip&eacute;dia, l&#039;encyclop&eacute;die libre.</div>
-    <p></p>
-    <div id="contentSub"></div>
-    
-    
-    
-    <div id="jump-to-nav"></div>
-    <div id="mw-content-text" lang="fr" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><p>Le <b>dessalement</b> de l'eau (également appelé <b>dessalage</b> ou <b>désalinisation</b>) est un processus qui permet d'obtenir de l'<a href="https://fr.wikipedia.org/wiki/Eau_douce" title="Eau douce">eau douce</a> (<a href="https://fr.wikipedia.org/wiki/Eau_potable" title="Eau potable">potable</a> ou, plus rarement en raison du coût, utilisable pour l'<a href="https://fr.wikipedia.org/wiki/Irrigation" title="Irrigation">irrigation</a>) à partir d'une eau saumâtre ou salée (<a href="https://fr.wikipedia.org/wiki/Eau_de_mer" title="Eau de mer">eau de mer</a> notamment). En dépit du nom, il s'agit rarement de retirer les <a href="https://fr.wikipedia.org/wiki/Sel_(chimie)" title="Sel (chimie)">sels</a> de l'<a href="https://fr.wikipedia.org/wiki/Eau" title="Eau">eau</a>, mais plutôt, à l'inverse, d'extraire de l'eau douce.
-    </p><p>Très généralement, il est plus simple et plus économique de rechercher des sources d'eau douce à traiter (eaux de surface, telles que lac et rivière, ou eau souterraine), que de dessaler l'eau de mer. Cependant, dans de nombreuses régions du monde, les sources d'eau douce sont inexistantes ou deviennent insuffisantes au regard de la croissance démographique ou de la production industrielle. 
-    </p><p>D'autre part, il est souvent rentable de combiner la <a href="https://fr.wikipedia.org/wiki/Production_d%27eau_potable" title="Production d&#39;eau potable">production d'eau douce</a> avec une autre activité (notamment la production d'<a href="https://fr.wikipedia.org/wiki/%C3%89nergie" title="Énergie">énergie</a>, car la vapeur disponible à la sortie des turbines, et perdue dans une usine classique, est réutilisable dans une station de dessalement dite thermique ou fonctionnant sur le principe de l'évaporation).
-    </p><p>L'eau de mer est salée à peu près à 35 g.l<sup>−1</sup> en général. Dans des régions comme le Golfe Persique, la salinité atteint 42 g.l<sup>−1</sup>. Pour séparer le sel, il faut, d'un point de vue purement théorique et sans perte d'énergie (dessalement isentropique), environ 563 Wh.m<sup>−3</sup>.
-    </p><p>Les systèmes de dessalement se caractérisent par leur rendement et le taux de sel résiduel.
-    </p><p>Dans le monde, on produit chaque jour 95 millions de mètres cubes d’eau douce en 2018, rejetant 141,5&#160;millions de m<sup>3</sup> par jour de saumure, dont l'impact sur les mers inquiète l'<a href="https://fr.wikipedia.org/wiki/ONU" class="mw-redirect" title="ONU">ONU</a>.
-    </p>
+    <h1 style="background:#333333; color: #FFFFFF;">Démonstration | Glossaire automatique</h1>
+    <h2 id="firstHeading" class="firstHeading" lang="">Dessalement</h2>
+
+    <div id="bodyContent" class="mw-body-content">
+        <div id="siteSub" class="noprint">Un article de Wikip&eacute;dia, l&#039;encyclop&eacute;die libre.</div>
+        <p></p>
+        <div id="contentSub"></div>
 
 
-<h2><span id="Diff.C3.A9rents_syst.C3.A8mes_de_dessalement"></span><span class="mw-headline" id="Différents_systèmes_de_dessalement">Différents systèmes de dessalement</span><span class="mw-editsection"><span class="mw-editsection-bracket"></span></span></h2>
-<p>Les systèmes utilisés sont&#160;: 
-</p>
-<ul><li><a href="https://fr.wikipedia.org/wiki/Osmose_inverse" title="Osmose inverse">Osmose inverse</a>&#160;: cette technique <i>«&#160;membranaire&#160;»</i> repose sur une ultrafiltration sous pression au travers de membranes dont les pores sont des 'trous' si petits que même les sels sont retenus. Cette technique, en plein essor (coût énergétique moyen (≈ 4-5 kWh/m<sup>3</sup>)<sup id="cite_ref-Tuas_2006_1-0" class="reference"><a href="#cite_note-Tuas_2006-1"><span class="cite_crochet">[</span>1<span class="cite_crochet">]</span></a></sup>) est un système éprouvé ayant montré sa fiabilité.</li>
-<li><a href="https://fr.wikipedia.org/wiki/Distillation" title="Distillation">Distillation</a>
-<ul><li>La distillation à effet simple (DES)&#160;: La <a href="https://fr.wikipedia.org/wiki/Distillation" title="Distillation">distillation</a> est le plus vieux procédé de dessalement. Cette technique provient de l’antiquité, des marins grecs qui l’utilisaient déjà au <a href="https://fr.wikipedia.org/wiki/IIIe_si%C3%A8cle_av._J.-C." title="IIIe siècle av. J.-C."><abbr class="abbr" title="3ᵉ siècle"><span class="romain">III</span><sup style="font-size:72%">e</sup></abbr>&#160;siècle&#160;<abbr class="abbr nowrap" title="avant Jésus-Christ">av. J.-C.</abbr></a> à bord de leurs bateaux, et ce  grâce au procédé décrit par Aristote. Ce n’est qu’au <abbr class="abbr" title="19ᵉ siècle"><span class="romain">XIX</span><sup style="font-size:72%">e</sup></abbr>&#160;siècle qu’apparut le premier procédé industriel capable de distiller efficacement de grandes quantités d’eau de mer<sup id="cite_ref-DES_2-0" class="reference"><a href="#cite_note-DES-2"><span class="cite_crochet">[</span>2<span class="cite_crochet">]</span></a></sup>.</li>
-<li>Dessalement:multi flash (MSF)&#160;: Ce procédé dit flash consiste à maintenir l’eau sous pression pendant toute la durée du chauffage. Lorsqu’elle atteint une température élevée, elle est introduite dans une enceinte (ou étage) où règne une pression réduite. Il en résulte une vaporisation instantanée par détente appelée flash. Le phénomène de flash est reproduit ensuite dans un deuxième étage où règne une pression encore plus réduite. La vaporisation de l’eau est ainsi réalisée par détentes successives dans une série d’étages où règnent des pressions de plus en plus réduites<sup id="cite_ref-DES_2-1" class="reference"><a href="#cite_note-DES-2"><span class="cite_crochet">[</span>2<span class="cite_crochet">]</span></a></sup>. En effet, l'eau d’alimentation circule d'abord dans les tubes des condenseurs des différents étages en commençant d'abord par le dernier étage où la température est la plus faible, est alors préchauffée en récupérant la chaleur de condensation de la vapeur d'eau. Elle est finalement portée à une température maximale grâce à la vapeur produite par une chaudière ou d'une centrale de production d'électricité. Ainsi la MSF fonctionne selon le principe suivant&#160;: les tuyaux de condensation en serpentin passant par chaque compartiment ont deux fonctions, condenser la vapeur obtenue grâce à la différence de pression et préchauffer l'eau d’alimentation contenue dans ces tuyaux (grâce à cette même vapeur)<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span class="cite_crochet">[</span>3<span class="cite_crochet">]</span></a></sup> .</li>
-<li><a href="https://fr.wikipedia.org/wiki/Distillation_multiples_effets" class="mw-redirect" title="Distillation multiples effets">Distillation multi-effets</a>&#160;: ce système fournit une eau très pure&#160;; coût énergétique élevé (≈ 15 kWh/m<sup>3</sup>).</li>
-<li>Flash multi-étages, ou système flash&#160;: il est utilisé dans les pays du Golfe, fournissant une eau dont le taux de sel résiduel est non négligeable&#160;; coût énergétique élevé (≈ 10 kWh/m<sup>3</sup>).</li>
-<li>Compression de vapeur&#160;: il fournit une eau pure&#160;; coût énergétique variable en fonction de l'unité (entre 8 et 25 kWh/m<sup>3</sup>)<sup id="cite_ref-4" class="reference"><a href="#cite_note-4"><span class="cite_crochet">[</span>4<span class="cite_crochet">]</span></a></sup>.</li>
-<li><a href="https://fr.wikipedia.org/wiki/Distillation" title="Distillation">Distillation</a> par dépression&#160;: ce système est basé sur le fait que la température d'<a href="https://fr.wikipedia.org/wiki/%C3%89vaporation" title="Évaporation">évaporation</a> dépend de la <a href="https://fr.wikipedia.org/wiki/Pression" title="Pression">pression</a>. Il fournit une eau très pure&#160;; coût énergétique faible (≈ 2 à 3 kWh/m<sup>3</sup>). Il est utilisé pour de petites unités.</li>
-<li><a href="https://fr.wikipedia.org/wiki/Distillation_par_four_solaire" title="Distillation par four solaire">Distillation par four solaire</a>&#160;: le four solaire concentre en une zone restreinte les rayons du soleil, grâce à un miroir parabolique, pour porter à haute température l’élément qui contient l’eau destinée à être évaporée.</li></ul></li>
-<li><a href="https://fr.wikipedia.org/wiki/%C3%89lectrodialyse" title="Électrodialyse">Électrodialyse</a>&#160;: on applique un <a href="https://fr.wikipedia.org/wiki/Courant_%C3%A9lectrique" title="Courant électrique">courant électrique</a> qui fait migrer les <a href="https://fr.wikipedia.org/wiki/Ion" title="Ion">ions</a> vers les <a href="https://fr.wikipedia.org/wiki/%C3%89lectrode" title="Électrode">électrodes</a>. Système très rentable pour les faibles concentrations, l'énergie à mettre en jeu dépend de la concentration en sel.</li>
-<li><a href="https://fr.wikipedia.org/wiki/Condensation" title="Condensation">Condensation</a> sur une surface ayant une température inférieure au <a href="https://fr.wikipedia.org/wiki/Point_de_ros%C3%A9e" title="Point de rosée">point de rosée</a>. Fournit une eau pure&#160;; coût énergétique zéro avec un système passif<sup id="cite_ref-5" class="reference"><a href="#cite_note-5"><span class="cite_crochet">[</span>5<span class="cite_crochet">]</span></a></sup> ou faible avec un système actif<sup id="cite_ref-6" class="reference"><a href="#cite_note-6"><span class="cite_crochet">[</span>6<span class="cite_crochet">]</span></a></sup>. Il est utilisé pour de petites unités.</li></ul>
-<p>Une classe importante de <a href="https://fr.wikipedia.org/wiki/Centrale_thermique" title="Centrale thermique">centrales thermiques</a> est associée aux installations de dessalement; Celles-ci se trouvent généralement dans les pays arides disposant d'une importante réserve de gaz naturel. Dans ces usines, la production d'eau douce et l'<a href="https://fr.wikipedia.org/wiki/%C3%89lectricit%C3%A9" title="Électricité">électricité</a> sont des coproduits tout aussi importants.
-</p><p>Dans tous les cas, le dessalement produit une <a href="https://fr.wikipedia.org/wiki/Saumure" title="Saumure">saumure</a> dont il faut se débarrasser, ce qui n'est pas un problème en bord de <a href="https://fr.wikipedia.org/wiki/Mer" title="Mer">mer</a> là où le courant est important, mais peut l'être à l'intérieur des terres, et dans certains écosystèmes comme les <a href="https://fr.wikipedia.org/wiki/Lagon" title="Lagon">lagons</a>, baies, lagunes, mangroves.
-</p>
-<ul><li><b>Unités mobiles de désalinisation</b>&#160;: La ville de <a href="https://fr.wikipedia.org/wiki/Yokohama" title="Yokohama">Yokohama</a> au <a href="https://fr.wikipedia.org/wiki/Japon" title="Japon">Japon</a> a présenté en juin 2009 un camion équipé d'un dispositif à <a href="https://fr.wikipedia.org/wiki/Membrane_%C3%A0_osmose_inverse" class="mw-redirect" title="Membrane à osmose inverse">membrane à osmose inverse</a>, capable de dessaler de l'eau de mer ou de rendre potable de l'eau douce issue d'une rivière ou d'un lac. L'eau douce est épurée 15 fois plus vite qu'avec l'ozone, par des microbes (les mêmes que ceux qui produisent le <a href="https://fr.wikipedia.org/wiki/Natt%C3%B4" class="mw-redirect" title="Nattô">nattô</a>&#160;; haricots fermentés très appréciés au Japon). Un traitement au <a href="https://fr.wikipedia.org/wiki/Chlore" title="Chlore">chlore</a> et à l'<a href="https://fr.wikipedia.org/wiki/Ozone" title="Ozone">ozone</a> conclut le processus. L'énergie nécessaire au dessalement est entièrement fournie par une petite <a href="https://fr.wikipedia.org/wiki/%C3%89olienne" title="Éolienne">éolienne</a> et des <a href="https://fr.wikipedia.org/wiki/Panneaux_solaires" class="mw-redirect" title="Panneaux solaires">panneaux solaires</a> qui alimentent aussi des <a href="https://fr.wikipedia.org/wiki/Batterie_d%27accumulateurs" title="Batterie d&#39;accumulateurs">batteries</a> permettant une autonomie de 24 heures. 3 litres d'eau de mer fournissent un litre potable. Le <a href="https://fr.wikipedia.org/wiki/Camion" title="Camion">camion</a> peut fournir de l'eau à 3&#160;500 personnes par jour. La saumure peut être utilisée pour la <a href="https://fr.wikipedia.org/wiki/Thalassoth%C3%A9rapie" title="Thalassothérapie">thalassothérapie</a> ou des usages alimentaires<sup id="cite_ref-7" class="reference"><a href="#cite_note-7"><span class="cite_crochet">[</span>7<span class="cite_crochet">]</span></a></sup><sup class="reference cite_virgule">,</sup><sup id="cite_ref-8" class="reference"><a href="#cite_note-8"><span class="cite_crochet">[</span>8<span class="cite_crochet">]</span></a></sup>.</li></ul>
-<h2><span id=".C3.89conomie_du_dessalement"></span><span class="mw-headline" id="Économie_du_dessalement">Économie du dessalement</span><span class="mw-editsection"><span class="mw-editsection-bracket"></span></span></h2>
-<p>Dans le monde, on produit chaque jour par dessalement 95 millions de mètres cubes d’eau douce en 2018<sup id="cite_ref-Martine_Valo_9-0" class="reference"><a href="#cite_note-Martine_Valo-9"><span class="cite_crochet">[</span>9<span class="cite_crochet">]</span></a></sup>.
-</p><p>Le dessalement de l'eau de mer est un enjeu important pour l'avenir des régions <a href="https://fr.wikipedia.org/wiki/Aridit%C3%A9" title="Aridité">arides</a>. Moyennant un coût de production pouvant descendre à environ 0,5&#160;dollar par mètre cube pour les projets récents (par osmose inverse et  toutes charges comprises&#160;: coût d'exploitation, amortissement de l'installation, bénéfice de l'opérateur<sup id="cite_ref-Tuas_2006_1-1" class="reference"><a href="#cite_note-Tuas_2006-1"><span class="cite_crochet">[</span>1<span class="cite_crochet">]</span></a></sup><sup class="reference cite_virgule">,</sup><sup id="cite_ref-Ashkelon_10-0" class="reference"><a href="#cite_note-Ashkelon-10"><span class="cite_crochet">[</span>10<span class="cite_crochet">]</span></a></sup>...), il est possible de résoudre les problèmes de manque <i>d'eau potable</i> dans de nombreux pays. Dans le cas d'une utilisation pour la consommation humaine, le dessalement d'eau de mer est une technique aujourd'hui fiable et moins onéreuse que la technique dite de recyclage des eaux usées. Il devient même rentable dans des pays développés ne manquant généralement pas d'eau, dans certaines situations spécifiques (par exemple des îles touristiques). 
-</p><p>De ce fait, cette activité est en très forte croissance. La capacité installée chaque année augmente en moyenne de plus de 10&#160;% par an. Les techniques dites thermiques (par évaporation) représentaient il y a encore quelques années la principale technique employée, mais l'<a href="https://fr.wikipedia.org/wiki/Osmose_inverse" title="Osmose inverse">osmose inverse</a>, du fait d'une fiabilité accrue et de sa faible consommation électrique (4 à 5&#160;kWh/m<sup>3</sup>), permet des coûts très bas, ce qui lui donne 84&#160;% de la part de marché en 2019<sup id="cite_ref-Martine_Valo_9-1" class="reference"><a href="#cite_note-Martine_Valo-9"><span class="cite_crochet">[</span>9<span class="cite_crochet">]</span></a></sup>.
-</p><p>En 2015, il suffit de 2 kilowattheures pour fabriquer un mètre cube d'eau douce contre 12 kWh il y a quarante ans<sup id="cite_ref-Echos22032016_11-0" class="reference"><a href="#cite_note-Echos22032016-11"><span class="cite_crochet">[</span>11<span class="cite_crochet">]</span></a></sup>. Selon <a href="https://fr.wikipedia.org/wiki/Jean-Louis_Chaussade" title="Jean-Louis Chaussade">Jean-Louis Chaussade</a>, directeur général de Suez, <span class="citation">«&#160;en quinze ans, le coût du dessalement a été divisé par dix et nous pouvons encore réduire la facture énergétique de cette technique&#160;»</span><sup id="cite_ref-12" class="reference"><a href="#cite_note-12"><span class="cite_crochet">[</span>12<span class="cite_crochet">]</span></a></sup>.
-</p><p><span class="need_ref" title="Ce passage nécessite une référence." style="cursor:help;">Des projets pharaoniques ont été proposés pour dessaler de l'eau, notamment avec des <a href="https://fr.wikipedia.org/wiki/Centrale_nucl%C3%A9aire" title="Centrale nucléaire">centrales nucléaires</a>, pour faire de l'<a href="https://fr.wikipedia.org/wiki/Agriculture" title="Agriculture">agriculture</a></span><sup class="need_ref_tag" style="padding-left:2px;"><a href="https://fr.wikipedia.org/wiki/Aide:R%C3%A9f%C3%A9rence_n%C3%A9cessaire" title="Aide:Référence nécessaire">[réf.&#160;nécessaire]</a></sup>. Cependant, le dessalement pour l'agriculture vivrière n'est pas encore rentable<sup id="cite_ref-Comité_13-0" class="reference"><a href="#cite_note-Comité-13"><span class="cite_crochet">[</span>13<span class="cite_crochet">]</span></a></sup>, <span class="need_ref" title="Ce passage nécessite une référence (demandé le janvier 2014)." style="cursor:help;">et de loin&#160;: le prix de l'eau utilisée excède de beaucoup la valeur des productions agricoles qu'elle rendrait possible. Par exemple la production d'une tonne de blé, valant environ 100&#160;<abbr class="abbr" title="euro">€</abbr>, nécessite environ 1&#160;000&#160;<abbr class="abbr" title="mètre carré">m<sup>2</sup></abbr> de terrain arrosés par environ 500&#160;<abbr class="abbr" title="millimètre">mm</abbr> de pluie, soit 500&#160;<abbr class="abbr" title="mètre cube">m<sup>3</sup></abbr> d'eau, dont le coût n'est pas moins de 250&#160;dollars dans le meilleur des cas</span><sup class="need_ref_tag" style="padding-left:2px;"><a href="https://fr.wikipedia.org/wiki/Aide:R%C3%A9f%C3%A9rence_n%C3%A9cessaire" title="Aide:Référence nécessaire">[réf.&#160;nécessaire]</a></sup> . Cependant certaines cultures à très haute valeur ajoutée peuvent supporter de tels coûts<sup id="cite_ref-Comité_13-1" class="reference"><a href="#cite_note-Comité-13"><span class="cite_crochet">[</span>13<span class="cite_crochet">]</span></a></sup>.
-</p><p>Une autre voie vers un dessalement moins coûteux consiste à dessaler de la <a href="https://fr.wikipedia.org/wiki/Affouillement_des_fonds_marins_par_la_glace#La_glace_de_mer" title="Affouillement des fonds marins par la glace">glace de mer</a>&#160;; en effet, la salinité de la glace de mer est comprise entre 0,4&#160;% et 0,8&#160;%, bien en dessous de celle des eaux de mer, qui se situe entre 2,8&#160;% et 3,1&#160;%&#160;; son dessalement demande beaucoup moins d'énergie. Une société chinoise, la Beijing Huahaideyuan Technology Co. Ltd., commencera bientôt la production d'une grande quantité d'eau douce par désalinisation de glace de mer, grâce à un accord de transfert de technologie signé avec l'Université de Beijing en janvier 2014&#160;; la société devrait être capable de produire au moins un milliard de mètres cubes d'eau douce par an d'ici 2023&#160;; le coût de la désalinisation devrait baisser à 4 <a href="https://fr.wikipedia.org/wiki/Yuans" class="mw-redirect" title="Yuans">yuans</a> par tonne (0,48 €/tonne)<sup id="cite_ref-14" class="reference"><a href="#cite_note-14"><span class="cite_crochet">[</span>14<span class="cite_crochet">]</span></a></sup>.
-</p>
-<h2><span id="Les_inconv.C3.A9nients_du_dessalement"></span><span class="mw-headline" id="Les_inconvénients_du_dessalement">Les inconvénients du dessalement</span><span class="mw-editsection"><span class="mw-editsection-bracket"></span></span></h2>
-<ul><li>Coût énergétique élevé.</li>
-<li>Augmentation de l'<a href="https://fr.wikipedia.org/wiki/Empreinte_carbone" title="Empreinte carbone">empreinte carbone</a> lorsque l'énergie utilisée provient des combustibles fossiles&#160;; pour y remédier, des projets pilotes de désalinisation à base d'énergies renouvelables sont menés par quatre groupes industriels, dont les français <a href="https://fr.wikipedia.org/wiki/Veolia" title="Veolia">Veolia</a> et <a href="https://fr.wikipedia.org/wiki/Suez_Environnement" class="mw-redirect" title="Suez Environnement">Suez Environnement</a>, dans la région d'Abu Dhabi, sous la houlette de l'Institut de la ville durable de <a href="https://fr.wikipedia.org/wiki/Masdar" class="mw-redirect" title="Masdar">Masdar</a>&#160;; l'émirat a un projet d'usine durable de dessalement de 150&#160;000&#160;<abbr class="abbr" title="mètre cube par jour">m<sup>3</sup>/jour</abbr>&#160;; en Arabie saoudite, l'espagnol <a href="https://fr.wikipedia.org/wiki/Abengoa" title="Abengoa">Abengoa</a> va codévelopper une usine solaire de 60&#160;000&#160;<abbr class="abbr" title="mètre cube par jour">m<sup>3</sup>/jour</abbr> pour approvisionner la ville d'Al Khafji&#160;; les deux pays comptent aussi sur le nucléaire<sup id="cite_ref-Echos22032016_11-1" class="reference"><a href="#cite_note-Echos22032016-11"><span class="cite_crochet">[</span>11<span class="cite_crochet">]</span></a></sup>.</li>
-<li>Rejet des <a href="https://fr.wikipedia.org/wiki/Saumure" title="Saumure">saumures</a> concentrées au double de la salinité naturelle en mer ou injectées dans le sol&#160;; ainsi, les rejets de «&#160;brine&#160;», effluents très chargés en sel, dans la mer d'Arabie ont fait exploser le taux de salinité de ses eaux&#160;; dans certaines zones, les fonds marins sont devenus des déserts<sup id="cite_ref-Echos22032016_11-2" class="reference"><a href="#cite_note-Echos22032016-11"><span class="cite_crochet">[</span>11<span class="cite_crochet">]</span></a></sup>.</li>
-<li>Rejet d'eaux chaudes en mer dans le cas de la distillation.</li>
-<li>Emploi de produits chimiques pour nettoyer les membranes (chlore).</li>
-<li>Traces de <a href="https://fr.wikipedia.org/wiki/Cuivre" title="Cuivre">cuivre</a> échappées des installations&#160;; <a href="https://fr.wikipedia.org/wiki/Corrosion_chimique" class="mw-redirect" title="Corrosion chimique">corrosion chimique</a> des installations de tuyauteries.</li>
-<li>Aucune législation spécifique concernant la <a href="https://fr.wikipedia.org/wiki/Potabilit%C3%A9" class="mw-redirect" title="Potabilité">potabilité</a> de l’eau issue de ces traitements.</li>
-<li>Le captage de l'eau en mer peut modifier les flux maritimes.</li>
-<li>Risque de dégâts en fonds marins au niveau de la faune et de la flore.</li></ul>
-<h3><span id="Co.C3.BBt_.C3.A9nerg.C3.A9tique"></span><span class="mw-headline" id="Coût_énergétique">Coût énergétique</span><span class="mw-editsection"><span class="mw-editsection-bracket"></span></span></h3>
-<p>Les sources non conventionnelles en eau que sont le dessalement et la <a href="https://fr.wikipedia.org/wiki/R%C3%A9utilisation_ou_recyclage_des_eaux_us%C3%A9es" title="Réutilisation ou recyclage des eaux usées">réutilisation de l’eau</a>, pour les pays qui ont des ressources en eau douce limitées, contribuent à réduire l’écart entre prélèvements d’eau douce et approvisionnement durable, mais dans l'approche «&#160;<a href="https://fr.wikipedia.org/wiki/Connexion_eau-%C3%A9nergie" title="Connexion eau-énergie">connexion eau-énergie</a>&#160;» ils contribuent également à l’augmentation de la <a href="https://fr.wikipedia.org/wiki/Ressources_et_consommation_%C3%A9nerg%C3%A9tiques_mondiales" title="Ressources et consommation énergétiques mondiales">demande énergétique</a> du secteur de l’eau. Bien que le dessalement et la réutilisation de l'eau atteignent moins de 1&#160;% des besoins mondiaux en eau, ces processus représentent près du quart de la consommation totale d'énergie dans le secteur de l'eau. En 2040, les deux sources devraient représenter 4&#160;% de l’approvisionnement en eau, mais 60&#160;% de la consommation d’énergie du secteur de l’eau. La capacité de dessalement devrait augmenter de manière significative au Moyen-Orient, et en 2040, le dessalement devrait représenter plus de 10&#160;% de la consommation finale totale d’énergie du Moyen-Orient<sup id="cite_ref-15" class="reference"><a href="#cite_note-15"><span class="cite_crochet">[</span>15<span class="cite_crochet">]</span></a></sup>.
-</p>
-<h3><span id="Sant.C3.A9_publique"></span><span class="mw-headline" id="Santé_publique">Santé publique</span><span class="mw-editsection"><span class="mw-editsection-bracket"></span></span></h3>
-<p>Une étude israélienne a montré que les consommateurs d'eau dessalée <span class="citation">«&#160;sont six fois plus exposés au risque de problèmes cardiaques, et notamment celui de mourir d’une attaque&#160;»</span> que ceux ne consommant pas d'eau dessalée. La cause en serait que contrairement à celle venant des nappes phréatiques, l'eau dessalée est dépourvue de magnésium<sup id="cite_ref-16" class="reference"><a href="#cite_note-16"><span class="cite_crochet">[</span>16<span class="cite_crochet">]</span></a></sup>.
-</p>
-<h3><span id="Co.C3.BBt_environnemental"></span><span class="mw-headline" id="Coût_environnemental">Coût environnemental</span><span class="mw-editsection"><span class="mw-editsection-bracket"></span></span></h3>
-<p>Le dessalement d'eau de mer produit 141,5&#160;millions de m<sup>3</sup> par jour de saumure. L'<a href="https://fr.wikipedia.org/wiki/ONU" class="mw-redirect" title="ONU">ONU</a> a alerté l'opinion publique début 2019 sur ce problème, face au développement de plus en plus inquiétant des technologies de dessalement à gros volumes de rejets. Les rejets de saumure, souvent chargés en polluants toxiques, sont estimés à environ 141,5&#160;<abbr class="abbr" title="mégamètre cube par jour">Mm<sup>3</sup>/jour</abbr>. Très dépendants de ce mode d’approvisionnement, l’Arabie saoudite, les Émirats arabes unis, le Koweït et le Qatar produisent 32&#160;% de l’eau dessalée totale grâce à leurs ressources en pétrole, mais aussi 55&#160;% de la saumure<sup id="cite_ref-Martine_Valo_9-2" class="reference"><a href="#cite_note-Martine_Valo-9"><span class="cite_crochet">[</span>9<span class="cite_crochet">]</span></a></sup>. Dans cette région sèche du globe, le dessalement de l'eau, prélevée massivement dans la mer, est effectué par chauffage, procédé qui produit quatre fois plus de saumure par m3 d'eau dessalée que les technologies plus avancées, comme la filtration par membrane, largement utilisée aux États-Unis. 80&#160;% de ces rejets sont faits à moins de 10 km des côtes et s'accumulent dans les fonds, causant une salinisation accrue des eaux et des écosystèmes marins qui rend la vie difficile, sinon impossible, à leur flore et à leur faune<sup id="cite_ref-Échos14012019_17-0" class="reference"><a href="#cite_note-Échos14012019-17"><span class="cite_crochet">[</span>17<span class="cite_crochet">]</span></a></sup>. <span class="need_ref" title="Ce passage nécessite une référence." style="cursor:help;">Cette saumure, quand elle est rejetée en trop grande concentration dans des eaux littorales peu profondes ou à courantologie faible, peut provoquer des <span class="citation">«&#160;zones mortes&#160;»</span> éradiquant toute trace de vie, parfois sur des surfaces importantes</span><sup class="need_ref_tag" style="padding-left:2px;"><a href="https://fr.wikipedia.org/wiki/Aide:R%C3%A9f%C3%A9rence_n%C3%A9cessaire" title="Aide:Référence nécessaire">[réf.&#160;nécessaire]</a></sup>.
-</p>
-<h2><span class="mw-headline" id="Diffusion">Diffusion</span><span class="mw-editsection"><span class="mw-editsection-bracket"></span></span></h2>
-<p>Beaucoup de régions et pays qui n'ont pas ou peu de ressources en <a href="https://fr.wikipedia.org/wiki/Eau_douce" title="Eau douce">eau douce</a> et qui sont situés dans les zones côtières dépendent totalement ou partiellement de ces technologies pour leur <a href="https://fr.wikipedia.org/wiki/Eau_potable" title="Eau potable">eau potable</a>.
-</p><p>La production des 15&#160;900&#160;usines de dessalinisation opérationnelles en 2018 s’élèverait à 95&#160;<abbr class="abbr" title="mégamètre cube">Mm<sup>3</sup></abbr> (millions de mètres cubes) d'eau douce par jour, dans 177 pays différents&#160;; 62,3&#160;% de cette eau serait destinée à l'usage humain, 30,2&#160;% à l'industrie, et le reste à l'agriculture et à l'énergie<sup id="cite_ref-Martine_Valo_9-3" class="reference"><a href="#cite_note-Martine_Valo-9"><span class="cite_crochet">[</span>9<span class="cite_crochet">]</span></a></sup><sup class="reference cite_virgule">,</sup><sup id="cite_ref-STE2018_18-0" class="reference"><a href="#cite_note-STE2018-18"><span class="cite_crochet">[</span>18<span class="cite_crochet">]</span></a></sup>.
-</p>
+        <div id="jump-to-nav"></div>
+        <div id="mw-content-text" lang="fr" dir="ltr" class="mw-content-ltr">
+            <div class="mw-parser-output"><p>Système d’information sur l’eau Le <b>dessalement</b> de l'eau (également appelé <b>dessalage</b> ou <b>désalinisation</b>)
+                est un processus qui permet d'obtenir de l'<a href="https://fr.wikipedia.org/wiki/Eau_douce"
+                                                              title="Eau douce">eau douce</a> (<a
+                        href="https://fr.wikipedia.org/wiki/Eau_potable" title="Eau potable">potable</a> ou, plus
+                rarement en raison du coût, utilisable pour l'<a href="https://fr.wikipedia.org/wiki/Irrigation"
+                                                                 title="Irrigation">irrigation</a>) à partir d'une eau
+                saumâtre ou salée (<a href="https://fr.wikipedia.org/wiki/Eau_de_mer" title="Eau de mer">eau de mer</a>
+                notamment). En dépit du nom, il s'agit rarement de retirer les <a
+                        href="https://fr.wikipedia.org/wiki/Sel_(chimie)" title="Sel (chimie)">sels</a> de l'<a
+                        href="https://fr.wikipedia.org/wiki/Eau" title="Eau">eau</a>, mais plutôt, à l'inverse,
+                d'extraire de l'eau douce biodiversité.
+            </p>
+                <p>Très généralement, il est plus simple et plus économique de rechercher des sources d'eau douce à
+                    traiter (eaux de surface, telles que lac et rivière, ou eau souterraine), que de dessaler l'eau de
+                    mer. Cependant, dans de nombreuses régions du monde, les sources d'eau douce sont inexistantes ou
+                    deviennent insuffisantes au regard de la croissance démographique ou de la production industrielle.
+                </p>
+                <p>D'autre part, il est souvent rentable de combiner la <a
+                        href="https://fr.wikipedia.org/wiki/Production_d%27eau_potable"
+                        title="Production d&#39;eau potable">production d'eau douce</a> avec une autre activité
+                    (notamment la production d'<a href="https://fr.wikipedia.org/wiki/%C3%89nergie" title="Énergie">énergie</a>,
+                    car la vapeur disponible à la sortie des turbines, et perdue dans une usine classique, est
+                    réutilisable dans une station de dessalement dite thermique ou fonctionnant sur le principe de
+                    l'évaporation).
+                </p>
+                <p>L'eau de mer est salée à peu près à 35 g.l<sup>−1</sup> en général. Dans des régions comme le Golfe
+                    Persique, la salinité atteint 42 g.l<sup>−1</sup>. Pour séparer le sel, il faut, d'un point de vue
+                    purement théorique et sans perte d'énergie (dessalement isentropique), environ 563 Wh.m<sup>−3</sup>.
+                </p>
+                <p>Les systèmes de dessalement se caractérisent par leur rendement et le taux de sel résiduel.
+                </p>
+                <p>Dans le monde, on produit chaque jour 95 millions de mètres cubes d’eau douce en 2018, rejetant 141,5&#160;millions
+                    de m<sup>3</sup> par jour de saumure, dont l'impact sur les mers inquiète l'<a
+                            href="https://fr.wikipedia.org/wiki/ONU" class="mw-redirect" title="ONU">ONU</a>.
+                </p>
+
+
+                <h2><span id="Diff.C3.A9rents_syst.C3.A8mes_de_dessalement"></span><span class="mw-headline"
+                                                                                         id="Différents_systèmes_de_dessalement">Différents systèmes de dessalement</span><span
+                        class="mw-editsection"><span class="mw-editsection-bracket"></span></span></h2>
+                <p>Les systèmes utilisés sont&#160;:
+                </p>
+                <ul>
+                    <li><a href="https://fr.wikipedia.org/wiki/Osmose_inverse" title="Osmose inverse">Osmose inverse</a>&#160;:
+                        cette technique <i>«&#160;membranaire&#160;»</i> repose sur une ultrafiltration sous pression au
+                        travers de membranes dont les pores sont des 'trous' si petits que même les sels sont retenus.
+                        Cette technique, en plein essor (coût énergétique moyen (≈ 4-5 kWh/m<sup>3</sup>)<sup
+                                id="cite_ref-Tuas_2006_1-0" class="reference"><a href="#cite_note-Tuas_2006-1"><span
+                                class="cite_crochet">[</span>1<span class="cite_crochet">]</span></a></sup>) est un
+                        système éprouvé ayant montré sa fiabilité.
+                    </li>
+                    <li><a href="https://fr.wikipedia.org/wiki/Distillation" title="Distillation">Distillation</a>
+                        <ul>
+                            <li>La distillation à effet simple (DES)&#160;: La <a
+                                    href="https://fr.wikipedia.org/wiki/Distillation"
+                                    title="Distillation">distillation</a> est le plus vieux procédé de dessalement.
+                                Cette technique provient de l’antiquité, des marins grecs qui l’utilisaient déjà au <a
+                                        href="https://fr.wikipedia.org/wiki/IIIe_si%C3%A8cle_av._J.-C."
+                                        title="IIIe siècle av. J.-C."><abbr class="abbr" title="3ᵉ siècle"><span
+                                        class="romain">III</span><sup style="font-size:72%">e</sup></abbr>&#160;siècle&#160;<abbr
+                                        class="abbr nowrap" title="avant Jésus-Christ">av. J.-C.</abbr></a> à bord de
+                                leurs bateaux, et ce grâce au procédé décrit par Aristote. Ce n’est qu’au <abbr
+                                        class="abbr" title="19ᵉ siècle"><span class="romain">XIX</span><sup
+                                        style="font-size:72%">e</sup></abbr>&#160;siècle qu’apparut le premier procédé
+                                industriel capable de distiller efficacement de grandes quantités d’eau de mer<sup
+                                        id="cite_ref-DES_2-0" class="reference"><a href="#cite_note-DES-2"><span
+                                        class="cite_crochet">[</span>2<span class="cite_crochet">]</span></a></sup>.
+                            </li>
+                            <li>Dessalement:multi flash (MSF)&#160;: Ce procédé dit flash consiste à maintenir l’eau
+                                sous pression pendant toute la durée du chauffage. Lorsqu’elle atteint une température
+                                élevée, elle est introduite dans une enceinte (ou étage) où règne une pression réduite.
+                                Il en résulte une vaporisation instantanée par détente appelée flash. Le phénomène de
+                                flash est reproduit ensuite dans un deuxième étage où règne une pression encore plus
+                                réduite. La vaporisation de l’eau est ainsi réalisée par détentes successives dans une
+                                série d’étages où règnent des pressions de plus en plus réduites<sup
+                                        id="cite_ref-DES_2-1" class="reference"><a href="#cite_note-DES-2"><span
+                                        class="cite_crochet">[</span>2<span class="cite_crochet">]</span></a></sup>. En
+                                effet, l'eau d’alimentation circule d'abord dans les tubes des condenseurs des
+                                différents étages en commençant d'abord par le dernier étage où la température est la
+                                plus faible, est alors préchauffée en récupérant la chaleur de condensation de la vapeur
+                                d'eau. Elle est finalement portée à une température maximale grâce à la vapeur produite
+                                par une chaudière ou d'une centrale de production d'électricité. Ainsi la MSF fonctionne
+                                selon le principe suivant&#160;: les tuyaux de condensation en serpentin passant par
+                                chaque compartiment ont deux fonctions, condenser la vapeur obtenue grâce à la
+                                différence de pression et préchauffer l'eau d’alimentation contenue dans ces tuyaux
+                                (grâce à cette même vapeur)<sup id="cite_ref-3" class="reference"><a
+                                        href="#cite_note-3"><span class="cite_crochet">[</span>3<span
+                                        class="cite_crochet">]</span></a></sup> .
+                            </li>
+                            <li><a href="https://fr.wikipedia.org/wiki/Distillation_multiples_effets"
+                                   class="mw-redirect" title="Distillation multiples effets">Distillation
+                                multi-effets</a>&#160;: ce système fournit une eau très pure&#160;; coût énergétique
+                                élevé (≈ 15 kWh/m<sup>3</sup>).
+                            </li>
+                            <li>Flash multi-étages, ou système flash&#160;: il est utilisé dans les pays du Golfe,
+                                fournissant une eau dont le taux de sel résiduel est non négligeable&#160;; coût
+                                énergétique élevé (≈ 10 kWh/m<sup>3</sup>).
+                            </li>
+                            <li>Compression de vapeur&#160;: il fournit une eau pure&#160;; coût énergétique variable en
+                                fonction de l'unité (entre 8 et 25 kWh/m<sup>3</sup>)<sup id="cite_ref-4"
+                                                                                          class="reference"><a
+                                        href="#cite_note-4"><span class="cite_crochet">[</span>4<span
+                                        class="cite_crochet">]</span></a></sup>.
+                            </li>
+                            <li><a href="https://fr.wikipedia.org/wiki/Distillation"
+                                   title="Distillation">Distillation</a> par dépression&#160;: ce système est basé sur
+                                le fait que la température d'<a href="https://fr.wikipedia.org/wiki/%C3%89vaporation"
+                                                                title="Évaporation">évaporation</a> dépend de la <a
+                                        href="https://fr.wikipedia.org/wiki/Pression" title="Pression">pression</a>. Il
+                                fournit une eau très pure&#160;; coût énergétique faible (≈ 2 à 3 kWh/m<sup>3</sup>). Il
+                                est utilisé pour de petites unités.
+                            </li>
+                            <li><a href="https://fr.wikipedia.org/wiki/Distillation_par_four_solaire"
+                                   title="Distillation par four solaire">Distillation par four solaire</a>&#160;: le
+                                four solaire concentre en une zone restreinte les rayons du soleil, grâce à un miroir
+                                parabolique, pour porter à haute température l’élément qui contient l’eau destinée à
+                                être évaporée.
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="https://fr.wikipedia.org/wiki/%C3%89lectrodialyse" title="Électrodialyse">Électrodialyse</a>&#160;:
+                        on applique un <a href="https://fr.wikipedia.org/wiki/Courant_%C3%A9lectrique"
+                                          title="Courant électrique">courant électrique</a> qui fait migrer les <a
+                                href="https://fr.wikipedia.org/wiki/Ion" title="Ion">ions</a> vers les <a
+                                href="https://fr.wikipedia.org/wiki/%C3%89lectrode" title="Électrode">électrodes</a>.
+                        Système très rentable pour les faibles concentrations, l'énergie à mettre en jeu dépend de la
+                        concentration en sel.
+                    </li>
+                    <li><a href="https://fr.wikipedia.org/wiki/Condensation" title="Condensation">Condensation</a> sur
+                        une surface ayant une température inférieure au <a
+                                href="https://fr.wikipedia.org/wiki/Point_de_ros%C3%A9e" title="Point de rosée">point de
+                            rosée</a>. Fournit une eau pure&#160;; coût énergétique zéro avec un système passif<sup
+                                id="cite_ref-5" class="reference"><a href="#cite_note-5"><span
+                                class="cite_crochet">[</span>5<span class="cite_crochet">]</span></a></sup> ou faible
+                        avec un système actif<sup id="cite_ref-6" class="reference"><a href="#cite_note-6"><span
+                                class="cite_crochet">[</span>6<span class="cite_crochet">]</span></a></sup>. Il est
+                        utilisé pour de petites unités.
+                    </li>
+                </ul>
+                <p>Une classe importante de <a href="https://fr.wikipedia.org/wiki/Centrale_thermique"
+                                               title="Centrale thermique">centrales thermiques</a> est associée aux
+                    installations de dessalement; Celles-ci se trouvent généralement dans les pays arides disposant
+                    d'une importante réserve de gaz naturel. Dans ces usines, la production d'eau douce et l'<a
+                            href="https://fr.wikipedia.org/wiki/%C3%89lectricit%C3%A9"
+                            title="Électricité">électricité</a> sont des coproduits tout aussi importants.
+                </p>
+                <p>Dans tous les cas, le dessalement produit une <a href="https://fr.wikipedia.org/wiki/Saumure"
+                                                                    title="Saumure">saumure</a> dont il faut se
+                    débarrasser, ce qui n'est pas un problème en bord de <a href="https://fr.wikipedia.org/wiki/Mer"
+                                                                            title="Mer">mer</a> là où le courant est
+                    important, mais peut l'être à l'intérieur des terres, et dans certains écosystèmes comme les <a
+                            href="https://fr.wikipedia.org/wiki/Lagon" title="Lagon">lagons</a>, baies, lagunes,
+                    mangroves.
+                </p>
+                <ul>
+                    <li><b>Unités mobiles de désalinisation</b>&#160;: La ville de <a
+                            href="https://fr.wikipedia.org/wiki/Yokohama" title="Yokohama">Yokohama</a> au <a
+                            href="https://fr.wikipedia.org/wiki/Japon" title="Japon">Japon</a> a présenté en juin 2009
+                        un camion équipé d'un dispositif à <a
+                                href="https://fr.wikipedia.org/wiki/Membrane_%C3%A0_osmose_inverse" class="mw-redirect"
+                                title="Membrane à osmose inverse">membrane à osmose inverse</a>, capable de dessaler de
+                        l'eau de mer ou de rendre potable de l'eau douce issue d'une rivière ou d'un lac. L'eau douce
+                        est épurée 15 fois plus vite qu'avec l'ozone, par des microbes (les mêmes que ceux qui
+                        produisent le <a href="https://fr.wikipedia.org/wiki/Natt%C3%B4" class="mw-redirect"
+                                         title="Nattô">nattô</a>&#160;; haricots fermentés très appréciés au Japon). Un
+                        traitement au <a href="https://fr.wikipedia.org/wiki/Chlore" title="Chlore">chlore</a> et à l'<a
+                                href="https://fr.wikipedia.org/wiki/Ozone" title="Ozone">ozone</a> conclut le processus.
+                        L'énergie nécessaire au dessalement est entièrement fournie par une petite <a
+                                href="https://fr.wikipedia.org/wiki/%C3%89olienne" title="Éolienne">éolienne</a> et des
+                        <a href="https://fr.wikipedia.org/wiki/Panneaux_solaires" class="mw-redirect"
+                           title="Panneaux solaires">panneaux solaires</a> qui alimentent aussi des <a
+                                href="https://fr.wikipedia.org/wiki/Batterie_d%27accumulateurs"
+                                title="Batterie d&#39;accumulateurs">batteries</a> permettant une autonomie de 24
+                        heures. 3 litres d'eau de mer fournissent un litre potable. Le <a
+                                href="https://fr.wikipedia.org/wiki/Camion" title="Camion">camion</a> peut fournir de
+                        l'eau à 3&#160;500 personnes par jour. La saumure peut être utilisée pour la <a
+                                href="https://fr.wikipedia.org/wiki/Thalassoth%C3%A9rapie" title="Thalassothérapie">thalassothérapie</a>
+                        ou des usages alimentaires<sup id="cite_ref-7" class="reference"><a href="#cite_note-7"><span
+                                class="cite_crochet">[</span>7<span class="cite_crochet">]</span></a></sup><sup
+                                class="reference cite_virgule">,</sup><sup id="cite_ref-8" class="reference"><a
+                                href="#cite_note-8"><span class="cite_crochet">[</span>8<span
+                                class="cite_crochet">]</span></a></sup>.
+                    </li>
+                </ul>
+                <h2><span id=".C3.89conomie_du_dessalement"></span><span class="mw-headline"
+                                                                         id="Économie_du_dessalement">Économie du dessalement</span><span
+                        class="mw-editsection"><span class="mw-editsection-bracket"></span></span></h2>
+                <p>Dans le monde, on produit chaque jour par dessalement 95 millions de mètres cubes d’eau douce en 2018<sup
+                        id="cite_ref-Martine_Valo_9-0" class="reference"><a href="#cite_note-Martine_Valo-9"><span
+                        class="cite_crochet">[</span>9<span class="cite_crochet">]</span></a></sup>.
+                </p>
+                <p>Le dessalement de l'eau de mer est un enjeu important pour l'avenir des régions <a
+                        href="https://fr.wikipedia.org/wiki/Aridit%C3%A9" title="Aridité">arides</a>. Moyennant un coût
+                    de production pouvant descendre à environ 0,5&#160;dollar par mètre cube pour les projets récents
+                    (par osmose inverse et toutes charges comprises&#160;: coût d'exploitation, amortissement de
+                    l'installation, bénéfice de l'opérateur<sup id="cite_ref-Tuas_2006_1-1" class="reference"><a
+                            href="#cite_note-Tuas_2006-1"><span class="cite_crochet">[</span>1<span
+                            class="cite_crochet">]</span></a></sup><sup class="reference cite_virgule">,</sup><sup
+                            id="cite_ref-Ashkelon_10-0" class="reference"><a href="#cite_note-Ashkelon-10"><span
+                            class="cite_crochet">[</span>10<span class="cite_crochet">]</span></a></sup>...), il est
+                    possible de résoudre les problèmes de manque <i>d'eau potable</i> dans de nombreux pays. Dans le cas
+                    d'une utilisation pour la consommation humaine, le dessalement d'eau de mer est une technique
+                    aujourd'hui fiable et moins onéreuse que la technique dite de recyclage des eaux usées. Il devient
+                    même rentable dans des pays développés ne manquant généralement pas d'eau, dans certaines situations
+                    spécifiques (par exemple des îles touristiques).
+                </p>
+                <p>De ce fait, cette activité est en très forte croissance. La capacité installée chaque année augmente
+                    en moyenne de plus de 10&#160;% par an. Les techniques dites thermiques (par évaporation)
+                    représentaient il y a encore quelques années la principale technique employée, mais l'<a
+                            href="https://fr.wikipedia.org/wiki/Osmose_inverse" title="Osmose inverse">osmose
+                        inverse</a>, du fait d'une fiabilité accrue et de sa faible consommation électrique (4 à 5&#160;kWh/m<sup>3</sup>),
+                    permet des coûts très bas, ce qui lui donne 84&#160;% de la part de marché en 2019<sup
+                            id="cite_ref-Martine_Valo_9-1" class="reference"><a href="#cite_note-Martine_Valo-9"><span
+                            class="cite_crochet">[</span>9<span class="cite_crochet">]</span></a></sup>.
+                </p>
+                <p>En 2015, il suffit de 2 kilowattheures pour fabriquer un mètre cube d'eau douce contre 12 kWh il y a
+                    quarante ans<sup id="cite_ref-Echos22032016_11-0" class="reference"><a
+                            href="#cite_note-Echos22032016-11"><span class="cite_crochet">[</span>11<span
+                            class="cite_crochet">]</span></a></sup>. Selon <a
+                            href="https://fr.wikipedia.org/wiki/Jean-Louis_Chaussade" title="Jean-Louis Chaussade">Jean-Louis
+                        Chaussade</a>, directeur général de Suez, <span class="citation">«&#160;en quinze ans, le coût du dessalement a été divisé par dix et nous pouvons encore réduire la facture énergétique de cette technique&#160;»</span><sup
+                            id="cite_ref-12" class="reference"><a href="#cite_note-12"><span
+                            class="cite_crochet">[</span>12<span class="cite_crochet">]</span></a></sup>.
+                </p>
+                <p><span class="need_ref" title="Ce passage nécessite une référence." style="cursor:help;">Des projets pharaoniques ont été proposés pour dessaler de l'eau, notamment avec des <a
+                        href="https://fr.wikipedia.org/wiki/Centrale_nucl%C3%A9aire" title="Centrale nucléaire">centrales nucléaires</a>, pour faire de l'<a
+                        href="https://fr.wikipedia.org/wiki/Agriculture" title="Agriculture">agriculture</a></span><sup
+                        class="need_ref_tag" style="padding-left:2px;"><a
+                        href="https://fr.wikipedia.org/wiki/Aide:R%C3%A9f%C3%A9rence_n%C3%A9cessaire"
+                        title="Aide:Référence nécessaire">[réf.&#160;nécessaire]</a></sup>. Cependant, le dessalement
+                    pour l'agriculture vivrière n'est pas encore rentable<sup id="cite_ref-Comité_13-0"
+                                                                              class="reference"><a
+                            href="#cite_note-Comité-13"><span class="cite_crochet">[</span>13<span class="cite_crochet">]</span></a></sup>,
+                    <span class="need_ref" title="Ce passage nécessite une référence (demandé le janvier 2014)."
+                          style="cursor:help;">et de loin&#160;: le prix de l'eau utilisée excède de beaucoup la valeur des productions agricoles qu'elle rendrait possible. Par exemple la production d'une tonne de blé, valant environ 100&#160;<abbr
+                            class="abbr" title="euro">€</abbr>, nécessite environ 1&#160;000&#160;<abbr class="abbr"
+                                                                                                        title="mètre carré">m<sup>2</sup></abbr> de terrain arrosés par environ 500&#160;<abbr
+                            class="abbr" title="millimètre">mm</abbr> de pluie, soit 500&#160;<abbr class="abbr"
+                                                                                                    title="mètre cube">m<sup>3</sup></abbr> d'eau, dont le coût n'est pas moins de 250&#160;dollars dans le meilleur des cas</span><sup
+                            class="need_ref_tag" style="padding-left:2px;"><a
+                            href="https://fr.wikipedia.org/wiki/Aide:R%C3%A9f%C3%A9rence_n%C3%A9cessaire"
+                            title="Aide:Référence nécessaire">[réf.&#160;nécessaire]</a></sup> . Cependant certaines
+                    cultures à très haute valeur ajoutée peuvent supporter de tels coûts<sup id="cite_ref-Comité_13-1"
+                                                                                             class="reference"><a
+                            href="#cite_note-Comité-13"><span class="cite_crochet">[</span>13<span class="cite_crochet">]</span></a></sup>.
+                </p>
+                <p>Une autre voie vers un dessalement moins coûteux consiste à dessaler de la <a
+                        href="https://fr.wikipedia.org/wiki/Affouillement_des_fonds_marins_par_la_glace#La_glace_de_mer"
+                        title="Affouillement des fonds marins par la glace">glace de mer</a>&#160;; en effet, la
+                    salinité de la glace de mer est comprise entre 0,4&#160;% et 0,8&#160;%, bien en dessous de celle
+                    des eaux de mer, qui se situe entre 2,8&#160;% et 3,1&#160;%&#160;; son dessalement demande beaucoup
+                    moins d'énergie. Une société chinoise, la Beijing Huahaideyuan Technology Co. Ltd., commencera
+                    bientôt la production d'une grande quantité d'eau douce par désalinisation de glace de mer, grâce à
+                    un accord de transfert de technologie signé avec l'Université de Beijing en janvier 2014&#160;; la
+                    société devrait être capable de produire au moins un milliard de mètres cubes d'eau douce par an
+                    d'ici 2023&#160;; le coût de la désalinisation devrait baisser à 4 <a
+                            href="https://fr.wikipedia.org/wiki/Yuans" class="mw-redirect" title="Yuans">yuans</a> par
+                    tonne (0,48 €/tonne)<sup id="cite_ref-14" class="reference"><a href="#cite_note-14"><span
+                            class="cite_crochet">[</span>14<span class="cite_crochet">]</span></a></sup>.
+                </p>
+                <h2><span id="Les_inconv.C3.A9nients_du_dessalement"></span><span class="mw-headline"
+                                                                                  id="Les_inconvénients_du_dessalement">Les inconvénients du dessalement</span><span
+                        class="mw-editsection"><span class="mw-editsection-bracket"></span></span></h2>
+                <ul>
+                    <li>Coût énergétique élevé.</li>
+                    <li>Augmentation de l'<a href="https://fr.wikipedia.org/wiki/Empreinte_carbone"
+                                             title="Empreinte carbone">empreinte carbone</a> lorsque l'énergie utilisée
+                        provient des combustibles fossiles&#160;; pour y remédier, des projets pilotes de désalinisation
+                        à base d'énergies renouvelables sont menés par quatre groupes industriels, dont les français <a
+                                href="https://fr.wikipedia.org/wiki/Veolia" title="Veolia">Veolia</a> et <a
+                                href="https://fr.wikipedia.org/wiki/Suez_Environnement" class="mw-redirect"
+                                title="Suez Environnement">Suez Environnement</a>, dans la région d'Abu Dhabi, sous la
+                        houlette de l'Institut de la ville durable de <a href="https://fr.wikipedia.org/wiki/Masdar"
+                                                                         class="mw-redirect" title="Masdar">Masdar</a>&#160;;
+                        l'émirat a un projet d'usine durable de dessalement de 150&#160;000&#160;<abbr class="abbr"
+                                                                                                       title="mètre cube par jour">m<sup>3</sup>/jour</abbr>&#160;;
+                        en Arabie saoudite, l'espagnol <a href="https://fr.wikipedia.org/wiki/Abengoa" title="Abengoa">Abengoa</a>
+                        va codévelopper une usine solaire de 60&#160;000&#160;<abbr class="abbr"
+                                                                                    title="mètre cube par jour">m<sup>3</sup>/jour</abbr>
+                        pour approvisionner la ville d'Al Khafji&#160;; les deux pays comptent aussi sur le
+                        nucléaire<sup id="cite_ref-Echos22032016_11-1" class="reference"><a
+                                href="#cite_note-Echos22032016-11"><span class="cite_crochet">[</span>11<span
+                                class="cite_crochet">]</span></a></sup>.
+                    </li>
+                    <li>Rejet des <a href="https://fr.wikipedia.org/wiki/Saumure" title="Saumure">saumures</a>
+                        concentrées au double de la salinité naturelle en mer ou injectées dans le sol&#160;; ainsi, les
+                        rejets de «&#160;brine&#160;», effluents très chargés en sel, dans la mer d'Arabie ont fait
+                        exploser le taux de salinité de ses eaux&#160;; dans certaines zones, les fonds marins sont
+                        devenus des déserts<sup id="cite_ref-Echos22032016_11-2" class="reference"><a
+                                href="#cite_note-Echos22032016-11"><span class="cite_crochet">[</span>11<span
+                                class="cite_crochet">]</span></a></sup>.
+                    </li>
+                    <li>Rejet d'eaux chaudes en mer dans le cas de la distillation.</li>
+                    <li>Emploi de produits chimiques pour nettoyer les membranes (chlore).</li>
+                    <li>Traces de <a href="https://fr.wikipedia.org/wiki/Cuivre" title="Cuivre">cuivre</a> échappées des
+                        installations&#160;; <a href="https://fr.wikipedia.org/wiki/Corrosion_chimique"
+                                                class="mw-redirect" title="Corrosion chimique">corrosion chimique</a>
+                        des installations de tuyauteries.
+                    </li>
+                    <li>Aucune législation spécifique concernant la <a
+                            href="https://fr.wikipedia.org/wiki/Potabilit%C3%A9" class="mw-redirect" title="Potabilité">potabilité</a>
+                        de l’eau issue de ces traitements.
+                    </li>
+                    <li>Le captage de l'eau en mer peut modifier les flux maritimes.</li>
+                    <li>Risque de dégâts en fonds marins au niveau de la faune et de la flore.</li>
+                </ul>
+                <h3><span id="Co.C3.BBt_.C3.A9nerg.C3.A9tique"></span><span class="mw-headline" id="Coût_énergétique">Coût énergétique</span><span
+                        class="mw-editsection"><span class="mw-editsection-bracket"></span></span></h3>
+                <p>Les sources non conventionnelles en eau que sont le dessalement et la <a
+                        href="https://fr.wikipedia.org/wiki/R%C3%A9utilisation_ou_recyclage_des_eaux_us%C3%A9es"
+                        title="Réutilisation ou recyclage des eaux usées">réutilisation de l’eau</a>, pour les pays qui
+                    ont des ressources en eau douce limitées, contribuent à réduire l’écart entre prélèvements d’eau
+                    douce et approvisionnement durable, mais dans l'approche «&#160;<a
+                            href="https://fr.wikipedia.org/wiki/Connexion_eau-%C3%A9nergie"
+                            title="Connexion eau-énergie">connexion eau-énergie</a>&#160;» ils contribuent également à
+                    l’augmentation de la <a
+                            href="https://fr.wikipedia.org/wiki/Ressources_et_consommation_%C3%A9nerg%C3%A9tiques_mondiales"
+                            title="Ressources et consommation énergétiques mondiales">demande énergétique</a> du secteur
+                    de l’eau. Bien que le dessalement et la réutilisation de l'eau atteignent moins de 1&#160;% des
+                    besoins mondiaux en eau, ces processus représentent près du quart de la consommation totale
+                    d'énergie dans le secteur de l'eau. En 2040, les deux sources devraient représenter 4&#160;% de
+                    l’approvisionnement en eau, mais 60&#160;% de la consommation d’énergie du secteur de l’eau. La
+                    capacité de dessalement devrait augmenter de manière significative au Moyen-Orient, et en 2040, le
+                    dessalement devrait représenter plus de 10&#160;% de la consommation finale totale d’énergie du
+                    Moyen-Orient<sup id="cite_ref-15" class="reference"><a href="#cite_note-15"><span
+                            class="cite_crochet">[</span>15<span class="cite_crochet">]</span></a></sup>.
+                </p>
+                <h3><span id="Sant.C3.A9_publique"></span><span class="mw-headline"
+                                                                id="Santé_publique">Santé publique</span><span
+                        class="mw-editsection"><span class="mw-editsection-bracket"></span></span></h3>
+                <p>Une étude israélienne a montré que les consommateurs d'eau dessalée <span class="citation">«&#160;sont six fois plus exposés au risque de problèmes cardiaques, et notamment celui de mourir d’une attaque&#160;»</span>
+                    que ceux ne consommant pas d'eau dessalée. La cause en serait que contrairement à celle venant des
+                    nappes phréatiques, l'eau dessalée est dépourvue de magnésium<sup id="cite_ref-16"
+                                                                                      class="reference"><a
+                            href="#cite_note-16"><span class="cite_crochet">[</span>16<span
+                            class="cite_crochet">]</span></a></sup>.
+                </p>
+                <h3><span id="Co.C3.BBt_environnemental"></span><span class="mw-headline" id="Coût_environnemental">Coût environnemental</span><span
+                        class="mw-editsection"><span class="mw-editsection-bracket"></span></span></h3>
+                <p>Le dessalement d'eau de mer produit 141,5&#160;millions de m<sup>3</sup> par jour de saumure. L'<a
+                        href="https://fr.wikipedia.org/wiki/ONU" class="mw-redirect" title="ONU">ONU</a> a alerté
+                    l'opinion publique début 2019 sur ce problème, face au développement de plus en plus inquiétant des
+                    technologies de dessalement à gros volumes de rejets. Les rejets de saumure, souvent chargés en
+                    polluants toxiques, sont estimés à environ 141,5&#160;<abbr class="abbr"
+                                                                                title="mégamètre cube par jour">Mm<sup>3</sup>/jour</abbr>.
+                    Très dépendants de ce mode d’approvisionnement, l’Arabie saoudite, les Émirats arabes unis, le
+                    Koweït et le Qatar produisent 32&#160;% de l’eau dessalée totale grâce à leurs ressources en
+                    pétrole, mais aussi 55&#160;% de la saumure<sup id="cite_ref-Martine_Valo_9-2" class="reference"><a
+                            href="#cite_note-Martine_Valo-9"><span class="cite_crochet">[</span>9<span
+                            class="cite_crochet">]</span></a></sup>. Dans cette région sèche du globe, le dessalement de
+                    l'eau, prélevée massivement dans la mer, est effectué par chauffage, procédé qui produit quatre fois
+                    plus de saumure par m3 d'eau dessalée que les technologies plus avancées, comme la filtration par
+                    membrane, largement utilisée aux États-Unis. 80&#160;% de ces rejets sont faits à moins de 10 km des
+                    côtes et s'accumulent dans les fonds, causant une salinisation accrue des eaux et des écosystèmes
+                    marins qui rend la vie difficile, sinon impossible, à leur flore et à leur faune<sup
+                            id="cite_ref-Échos14012019_17-0" class="reference"><a
+                            href="#cite_note-Échos14012019-17"><span class="cite_crochet">[</span>17<span
+                            class="cite_crochet">]</span></a></sup>. <span class="need_ref"
+                                                                           title="Ce passage nécessite une référence."
+                                                                           style="cursor:help;">Cette saumure, quand elle est rejetée en trop grande concentration dans des eaux littorales peu profondes ou à courantologie faible, peut provoquer des <span
+                            class="citation">«&#160;zones mortes&#160;»</span> éradiquant toute trace de vie, parfois sur des surfaces importantes</span><sup
+                            class="need_ref_tag" style="padding-left:2px;"><a
+                            href="https://fr.wikipedia.org/wiki/Aide:R%C3%A9f%C3%A9rence_n%C3%A9cessaire"
+                            title="Aide:Référence nécessaire">[réf.&#160;nécessaire]</a></sup>.
+                </p>
+                <h2><span class="mw-headline" id="Diffusion">Diffusion</span><span class="mw-editsection"><span
+                        class="mw-editsection-bracket"></span></span></h2>
+                <p>Beaucoup de régions et pays qui n'ont pas ou peu de ressources en <a
+                        href="https://fr.wikipedia.org/wiki/Eau_douce" title="Eau douce">eau douce</a> et qui sont
+                    situés dans les zones côtières dépendent totalement ou partiellement de ces technologies pour leur
+                    <a href="https://fr.wikipedia.org/wiki/Eau_potable" title="Eau potable">eau potable</a>.
+                </p>
+                <p>La production des 15&#160;900&#160;usines de dessalinisation opérationnelles en 2018 s’élèverait à 95&#160;<abbr
+                        class="abbr" title="mégamètre cube">Mm<sup>3</sup></abbr> (millions de mètres cubes) d'eau douce
+                    par jour, dans 177 pays différents&#160;; 62,3&#160;% de cette eau serait destinée à l'usage humain,
+                    30,2&#160;% à l'industrie, et le reste à l'agriculture et à l'énergie<sup
+                            id="cite_ref-Martine_Valo_9-3" class="reference"><a href="#cite_note-Martine_Valo-9"><span
+                            class="cite_crochet">[</span>9<span class="cite_crochet">]</span></a></sup><sup
+                            class="reference cite_virgule">,</sup><sup id="cite_ref-STE2018_18-0" class="reference"><a
+                            href="#cite_note-STE2018-18"><span class="cite_crochet">[</span>18<span
+                            class="cite_crochet">]</span></a></sup>.
+                </p>
+            </div>
+        </div>
+    </div>
 </div>
 </body>
 </html>
