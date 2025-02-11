@@ -1242,9 +1242,9 @@
     {
         "Id": "7513",
         "Libelle": "Limite de salure des eaux",
-        "Definition": "D\u00e9limitation entre eaux marines et eaux fluviales. La limite de salure des eaux (LSE) constitue, dans les estuaires, la fronti\u00e8re entre le champ d\u2026",
+        "Definition": "D\u00e9limitation entre eaux marines et eaux fluviales. La limite de salure des eaux (LSE) constitue, dans les estuaires et zones littorales, la fronti\u00e8re\u2026",
         "Sens": "technique",
-        "Source": "d'apr\u00e8s Ifremer",
+        "Source": "d'apr\u00e8s OFB",
         "Sigle": "LSE"
     },
     {
@@ -4754,9 +4754,9 @@
     {
         "Id": "8035",
         "Libelle": "Benthique",
-        "Definition": "Adjectif qui qualifie l'interface eau-s\u00e9diment (ou interface eau-lithosph\u00e8re) d'un \u00e9cosyst\u00e8me aquatique, quelle qu'en soit la profondeur (le fond des\u2026",
+        "Definition": "Des fonds marins. Les habitats benthiques sont les habitats des fonds marins. Par opposition aux habitats p\u00e9lagiques qui sont les habitats de pleine\u2026",
         "Sens": "commun",
-        "Source": "d'apr\u00e8s Minist\u00e8re charg\u00e9 de l'\u00e9cologie"
+        "Source": "d'apr\u00e8s INPN"
     },
     {
         "Id": "8036",
@@ -10183,6 +10183,13 @@
         "Source": "d'apr\u00e8s Jura Natura Services"
     },
     {
+        "Id": "18674",
+        "Libelle": "Pelouse s\u00e8che",
+        "Definition": "Ecosyst\u00e8me qui se d\u00e9veloppe uniquement sur des sols calcaires. Elle est constitu\u00e9e majoritairement de plantes herbac\u00e9es rases et de quelques ligneux\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Jura Natura Services"
+    },
+    {
         "Id": "18675",
         "Libelle": "Surverse",
         "Definition": "Dispositif d\u2019\u00e9vacuation de l\u2019eau par d\u00e9bordement : elle permet d\u2019\u00e9vacuer l\u2019exc\u00e8s d\u2019eau en cas de crue. C\u2019est en g\u00e9n\u00e9ral un point bas, \u00e9quip\u00e9 de\u2026",
@@ -13494,6 +13501,27 @@
         "Source": "d'apr\u00e8s franceterme.culture.fr - parution au JO du 27\/02\/2003"
     },
     {
+        "Id": "20532",
+        "Libelle": "Empreinte \u00e9cologique",
+        "Definition": "Indicateur qui mesure l'impact de l'activit\u00e9 humaine sur l'environnement. En d'autres termes, cet outil vise \u00e0 analyser la consommation humaine des\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s OFB, Ademe et World Wide Fund for Nature (WWF)"
+    },
+    {
+        "Id": "20533",
+        "Libelle": "Empreinte carbone",
+        "Definition": "Unit\u00e9 de mesure de l\u2019impact des activit\u00e9s humaines sur les changements climatiques. On calcule ainsi la quantit\u00e9 de gaz \u00e0 effet de serre \u00e9mise lors d\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s OFB, Ademe et Fondation GoodPlanet (Yann Arthus-Bertrand)"
+    },
+    {
+        "Id": "20534",
+        "Libelle": "Biocapacit\u00e9",
+        "Definition": "Indicateur (exprim\u00e9 en hectares globaux) qui \u00e9value la capacit\u00e9 d'un \u00e9cosyst\u00e8me \u00e0 g\u00e9n\u00e9rer une offre continue en ressources renouvelables et \u00e0\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s OFB et Ademe"
+    },
+    {
         "Id": "20583",
         "Libelle": "Aire de r\u00e9partition",
         "Definition": "Enveloppe g\u00e9ographique d'occurrence d'une esp\u00e8ce donn\u00e9e, comprenant \u00e0 la fois les secteurs occup\u00e9s (la distribution) mais aussi des secteurs non\u2026",
@@ -13563,6 +13591,9 @@
         "Source": "d'apr\u00e8s OiEau"
     },
     {
+        "Id": "21850"
+    },
+    {
         "Id": "21851"
     },
     {
@@ -13572,6 +13603,9 @@
         "Sens": "technique",
         "Source": "d'apr\u00e8s OiEau",
         "Sigle": "TAC"
+    },
+    {
+        "Id": "21855"
     },
     {
         "Id": "21856"
@@ -13613,11 +13647,7 @@
         "Id": "21872"
     },
     {
-        "Id": "21874",
-        "Libelle": "Caliza",
-        "Definition": "Compuesto a base de carbonato c\u00e1lcico CaCO3 y\/o carbonato magn\u00e9sico MgCO3 utilizado para la eliminaci\u00f3n del di\u00f3xido de carbono (CO2) agresivo del\u2026",
-        "Sens": "technique",
-        "Source": "seg\u00fan OIAgua"
+        "Id": "21874"
     },
     {
         "Id": "21876",
@@ -13625,6 +13655,9 @@
         "Definition": "Compos\u00e9s de substitution form\u00e9s par r\u00e9action du chlore Cl2 sur l\u2019azote ammoniacal NH3, responsables de \u00ab&nbsp;l\u2019odeur de chlore&nbsp;\u00bb ou de \u00ab&nbsp\u2026",
         "Sens": "technique",
         "Source": "d'apr\u00e8s OiEau"
+    },
+    {
+        "Id": "21878"
     },
     {
         "Id": "21879"
@@ -13637,6 +13670,12 @@
         "Source": "d'apr\u00e8s OiEau"
     },
     {
+        "Id": "21883"
+    },
+    {
+        "Id": "21884"
+    },
+    {
         "Id": "21885",
         "Libelle": "Clarification",
         "Definition": "Ensemble des traitements destin\u00e9s \u00e0 \u00e9liminer les mati\u00e8res en suspension, la turbidit\u00e9 et la couleur d\u2019une eau. S\u2019effectue g\u00e9n\u00e9ralement suivant l\u2019un\u2026",
@@ -13645,6 +13684,9 @@
     },
     {
         "Id": "21887"
+    },
+    {
+        "Id": "21889"
     },
     {
         "Id": "21890",
@@ -13800,6 +13842,9 @@
         "Definition": "Dispersion d\u2019un liquide dans un autre, lorsque ces 2 liquides ne sont pas miscibles. Exemple&nbsp;: \u00e9mulsion d\u2019huile dans l\u2019eau.\r\n",
         "Sens": "technique",
         "Source": "d'apr\u00e8s OiEau"
+    },
+    {
+        "Id": "21958"
     },
     {
         "Id": "21959"
@@ -14170,10 +14215,10 @@
     {
         "Id": "22241",
         "Libelle": "Substances perfluoroalkyl\u00e9es et polyfluoroalkyl\u00e9es",
-        "Definition": "Les substances per- et polyfluoroalkyl\u00e9es (ou PFAS)&nbsp;constituent une large famille de plus de 4000 compos\u00e9s chimiques. Ils sont&nbsp;largement\u2026",
-        "Sens": "commun",
-        "Source": "d'apr\u00e8s l'Anses",
-        "Sigle": "PFAS"
+        "Definition": "Les PFAS (substances per et polyfluoroalkyl\u00e9es) sont des compos\u00e9s aliphatiques fluor\u00e9s synth\u00e9tiques, qui peuvent \u00eatre caract\u00e9ris\u00e9s en fonction de\u2026",
+        "Sens": "technique",
+        "Source": "INERIS",
+        "Sigle": "FTS"
     },
     {
         "Id": "22243",
@@ -14200,9 +14245,9 @@
     {
         "Id": "22256",
         "Libelle": "Responsabilit\u00e9 Elargie des Producteurs",
-        "Definition": "Le&nbsp;dispositif de la Responsabilit\u00e9 \u00c9largie du Producteur (REP) a pour objectif d\u2019agir sur l\u2019ensemble du cycle de vie&nbsp;des produits, pour\u2026",
+        "Definition": "Les&nbsp;fili\u00e8res \u00e0 responsabilit\u00e9 \u00e9largie des producteurs (REP) sont des dispositifs particuliers d\u2019organisation de la pr\u00e9vention et de la gestion\u2026",
         "Sens": "commun",
-        "Source": "d'apr\u00e8s l'ADEME",
+        "Source": "d\u2019apr\u00e8s Minist\u00e8re de la Transition Ecologique et de la Coh\u00e9sion des Territoires",
         "Sigle": "REP"
     },
     {
@@ -14212,6 +14257,36 @@
         "Sens": "commun",
         "Source": "d'apr\u00e8s la Chambre de l'Agriculture (Vienne) et l'ARS",
         "Sigle": "PPI"
+    },
+    {
+        "Id": "22259",
+        "Libelle": "P\u00e9rim\u00e8tre de Protection Rapproch\u00e9e",
+        "Definition": "C\u2019est une zone de taille variable (de quelques hectares \u00e0 plusieurs centaines) situ\u00e9e autour d'un captage d'eau&nbsp;dans laquelle les activit\u00e9s\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s la Chambre d'Agriculture (Vienne) et l'ARS",
+        "Sigle": "PPR"
+    },
+    {
+        "Id": "22260",
+        "Libelle": "P\u00e9rim\u00e8tre de Protection Eloign\u00e9e",
+        "Definition": "P\u00e9rim\u00e8tre de protection d'un captage d'eau \u00e9largi, \u00e9ventuellement constitu\u00e9 de l\u2019ensemble de&nbsp;la zone d\u2019alimentation du captage. Sa taille varie\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s la Chambre d'Agriculture (Vienne)",
+        "Sigle": "PPE"
+    },
+    {
+        "Id": "22261",
+        "Libelle": "Paludiculture",
+        "Definition": "La paludiculture est l'utilisation productive des tourbi\u00e8res humides et r\u00e9humidifi\u00e9es qui pr\u00e9serve le sol tourbeux et minimise ainsi les \u00e9missions de\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Wetlands international"
+    },
+    {
+        "Id": "22262",
+        "Libelle": "Zones d'action renforc\u00e9e",
+        "Definition": "Zones \u00e0 enjeux particuliers pour la contamination des eaux par les nitrates, identifi\u00e9es dans le programme d\u2019actions r\u00e9gional nitrates. Elles&nbsp\u2026",
+        "Sens": "commun",
+        "Source": "d\u2019apr\u00e8s Minist\u00e8re de la Transition Ecologique"
     },
     {
         "Id": "22264",
@@ -14240,5 +14315,196 @@
         "Definition": "La submersion marine d\u00e9signe une inondation temporaire de la zone c\u00f4ti\u00e8re par la mer dans des conditions m\u00e9t\u00e9orologiques extr\u00eames.\r\n",
         "Sens": "commun",
         "Source": "d'apr\u00e8s la DREAL Hauts-de-France"
+    },
+    {
+        "Id": "22280",
+        "Libelle": "D\u00e9simperm\u00e9abilisation",
+        "Definition": "Suppression du mat\u00e9riau de recouvrement imperm\u00e9able d\u2019un sol ou remplacement de ce dernier par un autre mat\u00e9riau, perm\u00e9able. La d\u00e9simperm\u00e9abilisation\u2026",
+        "Sens": "commun",
+        "Source": "D'apr\u00e8s France Terme"
+    },
+    {
+        "Id": "22292",
+        "Libelle": "Caulerpe",
+        "Definition": "Esp\u00e8ce fix\u00e9e, ou sessile, vivant sur tous substrats rocheux, sableux, biog\u00e9niques (\u00e9piphyte),&nbsp;fix\u00e9e g\u00e9n\u00e9ralement au substrat et parfois en\u2026",
+        "Sens": "technique",
+        "Source": ""
+    },
+    {
+        "Id": "22293",
+        "Libelle": "Myriophylle du Br\u00e9sil",
+        "Definition": "Plante aquatique \u00e0 amphibie formant des herbiers immerg\u00e9s ou \u00e9merg\u00e9s avec des tiges noueuses pouvant mesurer 3 \u00e0 4 m de longueur et quelques\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s Centre Botanique National de Brest"
+    },
+    {
+        "Id": "22295",
+        "Libelle": "Grenouille taureau",
+        "Definition": "La Grenouille taureau&nbsp;(Lithobates catesbeianus) est un amphibien de la famille des Ranidae, caract\u00e9ris\u00e9 par une taille importante et un cri\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "22296",
+        "Libelle": "X\u00e9nope Lisse",
+        "Definition": "Le X\u00e9nope Lisse&nbsp;(Xenopus laevis) est un amphibien de la famille des Pipidae. Son corps est aplati et lisse, gris-brun marbr\u00e9 de taches noires,\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "22298",
+        "Libelle": "Enregistrement, \u00e9valuation et autorisation des produits chimiques",
+        "Definition": "Le&nbsp;R\u00e8glement (CE) n\u00b0 1907\/2006&nbsp;concernant l'enregistrement, l'\u00e9valuation et l'autorisation des substances chimiques, ainsi que les\u2026",
+        "Sens": "r\u00e9glementaire",
+        "Source": "d'apr\u00e8s Eur-lex",
+        "Sigle": "REACH"
+    },
+    {
+        "Id": "22299",
+        "Libelle": "Syst\u00e8me g\u00e9n\u00e9ral harmonis\u00e9",
+        "Definition": "L'un des objectifs du Syst\u00e8me g\u00e9n\u00e9ral harmonis\u00e9 (SGH) a \u00e9t\u00e9 d'\u00e9laborer un syst\u00e8me harmonis\u00e9 de communication des dangers, comprenant l'\u00e9tiquetage,\u2026",
+        "Sens": "r\u00e9glementaire",
+        "Source": "d'apr\u00e8s UNECE",
+        "Sigle": "SGH"
+    },
+    {
+        "Id": "22300",
+        "Libelle": "R\u00e8glement relatif \u00e0 la classification, \u00e0 l'\u00e9tiquetage et \u00e0 l'emballage",
+        "Definition": "\u00ab&nbsp;R\u00e8glement CLP&nbsp;\u00bb est l\u2019appellation donn\u00e9e au r\u00e8glement (CE) n\u00b0 1272\/2008 du Parlement europ\u00e9en et du Conseil du 16 d\u00e9cembre 2008 relatif \u00e0\u2026",
+        "Sens": "r\u00e9glementaire",
+        "Source": "d'apr\u00e8s INRS et ECHA",
+        "Sigle": "CLP"
+    },
+    {
+        "Id": "22301",
+        "Libelle": "Transport de Marchandises Dangereuses",
+        "Definition": "Sans pr\u00e9judice des r\u00e8gles g\u00e9n\u00e9rales relatives \u00e0 l'acc\u00e8s au march\u00e9 ou des r\u00e8gles g\u00e9n\u00e9ralement applicables au transport des marchandises, le transport\u2026",
+        "Sens": "r\u00e9glementaire",
+        "Source": "d'apr\u00e8s L\u00e9gifrance",
+        "Sigle": "TMD"
+    },
+    {
+        "Id": "22302",
+        "Libelle": "Moustique tigre",
+        "Definition": "Le Moustique tigre est un dipt\u00e8re de la famille des Culicidae. Il est reconnaissable par sa couleur noire et blanche ray\u00e9e au niveau des pattes et du\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "22303",
+        "Libelle": "Fourmi \u00e9lectrique",
+        "Definition": "La fourmi \u00e9lectrique,&nbsp;de l'ordre des hymenopt\u00e8res, vit dans des nids interconnect\u00e9s en r\u00e9seaux, pr\u00e9sents dans tous types de substrats que ce\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s INPN et OFB"
+    },
+    {
+        "Id": "22304",
+        "Libelle": "Punaise diabolique",
+        "Definition": "La punaise diabolique est un H\u00e9mipt\u00e8re de la famille des Pentatomidae.&nbsp;La partie aplatie (connexivum) qui d\u00e9passe lat\u00e9ralement de l'abdomen est\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s INPN"
+    },
+    {
+        "Id": "22305",
+        "Libelle": "Coccinelle asiatique",
+        "Definition": "La combinaison de deux caract\u00e9ristiques permet de distinguer la Coccinelle asiatique : 1) sa taille plus grande que celle de la plupart des esp\u00e8ces\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s INPN et INRAE"
+    },
+    {
+        "Id": "22307",
+        "Libelle": "Z\u00e9olite",
+        "Definition": "La famille des z\u00e9olites (ou z\u00e9olithes) est un groupe de min\u00e9raux aluminosilicat\u00e9s cristallins pr\u00e9sentant une microstructure tridimensionnelle en nid\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s Imerys"
+    },
+    {
+        "Id": "22308",
+        "Libelle": "Biomim\u00e9tisme",
+        "Definition": "La d\u00e9marche biomim\u00e9tique est conceptualis\u00e9e en trois principales \u00e9tapes au niveau normatif international (norme ISO 18458 - Biomim\u00e9tique :\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s Minist\u00e8re de l'\u00e9cologie"
+    },
+    {
+        "Id": "22309",
+        "Libelle": "Faune auxiliaire",
+        "Definition": "La faune auxiliaire d\u00e9signe tous les animaux qui sont naturellement utiles aux cultures. Ils r\u00e9gulent les populations de ravageurs ou le\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s R\u00e9gion Nouvelle-Aquitaine"
+    },
+    {
+        "Id": "22317",
+        "Libelle": "Drone",
+        "Definition": "Un drone est au sens strict un appareil sans pilote \u00e0 bord. Il est g\u00e9n\u00e9ralement pilot\u00e9 \u00e0 distance par un op\u00e9rateur humain, mais peut avoir un degr\u00e9\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s CNIL et Minist\u00e8re des arm\u00e9es",
+        "Sigle": "UUV"
+    },
+    {
+        "Id": "22319",
+        "Libelle": "Photogramm\u00e9trie",
+        "Definition": "La photogramm\u00e9trie est une technique de mesure qui consiste \u00e0 d\u00e9terminer la forme, les dimensions et la situation d\u2019un objet dans l\u2019espace \u00e0 partir\u2026",
+        "Sens": "commun",
+        "Source": "d'apr\u00e8s IGN"
+    },
+    {
+        "Id": "22320",
+        "Libelle": "Courantom\u00e8tres acoustiques \u00e0 effet doppler",
+        "Definition": "Les courantom\u00e8tres acoustiques \u00e0 effet doppler ou ADCP sont compos\u00e9s de transducteurs pi\u00e9zo\u00e9lectriques pour la transmission et la r\u00e9ception de\u2026",
+        "Sens": "technique",
+        "Source": "d'apr\u00e8s Ifremer",
+        "Sigle": "ADCP"
+    },
+    {
+        "Id": "22374",
+        "Libelle": "Energie houlomotrice",
+        "Definition": "Les vagues sont des ondes qui naissent \u00e0 la surface de la mer sous l\u2019effet du vent. Lorsqu\u2019elles parcourent de longues distances, elles forment la\u2026",
+        "Sens": "commun",
+        "Source": "D'apr\u00e8s IFPEN"
+    },
+    {
+        "Id": "22377",
+        "Libelle": "Zones pr\u00e9f\u00e9rentielles pour la renaturation",
+        "Definition": "Zones cibl\u00e9es pour faciliter la renaturation.&nbsp; Les zones&nbsp;pr\u00e9f\u00e9rentielles pour la renaturation (ZPR) sont des zones identifi\u00e9es par\r\u2026",
+        "Sens": "commun",
+        "Source": "D'apr\u00e8s Nature en ville",
+        "Sigle": "ZPR"
+    },
+    {
+        "Id": "22379",
+        "Libelle": "Energie \u00e9olienne terrestre",
+        "Definition": "Le mot \u00ab \u00e9olienne \u00bb vient d'\u00c9ole, nom du dieu des vents dans la mythologie grecque.&nbsp;Une \u00e9olienne est une machine permettant de transformer l\u2026",
+        "Sens": "commun",
+        "Source": "D'apr\u00e8s IFPEN"
+    },
+    {
+        "Id": "22383",
+        "Libelle": "Energie \u00e9olienne en mer",
+        "Definition": "Le mot \u00ab \u00e9olienne \u00bb vient d'\u00c9ole, nom du dieu des vents dans la mythologie grecque.&nbsp;Une \u00e9olienne est une machine permettant de transformer l\u2026",
+        "Sens": "commun",
+        "Source": "D'apr\u00e8s IFPEN"
+    },
+    {
+        "Id": "22385",
+        "Libelle": "Energie solaire flottant en mer",
+        "Definition": "Les syst\u00e8mes solaires flottants marins peuvent \u00eatre situ\u00e9s pr\u00e8s du rivage (NFPV - Nearshore Floating Photovoltaics) ou en pleine mer (OFPV - Offshore\u2026",
+        "Sens": "technique",
+        "Source": "D'apr\u00e8s ENGIE",
+        "Sigle": "FSU "
+    },
+    {
+        "Id": "22387",
+        "Libelle": "\u00c9nergie thermique des mers",
+        "Definition": "L\u2019\u00c9nergie Thermique des Mers (ETM) ou \u00e9nergie mar\u00e9thermique, appel\u00e9e \u00ab Ocean Thermal Energy Conversion \u00bb (OTEC) en anglais, consiste \u00e0 exploiter le\u2026",
+        "Sens": "commun",
+        "Source": "D'apr\u00e8s Ifremer",
+        "Sigle": "OTEC"
+    },
+    {
+        "Id": "22389",
+        "Libelle": "\u00c9nergie osmotique",
+        "Definition": "L\u2019\u00e9nergie osmotique d\u00e9signe l\u2019\u00e9nergie exploitable \u00e0 partir de la diff\u00e9rence de salinit\u00e9 entre l\u2019eau de mer et l\u2019eau douce, les deux natures d\u2019eau\u2026",
+        "Sens": "commun",
+        "Source": "D'apr\u00e8s Ifremer"
     }
 ]
