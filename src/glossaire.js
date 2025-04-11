@@ -350,6 +350,7 @@ class Glossary {
      * Prepare Matomo tracking
      */
     matomoTrack() {
+        const _paq = window._paq = window._paq || [];
         _paq.push(['setDomains', 'glossaire.eauetbiodiversite.fr']);
         _paq.push(['trackPageView']);
         _paq.push(['enableLinkTracking']);
@@ -379,11 +380,7 @@ require('./style.css'); // browserify-css will automatically inject the css into
 
 const glossary = new Glossary();
 
-window.onload = function () {
-    // Configure Matomo tracking
-    const _paq = window._paq = window._paq || [];
-    glossary.matomoTrack();
-
+function insertToolTips() {
     // Get DOM element to process.
     const targets = glossary.getTargetsToProcess(document);
 
@@ -408,6 +405,16 @@ window.onload = function () {
         const excluded = glossary.getExcludedToProcess(document);
         excluded.forEach(element => glossary.removeTags(element));
     }
+}
+
+// Expose this function for JS frameworks usage
+window.insertGlossaryToolTips = insertToolTips
+
+window.onload = function () {
+    // Configure Matomo tracking
+    glossary.matomoTrack();
+
+   insertToolTips();
 
     // Listen to the escape keyup event and hide any opened instance of tippy
     document.addEventListener('keyup', function (event) {
